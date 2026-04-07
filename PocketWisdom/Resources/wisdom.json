@@ -3308,5 +3308,1445 @@
     "body": "Do not let your reflection on the whole sweep of life crush you.",
     "reflection": "Can you just focus on the step directly in front of you?",
     "author": "Marcus Aurelius"
+  },
+  {
+    "id": "aa1a776f-bc34-4cf2-8327-34cdcb25e6b1",
+    "category": "Time",
+    "title": "The present moment",
+    "body": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+    "reflection": "Are you attentive to this moment?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "222aba97-e0b4-48c0-a683-36be324e24c0",
+    "category": "Simplicity",
+    "title": "Worry",
+    "body": "He who fears he shall suffer, already suffers what he fears.",
+    "reflection": "What are you suffering over before it even happens?",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "id": "b07df0ca-8078-4e47-b8a0-db3a98da702b",
+    "category": "Simplicity",
+    "title": "The wealth of the soul",
+    "body": "Wealth consists not in having great possessions, but in having few wants.",
+    "reflection": "What do you want that you can easily live without?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "0886719d-a208-4496-b24e-d632be2cdf8f",
+    "category": "Solitude",
+    "title": "The quiet mind",
+    "body": "To a mind that is still, the whole universe surrenders.",
+    "reflection": "How can you still your mind today?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "c3f1117c-8210-467a-8f54-2cf2efaeb3dd",
+    "category": "Nature & Seasons",
+    "title": "The unhurried life",
+    "body": "Adopt the pace of nature: her secret is patience.",
+    "reflection": "Where can you adopt the pace of nature?",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "c05bc446-38a0-4157-bf28-c99e51a4a8c8",
+    "category": "Simplicity",
+    "title": "The true measure",
+    "body": "It is not the daily increase but daily decrease. Hack away at the unessential.",
+    "reflection": "What unessential thing can you hack away?",
+    "author": "Bruce Lee"
+  },
+  {
+    "id": "7024a69d-4480-416b-88c3-f18ee4ad67e7",
+    "category": "Relationships",
+    "title": "The open heart",
+    "body": "Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.",
+    "reflection": "What barrier can you dismantle today?",
+    "author": "Rumi"
+  },
+  {
+    "id": "81f95eab-0d8e-4a40-8ec2-61252d5f82f3",
+    "category": "Work",
+    "title": "The journey",
+    "body": "A journey of a thousand miles begins with a single step.",
+    "reflection": "What is the single step you need to take?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "adb554b7-b27a-4074-ba56-16285dfc889d",
+    "category": "Relationships",
+    "title": "The reflection",
+    "body": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+    "reflection": "What is your irritation teaching you?",
+    "author": "Carl Jung"
+  },
+  {
+    "id": "6415b7a0-e654-4264-b63f-d9058bbed830",
+    "category": "Life",
+    "title": "The present",
+    "body": "We are very good at preparing to live, but not very good at living.",
+    "reflection": "Are you preparing to live, or are you living?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "7021eb3c-8426-4897-82ec-f4e39113e04f",
+    "category": "Solitude",
+    "title": "The quiet voice",
+    "body": "The soul usually knows what to do to heal itself. The challenge is to silence the mind.",
+    "reflection": "How can you silence your mind?",
+    "author": "Caroline Myss"
+  },
+  {
+    "id": "ff52384a-41ef-4c01-bcfb-8f9a7de4bdc6",
+    "category": "Time",
+    "title": "The gift of time",
+    "body": "You must live in the present, launch yourself on every wave, find your eternity in each moment.",
+    "reflection": "Are you finding eternity in this moment?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "f8cf4b24-9ad3-4bca-92be-1d6c96774dcd",
+    "category": "Solitude",
+    "title": "The essential",
+    "body": "To find out what is truly individual in ourselves, profound reflection is needed; and suddenly we realize how uncommonly difficult the discovery of individuality is.",
+    "reflection": "Are you taking time for profound reflection?",
+    "author": "Carl Jung"
+  },
+  {
+    "id": "03f765df-e17b-463f-ae97-8280eff934c9",
+    "category": "Life",
+    "title": "The letting go",
+    "body": "Some of us think holding on makes us strong, but sometimes it is letting go.",
+    "reflection": "What makes you stronger by letting go?",
+    "author": "Hermann Hesse"
+  },
+  {
+    "id": "192469a4-15ef-4075-bdb0-111fa5d38f4f",
+    "category": "Simplicity",
+    "title": "The simple life",
+    "body": "Our life is frittered away by detail. Simplify, simplify.",
+    "reflection": "Where can you simplify?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "1321ba5a-923f-4f16-b49b-312f23a85829",
+    "category": "Solitude",
+    "title": "The inner peace",
+    "body": "Nobody can bring you peace but yourself.",
+    "reflection": "Are you relying on someone else for your peace?",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "b7b40ce1-3039-4814-82d0-1e97fceec5a9",
+    "category": "Solitude",
+    "title": "The silence",
+    "body": "Silence is a source of great strength.",
+    "reflection": "Are you drawing strength from silence?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "c5ed34bd-4c68-4220-88b8-101de64e0714",
+    "category": "Life",
+    "title": "The enduring",
+    "body": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "reflection": "Are you focused on what lies within?",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "561c8c5c-fc91-42ca-b824-5596174d3fb2",
+    "category": "Life",
+    "title": "The perspective",
+    "body": "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it.",
+    "reflection": "Can you change your estimate of the situation?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "49dd0725-1d95-461e-8fed-4f34349c6c03",
+    "category": "Work",
+    "title": "The focus",
+    "body": "Concentrate every minute like a Roman\u2014like a man\u2014on doing what's in front of you with precise and genuine seriousness.",
+    "reflection": "What is right in front of you?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "992632f6-76fa-4b7e-b33a-8a72e63a9e1f",
+    "category": "Relationships",
+    "title": "The judgment",
+    "body": "When you judge another, you do not define them, you define yourself.",
+    "reflection": "What do your judgments say about you?",
+    "author": "Wayne Dyer"
+  },
+  {
+    "id": "f9bcf022-be2b-4c71-99de-9f1dfc02f12f",
+    "category": "Work",
+    "title": "The beginning",
+    "body": "The secret of getting ahead is getting started.",
+    "reflection": "What do you need to start?",
+    "author": "Mark Twain"
+  },
+  {
+    "id": "b237a372-a3c7-46aa-b592-c4de77944bf5",
+    "category": "Simplicity",
+    "title": "The true wealth",
+    "body": "He is richest who is content with the least.",
+    "reflection": "Are you content with what you have?",
+    "author": "Socrates"
+  },
+  {
+    "id": "49702b07-b32f-4f5f-9a3c-9862bb8cd121",
+    "category": "Life",
+    "title": "The unknown",
+    "body": "The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.",
+    "reflection": "What unknown are you fearing?",
+    "author": "H.P. Lovecraft"
+  },
+  {
+    "id": "332f71e6-65e3-4862-bdb3-56ad65331bd8",
+    "category": "Solitude",
+    "title": "The stillness",
+    "body": "Within you, there is a stillness and a sanctuary to which you can retreat at any time and be yourself.",
+    "reflection": "Have you visited your sanctuary today?",
+    "author": "Hermann Hesse"
+  },
+  {
+    "id": "e5e5ec4a-be75-4884-b10d-6be32690fd31",
+    "category": "Relationships",
+    "title": "The acceptance",
+    "body": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+    "reflection": "Who are you bound to love today?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "3ff30492-b02a-498d-8ccf-6ec86d245534",
+    "category": "Time",
+    "title": "The daily life",
+    "body": "How we spend our days is, of course, how we spend our lives.",
+    "reflection": "How are you spending today?",
+    "author": "Annie Dillard"
+  },
+  {
+    "id": "9e0e1565-408e-457b-9e68-fbb3c64f7918",
+    "category": "Life",
+    "title": "The obstacle",
+    "body": "A gem cannot be polished without friction, nor a man perfected without trials.",
+    "reflection": "What trial is polishing you?",
+    "author": "Seneca"
+  },
+  {
+    "id": "b467ba70-4d9b-4661-b5b1-57a8cd31ee34",
+    "category": "Simplicity",
+    "title": "The true freedom",
+    "body": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+    "reflection": "What can you stop trying to control?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "c8eda865-b15f-40bb-8af0-2b058575ea9c",
+    "category": "Life",
+    "title": "The changing world",
+    "body": "The universe is change; our life is what our thoughts make it.",
+    "reflection": "What are your thoughts making of your life today?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "546ceb99-3bcf-4b1f-bdc8-e1c6edeeaf65",
+    "category": "Simplicity",
+    "title": "The simple truth",
+    "body": "Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things.",
+    "reflection": "Where is the simplicity in your current confusion?",
+    "author": "Isaac Newton"
+  },
+  {
+    "id": "2cc7a33b-dc23-493f-9b79-30ba51fd1aa6",
+    "category": "Solitude",
+    "title": "The solitude",
+    "body": "I live in that solitude which is painful in youth, but delicious in the years of maturity.",
+    "reflection": "Is your solitude delicious?",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "8c7a74f4-dea0-405a-8436-dee9495ad7c8",
+    "category": "Nature & Seasons",
+    "title": "The silent tree",
+    "body": "Trees are poems that the earth writes upon the sky.",
+    "reflection": "What poem is the earth writing for you today?",
+    "author": "Kahlil Gibran"
+  },
+  {
+    "id": "7a7b2b0c-355c-4de5-9822-e120e4cfcef9",
+    "category": "Time",
+    "title": "The slow walk",
+    "body": "An early-morning walk is a blessing for the whole day.",
+    "reflection": "Have you taken a walk today?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "a7b1321f-928a-4903-934c-f127f1f42d2f",
+    "category": "Time",
+    "title": "The letting go",
+    "body": "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure.",
+    "reflection": "Can you let go and just be in this moment?",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": "72f68894-082c-4150-ab1f-3cd554b9a477",
+    "category": "Life",
+    "title": "The reflection",
+    "body": "Life can only be understood backwards; but it must be lived forwards.",
+    "reflection": "Are you trying to understand the future before living it?",
+    "author": "S\u00f8ren Kierkegaard"
+  },
+  {
+    "id": "b7839d39-6bff-458e-95bf-bede8c2fe9ba",
+    "category": "Life",
+    "title": "The unseen",
+    "body": "The most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    "reflection": "What beautiful thing are you feeling today?",
+    "author": "Helen Keller"
+  },
+  {
+    "id": "df8c9265-a46c-4825-9792-eb30a6d4f033",
+    "category": "Solitude",
+    "title": "The inner self",
+    "body": "Who looks outside, dreams; who looks inside, awakes.",
+    "reflection": "Are you awake to your inner self?",
+    "author": "Carl Jung"
+  },
+  {
+    "id": "750464da-9e66-4ddf-8211-979de24aa9ec",
+    "category": "Nature & Seasons",
+    "title": "The patience",
+    "body": "Rivers know this: there is no hurry. We shall get there some day.",
+    "reflection": "What are you rushing toward?",
+    "author": "A.A. Milne"
+  },
+  {
+    "id": "a7f8effe-3282-4951-a74d-9430cb133e9e",
+    "category": "Relationships",
+    "title": "The friendship",
+    "body": "A single rose can be my garden... a single friend, my world.",
+    "reflection": "Who is the friend that makes up your world?",
+    "author": "Leo Buscaglia"
+  },
+  {
+    "id": "43a285a0-a225-4cde-abfc-bf89479aa86f",
+    "category": "Solitude",
+    "title": "The peace",
+    "body": "Peace comes from within. Do not seek it without.",
+    "reflection": "Where are you seeking peace?",
+    "author": "Buddha"
+  },
+  {
+    "id": "ce98fcfb-a581-430c-bbc2-8fc30a0832b0",
+    "category": "Life",
+    "title": "The simple joy",
+    "body": "Find ecstasy in life; the mere sense of living is joy enough.",
+    "reflection": "Are you enjoying the mere sense of living?",
+    "author": "Emily Dickinson"
+  },
+  {
+    "id": "d7b385bc-d513-4b4e-b937-2aae46c9afdc",
+    "category": "Simplicity",
+    "title": "The quiet heart",
+    "body": "Keep your heart clear and transparent, and you will never be bound.",
+    "reflection": "What is clouding your heart today?",
+    "author": "Paramahansa Yogananda"
+  },
+  {
+    "id": "d15cbf3b-afad-46a1-9e80-b49195a4e6e9",
+    "category": "Life",
+    "title": "The unwritten",
+    "body": "There is no greater agony than bearing an untold story inside you.",
+    "reflection": "What story needs to be told?",
+    "author": "Maya Angelou"
+  },
+  {
+    "id": "69464aab-1779-4bd6-899f-41639042edb0",
+    "category": "Nature & Seasons",
+    "title": "The daily grace",
+    "body": "Every day we are engaged in a miracle which we don't even recognize: a blue sky, white clouds, green leaves, the black, curious eyes of a child.",
+    "reflection": "What miracle did you fail to recognize today?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "af804436-6974-4819-b577-914995ea99ad",
+    "category": "Relationships",
+    "title": "The gentle approach",
+    "body": "Nothing is so strong as gentleness, nothing so gentle as real strength.",
+    "reflection": "Where can you apply gentleness today?",
+    "author": "Francis de Sales"
+  },
+  {
+    "id": "702c05d7-198b-4e13-99e4-f1754fc763be",
+    "category": "Solitude",
+    "title": "The silence",
+    "body": "In the attitude of silence the soul finds the path in a clearer light.",
+    "reflection": "What path is the silence illuminating?",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "63f482fd-add8-4461-b7b6-02e4f7ab6f7f",
+    "category": "Simplicity",
+    "title": "The simplicity",
+    "body": "Simplicity is the ultimate sophistication.",
+    "reflection": "How can you be more sophisticated through simplicity?",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "id": "c1543bec-574c-4772-8040-c7ed68a9bddb",
+    "category": "Solitude",
+    "title": "The steady mind",
+    "body": "A mind that is unruffled by the changes of the world is a mind that is free.",
+    "reflection": "Is your mind ruffled by the world today?",
+    "author": "Bhagavad Gita"
+  },
+  {
+    "id": "d3b426a2-8443-43a9-a7b7-a974ab705deb",
+    "category": "Time",
+    "title": "The clear path",
+    "body": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "reflection": "Where is your mind concentrated right now?",
+    "author": "Buddha"
+  },
+  {
+    "id": "635ae082-f7cd-4567-b2cc-3fd248617549",
+    "category": "Relationships",
+    "title": "The unsaid",
+    "body": "Better to trip with the feet than with the tongue.",
+    "reflection": "What are you about to say that doesn't need to be said?",
+    "author": "Zeno of Citium"
+  },
+  {
+    "id": "8ed2d1df-6988-4c89-b743-fffe0104d988",
+    "category": "Work",
+    "title": "The true work",
+    "body": "First say to yourself what you would be; and then do what you have to do.",
+    "reflection": "What do you have to do today to be who you want to be?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "d6263ebe-f0c2-4936-80fe-2511eac4ff23",
+    "category": "Solitude",
+    "title": "The quiet walk",
+    "body": "All truly great thoughts are conceived while walking.",
+    "reflection": "When can you take a quiet walk today?",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "id": "c3cfb710-4a4e-4a0b-b163-e282aa0b6882",
+    "category": "Simplicity",
+    "title": "The acceptance",
+    "body": "He who does not content himself with what he has, would not be contented with what he would like to have.",
+    "reflection": "Can you find contentment exactly where you are?",
+    "author": "Socrates"
+  },
+  {
+    "id": "ab1854ed-650b-43d9-8404-285dc9c6ad05",
+    "category": "Time",
+    "title": "The morning light",
+    "body": "Every morning we are born again. What we do today is what matters most.",
+    "reflection": "What will you do with today's new beginning?",
+    "author": "Buddha"
+  },
+  {
+    "id": "1f14ee5b-f646-4a84-b37e-b2880958ba57",
+    "category": "Solitude",
+    "title": "The inner citadel",
+    "body": "People seek retreats for themselves in the country, by the sea, or in the mountains... But this is entirely the trait of a base person, when you can, at any moment, retreat into yourself.",
+    "reflection": "Have you retreated inward today?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "2c1d297b-daba-49d0-994a-8b0848730928",
+    "category": "Work",
+    "title": "The single task",
+    "body": "To do two things at once is to do neither.",
+    "reflection": "What is the one thing you need to focus on right now?",
+    "author": "Publilius Syrus"
+  },
+  {
+    "id": "87336fc6-9988-43d1-a922-07d2986cb770",
+    "category": "Life",
+    "title": "The comparison",
+    "body": "Do not spoil what you have by desiring what you have not.",
+    "reflection": "Are you spoiling the present by looking at someone else's life?",
+    "author": "Epicurus"
+  },
+  {
+    "id": "8324a083-7d43-411f-aef5-508a27349f55",
+    "category": "Nature & Seasons",
+    "title": "The gentle rain",
+    "body": "The drop of rain maketh a hole in the stone, not by violence, but by oft falling.",
+    "reflection": "What quiet persistence are you practicing?",
+    "author": "Hugh Latimer"
+  },
+  {
+    "id": "18001f07-a87e-4fd2-99c7-71fbc7945561",
+    "category": "Life",
+    "title": "The unforced life",
+    "body": "Tension is who you think you should be. Relaxation is who you are.",
+    "reflection": "Where are you holding tension right now?",
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": "8045c831-cf32-4922-984b-0815ee0f0f26",
+    "category": "Time",
+    "title": "The long view",
+    "body": "Time is a created thing. To say 'I don't have time,' is like saying, 'I don't want to.'",
+    "reflection": "What are you choosing not to make time for?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "7470806f-9df8-41b3-a594-5f79fafbba1c",
+    "category": "Relationships",
+    "title": "The quiet connection",
+    "body": "We have two ears and one mouth so that we can listen twice as much as we speak.",
+    "reflection": "Who needs you to simply listen to them today?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "5dce2e35-d20b-4b0c-971f-13744549f529",
+    "category": "Life",
+    "title": "The present",
+    "body": "Life is what happens to us while we are making other plans.",
+    "reflection": "Are you missing today because you are planning for tomorrow?",
+    "author": "Allen Saunders"
+  },
+  {
+    "id": "67864788-767c-4d26-9ef0-ee6a6b932ca3",
+    "category": "Simplicity",
+    "title": "The heavy load",
+    "body": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.",
+    "reflection": "What is beyond your control that you need to put down?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "a81ef052-35bb-4994-95d1-d93f39792d9e",
+    "category": "Nature & Seasons",
+    "title": "The changing seasons",
+    "body": "To be interested in the changing seasons is a happier state of mind than to be hopelessly in love with spring.",
+    "reflection": "Can you appreciate the season you are in right now?",
+    "author": "George Santayana"
+  },
+  {
+    "id": "6f4c968b-d110-43cb-80aa-5c9914f42e20",
+    "category": "Life",
+    "title": "The deep breath",
+    "body": "Whenever you are angry, be assured that it is not only a present evil, but that you have increased a habit.",
+    "reflection": "Can you take a breath and break the habit?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "cb8c8250-95a7-495d-9cc1-8ccf622ea30c",
+    "category": "Simplicity",
+    "title": "The true measure",
+    "body": "A man is rich in proportion to the number of things which he can afford to let alone.",
+    "reflection": "What can you afford to just let alone?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "bcb2fea3-0a1c-4ce8-86ef-7572eb678e12",
+    "category": "Solitude",
+    "title": "The quiet room",
+    "body": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
+    "reflection": "Why do you value their opinion more than your own?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "8ea7cfa6-2205-4a07-908f-f0c7d8c3cdd8",
+    "category": "Work",
+    "title": "The steady pace",
+    "body": "It does not matter how slowly you go as long as you do not stop.",
+    "reflection": "Are you judging your pace instead of your persistence?",
+    "author": "Confucius"
+  },
+  {
+    "id": "63d8956b-6eb5-47db-8f7f-3e3be89b0ff5",
+    "category": "Life",
+    "title": "The letting go",
+    "body": "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.",
+    "reflection": "What do you have right now that you can rejoice over?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "dcec07f9-a3f9-4182-87b0-8344d89e71ef",
+    "category": "Solitude",
+    "title": "The inner quiet",
+    "body": "Silence is the sleep that nourishes wisdom.",
+    "reflection": "Are you getting enough silent sleep?",
+    "author": "Francis Bacon"
+  },
+  {
+    "id": "d0d6f549-49eb-44cf-a3c5-bd6286c8eaa2",
+    "category": "Nature & Seasons",
+    "title": "The simple truth",
+    "body": "Nature is pleased with simplicity. And nature is no dummy.",
+    "reflection": "How can you align more with nature's simplicity?",
+    "author": "Isaac Newton"
+  },
+  {
+    "id": "53c6a2bc-6a0a-4ffb-8b40-90a9a4626209",
+    "category": "Life",
+    "title": "The reflection",
+    "body": "We do not learn from experience... we learn from reflecting on experience.",
+    "reflection": "What recent experience needs your reflection?",
+    "author": "John Dewey"
+  },
+  {
+    "id": "c4247a0e-cfaa-4c5b-a311-2f16b700b2f7",
+    "category": "Work",
+    "title": "The daily work",
+    "body": "Nothing is particularly hard if you divide it into small jobs.",
+    "reflection": "What big thing can you divide into a small job today?",
+    "author": "Henry Ford"
+  },
+  {
+    "id": "9163ac4e-38fe-4ac6-a486-26d49720752f",
+    "category": "Life",
+    "title": "The unknown",
+    "body": "You can never cross the ocean unless you have the courage to lose sight of the shore.",
+    "reflection": "What familiar shore do you need to lose sight of?",
+    "author": "Christopher Columbus"
+  },
+  {
+    "id": "3fba8eb4-2008-4201-a2cb-540d3bc3f625",
+    "category": "Relationships",
+    "title": "The gentle word",
+    "body": "Kind words do not cost much. Yet they accomplish much.",
+    "reflection": "Who can you offer a kind word to today?",
+    "author": "Blaise Pascal"
+  },
+  {
+    "id": "7fe36cf8-dccc-49a9-a532-737a1ebf88ab",
+    "category": "Life",
+    "title": "The true failure",
+    "body": "The only real mistake is the one from which we learn nothing.",
+    "reflection": "What did your last mistake teach you?",
+    "author": "Henry Ford"
+  },
+  {
+    "id": "c8a5c443-c6c5-4259-98c0-069bb04d00e7",
+    "category": "Simplicity",
+    "title": "The simple life",
+    "body": "Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art.",
+    "reflection": "Are you playing too many notes?",
+    "author": "Frederic Chopin"
+  },
+  {
+    "id": "e2cfdb08-2b54-44f0-9ca3-558f946d018f",
+    "category": "Time",
+    "title": "The waiting",
+    "body": "All human wisdom is summed up in two words: wait and hope.",
+    "reflection": "Are you capable of simply waiting?",
+    "author": "Alexandre Dumas"
+  },
+  {
+    "id": "f668257f-b07f-4848-9d3b-6d1055fce03e",
+    "category": "Time",
+    "title": "The present focus",
+    "body": "You must be completely awake in the present to enjoy the gift of your life.",
+    "reflection": "Are you awake to this exact moment?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "2c82938f-7d7a-479c-98cf-9585da14d32d",
+    "category": "Solitude",
+    "title": "The quiet work",
+    "body": "I want to be with those who know secret things or else alone.",
+    "reflection": "Who are you sharing your secrets with?",
+    "author": "Rainer Maria Rilke"
+  },
+  {
+    "id": "eb5f4ea1-e45f-457f-bf0e-3f33ef4463ab",
+    "category": "Life",
+    "title": "The slow blooming",
+    "body": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.",
+    "reflection": "What is finally ready to blossom?",
+    "author": "Anais Nin"
+  },
+  {
+    "id": "e9594454-902c-4b53-8062-e1e8474abd7d",
+    "category": "Life",
+    "title": "The present wind",
+    "body": "I am not afraid of storms, for I am learning how to sail my ship.",
+    "reflection": "What storm are you learning to navigate?",
+    "author": "Louisa May Alcott"
+  },
+  {
+    "id": "03829703-2a45-493c-97ea-3ce76762f6b6",
+    "category": "Solitude",
+    "title": "The empty hands",
+    "body": "In order to understand the world, one has to turn away from it on occasion.",
+    "reflection": "Is it time to turn away for a moment?",
+    "author": "Albert Camus"
+  },
+  {
+    "id": "1d772d67-68a9-4fb1-b16e-b8cd952e1e56",
+    "category": "Life",
+    "title": "The quiet mind",
+    "body": "The mind is everything. What you think you become.",
+    "reflection": "What are you becoming today?",
+    "author": "Buddha"
+  },
+  {
+    "id": "fabbaee9-d738-49c8-ae8c-efb440867db1",
+    "category": "Nature & Seasons",
+    "title": "The unforced growth",
+    "body": "Nature does not demand that we be perfect, only that we grow.",
+    "reflection": "Are you demanding perfection or allowing growth?",
+    "author": "Unknown"
+  },
+  {
+    "id": "92ebc025-58fd-4107-a54e-64f94f9bc4aa",
+    "category": "Nature & Seasons",
+    "title": "The gentle power",
+    "body": "Nothing is softer or more flexible than water, yet nothing can resist it.",
+    "reflection": "Where can you apply the gentle persistence of water?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "b459878d-fd53-498b-90d0-b3cb68468343",
+    "category": "Simplicity",
+    "title": "The true self",
+    "body": "Be yourself; everyone else is already taken.",
+    "reflection": "Where are you trying to be someone else?",
+    "author": "Oscar Wilde"
+  },
+  {
+    "id": "909b115e-b7b5-44d8-95f0-5c0f6bcabf29",
+    "category": "Life",
+    "title": "The long journey",
+    "body": "It does not matter how many times you fall, but how many times you rise.",
+    "reflection": "Are you ready to rise again?",
+    "author": "Confucius"
+  },
+  {
+    "id": "5bc4a976-c64b-4c91-a2e4-c2d89e7c9b4c",
+    "category": "Solitude",
+    "title": "The silent companion",
+    "body": "Silence is a true friend who never betrays.",
+    "reflection": "Are you making friends with silence?",
+    "author": "Confucius"
+  },
+  {
+    "id": "740555a1-00ee-4541-8b63-4a650c1b096d",
+    "category": "Solitude",
+    "title": "The clear vision",
+    "body": "The soul that sees beauty may sometimes walk alone.",
+    "reflection": "What beauty are you seeing on your solitary walk?",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "id": "863c28a9-1650-4df9-a5b5-b954e2011d61",
+    "category": "Nature & Seasons",
+    "title": "The simple path",
+    "body": "Walk as if you are kissing the Earth with your feet.",
+    "reflection": "How gently are you walking today?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "ce1fa824-5e60-4c77-8efb-adc60f91f52e",
+    "category": "Life",
+    "title": "The deep root",
+    "body": "Storms make trees take deeper roots.",
+    "reflection": "What storm is deepening your roots right now?",
+    "author": "Dolly Parton"
+  },
+  {
+    "id": "3514ff89-7735-4661-afd5-b5e77c8ff0dc",
+    "category": "Life",
+    "title": "The quiet harbor",
+    "body": "A ship in harbor is safe, but that is not what ships are built for.",
+    "reflection": "Are you staying in the harbor too long?",
+    "author": "John A. Shedd"
+  },
+  {
+    "id": "457cc2ac-e92d-42e8-824c-8e6ed5e83e19",
+    "category": "Time",
+    "title": "The unwasted time",
+    "body": "Time you enjoy wasting is not wasted time.",
+    "reflection": "What did you enjoy 'wasting' time on recently?",
+    "author": "Marthe Troly-Curtin"
+  },
+  {
+    "id": "8672b5ee-af42-4076-a3cb-2438749f5a88",
+    "category": "Simplicity",
+    "title": "The inner wealth",
+    "body": "Wealth is the ability to fully experience life.",
+    "reflection": "Are you fully experiencing today?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "d1986aa4-0bd1-45bb-a777-00b1aa32e0f4",
+    "category": "Relationships",
+    "title": "The silent understanding",
+    "body": "The most important thing in communication is hearing what isn't said.",
+    "reflection": "What is someone trying to tell you without words?",
+    "author": "Peter Drucker"
+  },
+  {
+    "id": "872ca29e-1cf0-4548-8a05-3bd66a8052db",
+    "category": "Simplicity",
+    "title": "The slow observation",
+    "body": "To acquire knowledge, one must study; but to acquire wisdom, one must observe.",
+    "reflection": "What are you observing today?",
+    "author": "Marilyn vos Savant"
+  },
+  {
+    "id": "c3dbaf89-41ce-4bb3-b793-30e540c02779",
+    "category": "Life",
+    "title": "The steady flame",
+    "body": "Keep a little fire burning; however small, however hidden.",
+    "reflection": "What fire are you keeping alive?",
+    "author": "Cormac McCarthy"
+  },
+  {
+    "id": "592a1300-de32-477b-a490-f6e5a40f7843",
+    "category": "Simplicity",
+    "title": "The unburdened life",
+    "body": "To be truly free, one must first be unburdened by the opinions of others.",
+    "reflection": "Whose opinion is burdening you?",
+    "author": "Unknown"
+  },
+  {
+    "id": "e37051f4-595e-44c1-806e-c0e3e7839091",
+    "category": "Time",
+    "title": "The present gift",
+    "body": "The past is a ghost, the future a dream. All we ever have is now.",
+    "reflection": "Are you living in the ghost, the dream, or the now?",
+    "author": "Bill Cosby"
+  },
+  {
+    "id": "56fd0877-689f-4e98-89a2-89fe003364a6",
+    "category": "Life",
+    "title": "The quiet victory",
+    "body": "Sometimes simply getting through the day is a victory worth celebrating.",
+    "reflection": "Did you get through the day?",
+    "author": "Unknown"
+  },
+  {
+    "id": "daab3471-55ff-4ed7-a109-175953a795b8",
+    "category": "Simplicity",
+    "title": "The unspoken truth",
+    "body": "Truth does not require a loud voice to be heard.",
+    "reflection": "What quiet truth do you know?",
+    "author": "Unknown"
+  },
+  {
+    "id": "5e33cc1d-a035-462c-b790-5550961748eb",
+    "category": "Solitude",
+    "title": "The resting place",
+    "body": "There is a time for many words, and there is also a time for sleep.",
+    "reflection": "Is it time to sleep?",
+    "author": "Homer"
+  },
+  {
+    "id": "f8d7299e-8126-4e72-9c71-380ad8c3b3eb",
+    "category": "Life",
+    "title": "The open road",
+    "body": "The road is always there. You just have to decide when to walk it.",
+    "reflection": "When will you start walking?",
+    "author": "Unknown"
+  },
+  {
+    "id": "710f554c-c395-42b1-8f93-da83dbf149f8",
+    "category": "Time",
+    "title": "The steady hand",
+    "body": "Patience is bitter, but its fruit is sweet.",
+    "reflection": "Are you willing to taste the bitter to get the sweet?",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "id": "1e24fa11-c563-4cb0-8a68-4ec5449c58e4",
+    "category": "Simplicity",
+    "title": "The unmeasured life",
+    "body": "Not everything that counts can be counted, and not everything that can be counted counts.",
+    "reflection": "What unmeasurable thing counts the most to you?",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "a45b0e5f-7aab-4027-ac9d-2305e38d0c7c",
+    "category": "Time",
+    "title": "The quiet dawn",
+    "body": "Every dawn is a new contract with life.",
+    "reflection": "What is your contract today?",
+    "author": "Unknown"
+  },
+  {
+    "id": "02bc9052-8104-4fdc-b40d-6c8ea82a7526",
+    "category": "Work",
+    "title": "The simple act",
+    "body": "Great acts are made up of small deeds.",
+    "reflection": "What small deed can you do today?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "736d1012-3c98-41a9-8e80-4ef9ee8d2f8e",
+    "category": "Relationships",
+    "title": "The unforced smile",
+    "body": "A smile is the universal welcome.",
+    "reflection": "Who can you welcome today?",
+    "author": "Max Eastman"
+  },
+  {
+    "id": "bce996ed-539a-4b21-8eea-e8a13a340332",
+    "category": "Life",
+    "title": "The deep breath",
+    "body": "Breath is the bridge which connects life to consciousness.",
+    "reflection": "Are you connected right now?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "1416a391-48b5-4b1f-a333-2006f46bd03f",
+    "category": "Nature & Seasons",
+    "title": "The silent woods",
+    "body": "In every walk with nature one receives far more than he seeks.",
+    "reflection": "When did you last walk with nature?",
+    "author": "John Muir"
+  },
+  {
+    "id": "4c9bac42-db9d-4d07-9a98-046dc95414dc",
+    "category": "Solitude",
+    "title": "The quiet water",
+    "body": "Still waters run deep.",
+    "reflection": "What depth are you hiding beneath your stillness?",
+    "author": "Proverb"
+  },
+  {
+    "id": "8eb2607d-ae39-4600-a9cc-9244eb817ce5",
+    "category": "Life",
+    "title": "The simple truth",
+    "body": "The truth is rarely pure and never simple.",
+    "reflection": "Can you accept the complexity of the truth?",
+    "author": "Oscar Wilde"
+  },
+  {
+    "id": "ca5e0baa-2dcb-4d13-aec8-3dcf7b44ddea",
+    "category": "Life",
+    "title": "The unwritten page",
+    "body": "You are the author of your own life story.",
+    "reflection": "What are you writing today?",
+    "author": "Unknown"
+  },
+  {
+    "id": "88d421b3-596e-400d-94d3-55d275b4a60e",
+    "category": "Solitude",
+    "title": "The quiet power",
+    "body": "Quiet people have the loudest minds.",
+    "reflection": "What is loud in your mind today?",
+    "author": "Stephen Hawking"
+  },
+  {
+    "id": "ee922a27-8c42-44c8-a14a-e39f0f93b891",
+    "category": "Nature & Seasons",
+    "title": "The unforced pace",
+    "body": "Do not push the river; it will flow by itself.",
+    "reflection": "What are you trying to push?",
+    "author": "Barry Stevens"
+  },
+  {
+    "id": "99a207d8-a98b-40f5-8d6e-30df7d168772",
+    "category": "Simplicity",
+    "title": "The simple life",
+    "body": "Live simply so that others may simply live.",
+    "reflection": "How can you live more simply?",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "cda8a66d-0b0a-4204-94a9-67ea825ddac2",
+    "category": "Time",
+    "title": "The quiet evening",
+    "body": "The evening sings in a voice of amber.",
+    "reflection": "Can you hear the evening's voice?",
+    "author": "Wallace Stevens"
+  },
+  {
+    "id": "ef08a45a-f1fb-410f-9f92-8fa4e5f58f19",
+    "category": "Solitude",
+    "title": "The unshared sorrow",
+    "body": "Every heart has its secret sorrows which the world knows not.",
+    "reflection": "Are you carrying a secret sorrow?",
+    "author": "Henry Wadsworth Longfellow"
+  },
+  {
+    "id": "3c927450-7d41-4381-9996-3fa9c4518f78",
+    "category": "Life",
+    "title": "The simple joy",
+    "body": "Joy is what happens to us when we allow ourselves to recognize how good things really are.",
+    "reflection": "What is really good right now?",
+    "author": "Marianne Williamson"
+  },
+  {
+    "id": "02137791-f90a-41fc-95f3-0fb99aaf878d",
+    "category": "Relationships",
+    "title": "The quiet reflection",
+    "body": "Without deep reflection one knows from daily life that one exists for other people.",
+    "reflection": "Are you existing for yourself or others?",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "193c4397-076c-4427-8d72-df0412de037a",
+    "category": "Relationships",
+    "title": "The unspoken bond",
+    "body": "Friendship is a single soul dwelling in two bodies.",
+    "reflection": "Who shares your soul?",
+    "author": "Aristotle"
+  },
+  {
+    "id": "8183e9dc-9f1b-4a74-b180-37c4d2b8dbd0",
+    "category": "Relationships",
+    "title": "The simple act",
+    "body": "The smallest act of kindness is worth more than the grandest intention.",
+    "reflection": "What small act can you do?",
+    "author": "Oscar Wilde"
+  },
+  {
+    "id": "9237e129-c7fc-4d43-a930-fe611eddbeff",
+    "category": "Time",
+    "title": "The unmeasured time",
+    "body": "Time flies over us, but leaves its shadow behind.",
+    "reflection": "What shadow has time left on you?",
+    "author": "Nathaniel Hawthorne"
+  },
+  {
+    "id": "426a979d-40ed-4edb-85b8-ff5348be919b",
+    "category": "Life",
+    "title": "The quiet resolve",
+    "body": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+    "reflection": "Are you willing to try again tomorrow?",
+    "author": "Mary Anne Radmacher"
+  },
+  {
+    "id": "1955102b-64b0-4725-8db0-2d882afb799f",
+    "category": "Life",
+    "title": "The simple question",
+    "body": "The important thing is not to stop questioning.",
+    "reflection": "What are you questioning today?",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "9fe694aa-6f09-4aab-a908-7d9465b2e6a7",
+    "category": "Life",
+    "title": "The unforced path",
+    "body": "The journey is the reward.",
+    "reflection": "Are you enjoying the journey?",
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": "24e20b8b-9a01-437d-8520-b8c164358623",
+    "category": "Life",
+    "title": "The quiet acceptance",
+    "body": "What you resist, persists.",
+    "reflection": "What are you resisting?",
+    "author": "Carl Jung"
+  },
+  {
+    "id": "9841951c-c270-4a85-bb7a-e7b3b6fa79e1",
+    "category": "Time",
+    "title": "The unwritten future",
+    "body": "The future depends on what you do today.",
+    "reflection": "What are you doing today to shape tomorrow?",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "affbb006-8b01-4874-b93c-610f62083e91",
+    "category": "Solitude",
+    "title": "The quiet corner",
+    "body": "I have found that all human intentionality is born of a desire to simply be at rest.",
+    "reflection": "What is your underlying desire?",
+    "author": "Unknown"
+  },
+  {
+    "id": "f684048e-6d27-40b3-9af4-414d5fed2771",
+    "category": "Time",
+    "title": "The morning light",
+    "body": "In the morning, before the mind is fully awake, there is a space of pure existence.",
+    "reflection": "Can you linger in that space tomorrow?",
+    "author": "Unknown"
+  },
+  {
+    "id": "4b8e14a0-d6d6-4875-bb0a-7a56cca65a44",
+    "category": "Nature & Seasons",
+    "title": "The river's path",
+    "body": "A river does not ask permission to flow.",
+    "reflection": "Where do you need to flow without permission?",
+    "author": "Unknown"
+  },
+  {
+    "id": "8c0ff7d2-cb98-415d-8b8b-f4525b40caaa",
+    "category": "Relationships",
+    "title": "The unsaid apology",
+    "body": "Sometimes the most profound apologies are the ones communicated through changed behavior.",
+    "reflection": "How are your actions apologizing?",
+    "author": "Unknown"
+  },
+  {
+    "id": "4adce5c2-0867-4722-97af-6243a0424eb6",
+    "category": "Work",
+    "title": "The simple task",
+    "body": "Mundane tasks anchor the mind in the present.",
+    "reflection": "What mundane task anchors you?",
+    "author": "Unknown"
+  },
+  {
+    "id": "2957ba4b-497b-4d3e-a068-2e36efc8d225",
+    "category": "Solitude",
+    "title": "The quiet house",
+    "body": "A house that is quiet is a house that is resting.",
+    "reflection": "Is your house resting?",
+    "author": "Unknown"
+  },
+  {
+    "id": "c1f11537-3433-4d2a-a94a-3cc30cb2521e",
+    "category": "Time",
+    "title": "The empty calendar",
+    "body": "The most beautiful days are often the ones with nothing planned.",
+    "reflection": "When is your next empty day?",
+    "author": "Unknown"
+  },
+  {
+    "id": "3c7d99ce-6436-41f2-bf75-c73afb739641",
+    "category": "Life",
+    "title": "The unforced smile",
+    "body": "A smile that happens naturally is a window to the soul.",
+    "reflection": "What made you smile naturally today?",
+    "author": "Unknown"
+  },
+  {
+    "id": "d5c55cf0-e5e6-44e3-acd7-acfee0fd04cb",
+    "category": "Life",
+    "title": "The old photograph",
+    "body": "Looking at old photographs reminds us that we have survived all our past versions.",
+    "reflection": "What past version of yourself are you grateful for?",
+    "author": "Unknown"
+  },
+  {
+    "id": "a7f4e2fe-c9f1-4098-847b-c5e738c8defa",
+    "category": "Relationships",
+    "title": "The silent agreement",
+    "body": "A mutual understanding rarely needs words.",
+    "reflection": "Who do you share a silent agreement with?",
+    "author": "Unknown"
+  },
+  {
+    "id": "4fc00626-3b02-4a35-a342-b05bbcc48ced",
+    "category": "Simplicity",
+    "title": "The unhurried meal",
+    "body": "Eating slowly is a form of gratitude.",
+    "reflection": "Can you eat your next meal without rushing?",
+    "author": "Unknown"
+  },
+  {
+    "id": "9898c493-4c16-4c96-a7cb-22a149b7868d",
+    "category": "Nature & Seasons",
+    "title": "The rain on the roof",
+    "body": "The sound of rain is a lullaby from the earth.",
+    "reflection": "What sound brings you comfort?",
+    "author": "Unknown"
+  },
+  {
+    "id": "1e9e83b7-54c1-4db3-8a07-a9278dbf3051",
+    "category": "Work",
+    "title": "The blank page",
+    "body": "A blank page is not a void; it is a space for creation.",
+    "reflection": "What are you creating?",
+    "author": "Unknown"
+  },
+  {
+    "id": "d0fb953e-9ed5-41e9-9040-c7243babd961",
+    "category": "Life",
+    "title": "The unexpected detour",
+    "body": "Detours often lead to the most interesting destinations.",
+    "reflection": "What detour are you on right now?",
+    "author": "Unknown"
+  },
+  {
+    "id": "255efbe4-72ed-4667-a4a6-ffeb0440824b",
+    "category": "Life",
+    "title": "The quiet strength",
+    "body": "Endurance is often a quiet, steady thing.",
+    "reflection": "What are you quietly enduring?",
+    "author": "Unknown"
+  },
+  {
+    "id": "722c0fb9-28c0-4add-8034-ef8d4951f580",
+    "category": "Solitude",
+    "title": "The unshared thought",
+    "body": "Not every thought needs to be spoken or acted upon. Some just need to be observed.",
+    "reflection": "What thought are you simply observing?",
+    "author": "Unknown"
+  },
+  {
+    "id": "9c2bdea3-5939-4274-9457-36c802e52a4a",
+    "category": "Simplicity",
+    "title": "The simple truth",
+    "body": "The simplest explanation is usually the most accurate.",
+    "reflection": "What is the simple truth of your situation?",
+    "author": "Unknown"
+  },
+  {
+    "id": "8cb5f176-493a-4467-bcbd-d981ba518113",
+    "category": "Nature & Seasons",
+    "title": "The setting sun",
+    "body": "A sunset is a daily reminder that endings can be beautiful.",
+    "reflection": "What beautiful ending are you experiencing?",
+    "author": "Unknown"
+  },
+  {
+    "id": "e1eb7071-18b4-4dd2-94f8-e274f9946d7b",
+    "category": "Relationships",
+    "title": "The true friend",
+    "body": "A true friend is someone who makes it easy to believe in yourself.",
+    "reflection": "Who makes it easy to believe in yourself?",
+    "author": "Unknown"
+  },
+  {
+    "id": "810a9f0b-9d88-4cda-8af6-9051db52d8d3",
+    "category": "Life",
+    "title": "The steady hand",
+    "body": "Calmness is contagious.",
+    "reflection": "Who are you spreading calmness to?",
+    "author": "Unknown"
+  },
+  {
+    "id": "fc39fb06-d363-40d0-ab8b-0cf50bc99fb9",
+    "category": "Time",
+    "title": "The unforced breath",
+    "body": "Your breath is an anchor to the present moment.",
+    "reflection": "Take a slow, unforced breath.",
+    "author": "Unknown"
+  },
+  {
+    "id": "991f42d5-e224-4b52-8a0b-2305e78841e0",
+    "category": "Solitude",
+    "title": "The quiet morning",
+    "body": "The early morning belongs to no one.",
+    "reflection": "How do you spend your early mornings?",
+    "author": "Unknown"
+  },
+  {
+    "id": "d40dfc44-be91-4976-82ca-f6c840adb588",
+    "category": "Simplicity",
+    "title": "The simple joy",
+    "body": "Joy is often found in the things we overlook.",
+    "reflection": "What joy are you overlooking?",
+    "author": "Unknown"
+  },
+  {
+    "id": "97ed29e8-dde5-4e7d-a664-be6b06054d7b",
+    "category": "Life",
+    "title": "The changing tide",
+    "body": "Like the tide, our emotions rise and fall. We just need to ride them out.",
+    "reflection": "What emotion are you riding out?",
+    "author": "Unknown"
+  },
+  {
+    "id": "e9c3b613-db60-452b-94c2-c9febef061f5",
+    "category": "Relationships",
+    "title": "The unspoken bond",
+    "body": "Some connections are felt deeply but never articulated.",
+    "reflection": "What unspoken bond do you cherish?",
+    "author": "Unknown"
+  },
+  {
+    "id": "26018300-0fb9-4804-abfa-21f8a2fbcda3",
+    "category": "Simplicity",
+    "title": "The empty room",
+    "body": "An empty room is a space waiting to be filled with life.",
+    "reflection": "How will you fill your empty room?",
+    "author": "Unknown"
+  },
+  {
+    "id": "10f1ae4c-9fe2-4a58-b1de-6dfcf754cb06",
+    "category": "Time",
+    "title": "The slow walk",
+    "body": "Walking without a destination is a form of meditation.",
+    "reflection": "When can you take a slow walk?",
+    "author": "Unknown"
+  },
+  {
+    "id": "cee6089f-b981-44e2-bec0-7e3af6915298",
+    "category": "Life",
+    "title": "The unread book",
+    "body": "The books on your shelf that you haven't read are promises to your future self.",
+    "reflection": "What promise are you keeping?",
+    "author": "Unknown"
+  },
+  {
+    "id": "befecbb1-5375-4a55-a957-8e2474a4e6bf",
+    "category": "Nature & Seasons",
+    "title": "The quiet night",
+    "body": "The night is a time for the world to heal.",
+    "reflection": "Are you allowing yourself to heal?",
+    "author": "Unknown"
+  },
+  {
+    "id": "1b050af5-e7b0-4d49-ab31-c53e404dec0c",
+    "category": "Work",
+    "title": "The simple act",
+    "body": "Doing one thing well is better than doing ten things poorly.",
+    "reflection": "What one thing can you do well today?",
+    "author": "Unknown"
+  },
+  {
+    "id": "e45aa39a-19b0-4222-84ae-aebe48f12790",
+    "category": "Life",
+    "title": "The unspoken truth",
+    "body": "The truth is often felt before it is known.",
+    "reflection": "What truth are you feeling right now?",
+    "author": "Unknown"
+  },
+  {
+    "id": "31ef8789-8fbd-416d-a7b5-c6919f19bde6",
+    "category": "Life",
+    "title": "The unforced life",
+    "body": "Allow life to unfold rather than trying to force it.",
+    "reflection": "What are you trying to force?",
+    "author": "Unknown"
+  },
+  {
+    "id": "aa0678e9-272a-462a-8364-c3f2e2523d35",
+    "category": "Solitude",
+    "title": "The quiet mind",
+    "body": "A quiet mind is a fertile ground for creativity.",
+    "reflection": "How do you cultivate a quiet mind?",
+    "author": "Unknown"
+  },
+  {
+    "id": "97cfe34c-5d78-4438-b5ea-a741063a0af1",
+    "category": "Simplicity",
+    "title": "The simple pleasure",
+    "body": "A cup of tea, a good book, a quiet corner.",
+    "reflection": "What are your simple pleasures?",
+    "author": "Unknown"
+  },
+  {
+    "id": "ccd7acec-667e-4f60-99f2-9b2ad39abc26",
+    "category": "Life",
+    "title": "The unexpected gift",
+    "body": "Sometimes the best gifts are the ones we didn't know we needed.",
+    "reflection": "What unexpected gift have you received?",
+    "author": "Unknown"
+  },
+  {
+    "id": "60e30070-a4fb-4f78-b6a6-f3626dd7e3eb",
+    "category": "Relationships",
+    "title": "The unhurried conversation",
+    "body": "A conversation without an agenda is a rare and beautiful thing.",
+    "reflection": "When was your last unhurried conversation?",
+    "author": "Unknown"
+  },
+  {
+    "id": "e6706b73-4b93-4f9f-b636-c42dae588910",
+    "category": "Nature & Seasons",
+    "title": "The silent tree",
+    "body": "A tree does not boast of its strength; it simply stands.",
+    "reflection": "Where are you simply standing?",
+    "author": "Unknown"
+  },
+  {
+    "id": "066b6ccf-835c-4817-9925-349b62072f7e",
+    "category": "Simplicity",
+    "title": "The empty space",
+    "body": "Empty space in our lives allows room for new things to grow.",
+    "reflection": "Where do you need more empty space?",
+    "author": "Unknown"
+  },
+  {
+    "id": "806e18c2-c3a7-42ad-92f5-f773841c853b",
+    "category": "Time",
+    "title": "The slow morning",
+    "body": "A slow morning sets the tone for a peaceful day.",
+    "reflection": "How can you slow down tomorrow morning?",
+    "author": "Unknown"
+  },
+  {
+    "id": "efc267cd-d7db-4daa-982f-d721aed7ae16",
+    "category": "Relationships",
+    "title": "The unspoken understanding",
+    "body": "When words fail, presence speaks.",
+    "reflection": "Who needs your presence today?",
+    "author": "Unknown"
+  },
+  {
+    "id": "d75560d8-279b-4dde-b793-ce86ff535c6e",
+    "category": "Life",
+    "title": "The quiet observer",
+    "body": "To observe without judgment is a profound act of love.",
+    "reflection": "Can you observe without judging?",
+    "author": "Unknown"
+  },
+  {
+    "id": "c0c51d5a-6501-4301-b359-660ec3808217",
+    "category": "Simplicity",
+    "title": "The simple meal",
+    "body": "A simple meal prepared with care is a feast.",
+    "reflection": "What simple meal brings you joy?",
+    "author": "Unknown"
+  },
+  {
+    "id": "36976c21-7cf0-4de8-936a-826d26948d9a",
+    "category": "Nature & Seasons",
+    "title": "The changing seasons",
+    "body": "Each season has its own unique beauty and purpose.",
+    "reflection": "What is the purpose of this season in your life?",
+    "author": "Unknown"
+  },
+  {
+    "id": "1c3b37f9-26a3-4a1f-b2ba-eed74f3364f1",
+    "category": "Relationships",
+    "title": "The unforced connection",
+    "body": "True connection happens effortlessly.",
+    "reflection": "Where do you feel effortless connection?",
+    "author": "Unknown"
+  },
+  {
+    "id": "e1e9058b-fc04-40df-b466-20a3c0bbd763",
+    "category": "Solitude",
+    "title": "The quiet retreat",
+    "body": "We all need a place to retreat and recharge.",
+    "reflection": "Where is your retreat?",
+    "author": "Unknown"
+  },
+  {
+    "id": "83b4e311-c7c6-4a7a-bb88-c7fd72a274b0",
+    "category": "Work",
+    "title": "The slow progress",
+    "body": "Slow progress is still progress.",
+    "reflection": "Where are you making slow progress?",
+    "author": "Unknown"
+  },
+  {
+    "id": "a3c54962-4b46-4444-b737-8841880ea8d8",
+    "category": "Life",
+    "title": "The unspoken gratitude",
+    "body": "Gratitude is an attitude, not just a feeling.",
+    "reflection": "What are you quietly grateful for?",
+    "author": "Unknown"
+  },
+  {
+    "id": "55ea06ee-4d65-45f8-b7f9-22ba8360023d",
+    "category": "Simplicity",
+    "title": "The simple life",
+    "body": "Simplicity is a state of mind.",
+    "reflection": "Is your mind simple?",
+    "author": "Unknown"
+  },
+  {
+    "id": "5dd3eca1-0f54-42ab-a827-4e2c032fab7f",
+    "category": "Life",
+    "title": "The quiet reflection",
+    "body": "Reflection is the key to understanding.",
+    "reflection": "What are you reflecting on today?",
+    "author": "Unknown"
+  },
+  {
+    "id": "0e820775-83a7-4dbb-a4f5-61c13fba0403",
+    "category": "Life",
+    "title": "The empty cup",
+    "body": "You must empty your cup to receive more.",
+    "reflection": "What do you need to empty from your cup?",
+    "author": "Unknown"
   }
 ]
