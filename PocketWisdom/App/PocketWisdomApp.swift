@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct PocketWisdomApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WisdomDeckView()
         }
     }
 }
