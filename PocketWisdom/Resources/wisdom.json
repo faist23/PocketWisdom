@@ -1,352 +1,3312 @@
 [
   {
-    "id":"11111111-1111-1111-1111-111111111111",
-    "category":"Time",
-    "title":"On slowing down",
-    "body":"Not everything needs to be rushed. Some things grow better in stillness.",
-    "reflection":"Think about the last time you gave something the time it truly needed."
+    "id": "11111111-1111-1111-1111-111111111111",
+    "category": "Time",
+    "title": "On slowing down",
+    "body": "Not everything needs to be rushed. Some things grow better in stillness.",
+    "reflection": "Think about the last time you gave something the time it truly needed."
   },
   {
-    "id":"22222222-2222-2222-2222-222222222222",
-    "category":"Life",
-    "title":"Saturday mornings",
-    "body":"There was a time when mornings had no urgency.",
-    "reflection":"What did your mornings used to feel like?"
+    "id": "22222222-2222-2222-2222-222222222222",
+    "category": "Life",
+    "title": "Saturday mornings",
+    "body": "There was a time when mornings had no urgency.",
+    "reflection": "What did your mornings used to feel like?"
   },
   {
-    "id":"33333333-3333-3333-3333-333333333333",
-    "category":"Work",
-    "title":"Being busy",
-    "body":"Being busy once felt like progress. Now it often feels like noise.",
-    "reflection":"What actually deserves your time today?"
+    "id": "33333333-3333-3333-3333-333333333333",
+    "category": "Work",
+    "title": "Being busy",
+    "body": "Being busy once felt like progress. Now it often feels like noise.",
+    "reflection": "What actually deserves your time today?"
   },
   {
-    "id":"44444444-4444-4444-4444-444444444444",
-    "category":"Relationships",
-    "title":"Old friends",
-    "body":"Some people don’t need constant contact to remain close.",
-    "reflection":"Who in your life still feels familiar, no matter the time apart?"
+    "id": "44444444-4444-4444-4444-444444444444",
+    "category": "Relationships",
+    "title": "Old friends",
+    "body": "Some people don\u2019t need constant contact to remain close.",
+    "reflection": "Who in your life still feels familiar, no matter the time apart?"
   },
   {
-    "id":"55555555-5555-5555-5555-555555555555",
-    "category":"Life",
-    "title":"Enough",
-    "body":"There comes a point when more doesn’t improve things—it just adds weight.",
-    "reflection":"Where in your life is 'enough' already here?"
+    "id": "55555555-5555-5555-5555-555555555555",
+    "category": "Life",
+    "title": "Enough",
+    "body": "There comes a point when more doesn\u2019t improve things\u2014it just adds weight.",
+    "reflection": "Where in your life is 'enough' already here?"
   },
   {
-    "id":"66666666-6666-6666-6666-666666666666",
-    "category":"Time",
-    "title":"Waiting",
-    "body":"Waiting used to be part of life. Now it feels like a problem to solve.",
-    "reflection":"What happens when you stop trying to fill every pause?"
+    "id": "66666666-6666-6666-6666-666666666666",
+    "category": "Time",
+    "title": "Waiting",
+    "body": "Waiting used to be part of life. Now it feels like a problem to solve.",
+    "reflection": "What happens when you stop trying to fill every pause?"
   },
   {
-    "id":"77777777-7777-7777-7777-777777777777",
-    "category":"Life",
-    "title":"Quiet moments",
-    "body":"Some of the best parts of life aren’t loud enough to share.",
-    "reflection":"What quiet moment stays with you?"
+    "id": "77777777-7777-7777-7777-777777777777",
+    "category": "Life",
+    "title": "Quiet moments",
+    "body": "Some of the best parts of life aren\u2019t loud enough to share.",
+    "reflection": "What quiet moment stays with you?"
   },
   {
-    "id":"88888888-8888-8888-8888-888888888888",
-    "category":"Relationships",
-    "title":"Conversations",
-    "body":"The best conversations were never scheduled.",
-    "reflection":"Who do you talk to without effort?"
+    "id": "88888888-8888-8888-8888-888888888888",
+    "category": "Relationships",
+    "title": "Conversations",
+    "body": "The best conversations were never scheduled.",
+    "reflection": "Who do you talk to without effort?"
   },
   {
-    "id":"99999999-9999-9999-9999-999999999999",
-    "category":"Time",
-    "title":"Looking back",
-    "body":"You rarely notice the good times while you’re in them.",
-    "reflection":"What would you appreciate more if you could relive it?"
+    "id": "99999999-9999-9999-9999-999999999999",
+    "category": "Time",
+    "title": "Looking back",
+    "body": "You rarely notice the good times while you\u2019re in them.",
+    "reflection": "What would you appreciate more if you could relive it?"
   },
   {
-    "id":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
-    "category":"Life",
-    "title":"Simplicity",
-    "body":"Life didn’t necessarily get harder. It just got more complicated.",
-    "reflection":"What could you simplify today?"
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "category": "Life",
+    "title": "Simplicity",
+    "body": "Life didn\u2019t necessarily get harder. It just got more complicated.",
+    "reflection": "What could you simplify today?"
   },
   {
-    "id":"bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
-    "category":"Work",
-    "title":"Proving yourself",
-    "body":"At some point, you realize you don’t need to prove as much as you thought.",
-    "reflection":"Where can you ease off the pressure?"
+    "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "category": "Work",
+    "title": "Proving yourself",
+    "body": "At some point, you realize you don\u2019t need to prove as much as you thought.",
+    "reflection": "Where can you ease off the pressure?"
   },
   {
-    "id":"cccccccc-cccc-cccc-cccc-cccccccccccc",
-    "category":"Life",
-    "title":"Evenings",
-    "body":"Evenings used to signal rest. Now they often extend the day.",
-    "reflection":"What would a true ending to your day look like?"
+    "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "category": "Life",
+    "title": "Evenings",
+    "body": "Evenings used to signal rest. Now they often extend the day.",
+    "reflection": "What would a true ending to your day look like?"
   },
   {
-    "id":"dddddddd-dddd-dddd-dddd-dddddddddddd",
-    "category":"Time",
-    "title":"Seasons",
-    "body":"Life has seasons, whether you plan for them or not.",
-    "reflection":"What season are you in right now?"
+    "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "category": "Time",
+    "title": "Seasons",
+    "body": "Life has seasons, whether you plan for them or not.",
+    "reflection": "What season are you in right now?"
   },
   {
-    "id":"eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
-    "category":"Relationships",
-    "title":"Being present",
-    "body":"People remember how it felt to be around you more than what you said.",
-    "reflection":"How do others feel in your presence?"
+    "id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "category": "Relationships",
+    "title": "Being present",
+    "body": "People remember how it felt to be around you more than what you said.",
+    "reflection": "How do others feel in your presence?"
   },
   {
-    "id":"ffffffff-ffff-ffff-ffff-ffffffffffff",
-    "category":"Life",
-    "title":"Letting go",
-    "body":"Holding on takes more energy than most things deserve.",
-    "reflection":"What are you still carrying that you don’t need?"
+    "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "category": "Life",
+    "title": "Letting go",
+    "body": "Holding on takes more energy than most things deserve.",
+    "reflection": "What are you still carrying that you don\u2019t need?"
   },
   {
-    "id":"11111111-aaaa-1111-aaaa-111111111111",
-    "category":"Time",
-    "title":"Childhood pace",
-    "body":"Time felt slower when you weren’t measuring it.",
-    "reflection":"When do you lose track of time now?"
+    "id": "11111111-aaaa-1111-aaaa-111111111111",
+    "category": "Time",
+    "title": "Childhood pace",
+    "body": "Time felt slower when you weren\u2019t measuring it.",
+    "reflection": "When do you lose track of time now?"
   },
   {
-    "id":"22222222-bbbb-2222-bbbb-222222222222",
-    "category":"Life",
-    "title":"Routine",
-    "body":"A good routine supports you. A bad one quietly drains you.",
-    "reflection":"Which parts of your day feel heavy?"
+    "id": "22222222-bbbb-2222-bbbb-222222222222",
+    "category": "Life",
+    "title": "Routine",
+    "body": "A good routine supports you. A bad one quietly drains you.",
+    "reflection": "Which parts of your day feel heavy?"
   },
   {
-    "id":"33333333-cccc-3333-cccc-333333333333",
-    "category":"Relationships",
-    "title":"Listening",
-    "body":"Most people aren’t heard as much as they want to be.",
-    "reflection":"When was the last time you really listened?"
+    "id": "33333333-cccc-3333-cccc-333333333333",
+    "category": "Relationships",
+    "title": "Listening",
+    "body": "Most people aren\u2019t heard as much as they want to be.",
+    "reflection": "When was the last time you really listened?"
   },
   {
-    "id":"44444444-dddd-4444-dddd-444444444444",
-    "category":"Life",
-    "title":"Energy",
-    "body":"You don’t have unlimited energy anymore—and that’s useful information.",
-    "reflection":"What deserves your best energy?"
+    "id": "44444444-dddd-4444-dddd-444444444444",
+    "category": "Life",
+    "title": "Energy",
+    "body": "You don\u2019t have unlimited energy anymore\u2014and that\u2019s useful information.",
+    "reflection": "What deserves your best energy?"
   },
   {
-    "id":"55555555-eeee-5555-eeee-555555555555",
-    "category":"Time",
-    "title":"Moments",
-    "body":"Life is mostly small moments, not big events.",
-    "reflection":"What small moment mattered today?"
+    "id": "55555555-eeee-5555-eeee-555555555555",
+    "category": "Time",
+    "title": "Moments",
+    "body": "Life is mostly small moments, not big events.",
+    "reflection": "What small moment mattered today?"
   },
   {
-    "id":"66666666-ffff-6666-ffff-666666666666",
-    "category":"Work",
-    "title":"Success",
-    "body":"Success changes meaning over time.",
-    "reflection":"What does success look like to you now?"
+    "id": "66666666-ffff-6666-ffff-666666666666",
+    "category": "Work",
+    "title": "Success",
+    "body": "Success changes meaning over time.",
+    "reflection": "What does success look like to you now?"
   },
   {
-    "id":"77777777-1111-7777-1111-777777777777",
-    "category":"Life",
-    "title":"Stillness",
-    "body":"Stillness isn’t empty—it’s where things settle.",
-    "reflection":"When was the last time things felt settled?"
+    "id": "77777777-1111-7777-1111-777777777777",
+    "category": "Life",
+    "title": "Stillness",
+    "body": "Stillness isn\u2019t empty\u2014it\u2019s where things settle.",
+    "reflection": "When was the last time things felt settled?"
   },
   {
-    "id":"88888888-2222-8888-2222-888888888888",
-    "category":"Relationships",
-    "title":"Familiarity",
-    "body":"There’s comfort in being known without explanation.",
-    "reflection":"Who knows you that way?"
+    "id": "88888888-2222-8888-2222-888888888888",
+    "category": "Relationships",
+    "title": "Familiarity",
+    "body": "There\u2019s comfort in being known without explanation.",
+    "reflection": "Who knows you that way?"
   },
   {
-    "id":"99999999-3333-9999-3333-999999999999",
-    "category":"Time",
-    "title":"Rushing",
-    "body":"Rushing rarely improves anything important.",
-    "reflection":"What could you slow down today?"
+    "id": "99999999-3333-9999-3333-999999999999",
+    "category": "Time",
+    "title": "Rushing",
+    "body": "Rushing rarely improves anything important.",
+    "reflection": "What could you slow down today?"
   },
   {
-    "id":"aaaaaaaa-4444-aaaa-4444-aaaaaaaaaaaa",
-    "category":"Life",
-    "title":"Perspective",
-    "body":"What once felt urgent now feels small.",
-    "reflection":"What might feel smaller in a year?"
+    "id": "aaaaaaaa-4444-aaaa-4444-aaaaaaaaaaaa",
+    "category": "Life",
+    "title": "Perspective",
+    "body": "What once felt urgent now feels small.",
+    "reflection": "What might feel smaller in a year?"
   },
   {
-    "id":"bbbbbbbb-5555-bbbb-5555-bbbbbbbbbbbb",
-    "category":"Life",
-    "title":"Contentment",
-    "body":"Contentment isn’t exciting—but it’s deeply satisfying.",
-    "reflection":"Where do you already feel content?"
+    "id": "bbbbbbbb-5555-bbbb-5555-bbbbbbbbbbbb",
+    "category": "Life",
+    "title": "Contentment",
+    "body": "Contentment isn\u2019t exciting\u2014but it\u2019s deeply satisfying.",
+    "reflection": "Where do you already feel content?"
   },
   {
-    "id":"cccccccc-6666-cccc-6666-cccccccccccc",
-    "category":"Relationships",
-    "title":"Effort",
-    "body":"The right relationships don’t feel like constant work.",
-    "reflection":"Which relationships feel easy?"
+    "id": "cccccccc-6666-cccc-6666-cccccccccccc",
+    "category": "Relationships",
+    "title": "Effort",
+    "body": "The right relationships don\u2019t feel like constant work.",
+    "reflection": "Which relationships feel easy?"
   },
   {
-    "id":"dddddddd-7777-dddd-7777-dddddddddddd",
-    "category":"Time",
-    "title":"Passing years",
-    "body":"The years pass faster, but your awareness grows with them.",
-    "reflection":"What have you learned to notice?"
+    "id": "dddddddd-7777-dddd-7777-dddddddddddd",
+    "category": "Time",
+    "title": "Passing years",
+    "body": "The years pass faster, but your awareness grows with them.",
+    "reflection": "What have you learned to notice?"
   },
   {
-    "id":"eeeeeeee-8888-eeee-8888-eeeeeeeeeeee",
-    "category":"Life",
-    "title":"Control",
-    "body":"You control less than you think—and that can be freeing.",
-    "reflection":"What can you let unfold?"
+    "id": "eeeeeeee-8888-eeee-8888-eeeeeeeeeeee",
+    "category": "Life",
+    "title": "Control",
+    "body": "You control less than you think\u2014and that can be freeing.",
+    "reflection": "What can you let unfold?"
   },
   {
-    "id":"ffffffff-9999-ffff-9999-ffffffffffff",
-    "category":"Work",
-    "title":"Ambition",
-    "body":"Ambition softens when you understand what matters.",
-    "reflection":"What matters more now than before?"
+    "id": "ffffffff-9999-ffff-9999-ffffffffffff",
+    "category": "Work",
+    "title": "Ambition",
+    "body": "Ambition softens when you understand what matters.",
+    "reflection": "What matters more now than before?"
   },
   {
-    "id":"11111111-aaaa-1111-bbbb-111111111112",
-    "category":"Life",
-    "title":"Noise",
-    "body":"There’s more noise now, but not more meaning.",
-    "reflection":"What helps you tune it out?"
+    "id": "11111111-aaaa-1111-bbbb-111111111112",
+    "category": "Life",
+    "title": "Noise",
+    "body": "There\u2019s more noise now, but not more meaning.",
+    "reflection": "What helps you tune it out?"
   },
   {
-    "id":"22222222-bbbb-2222-cccc-222222222223",
-    "category":"Relationships",
-    "title":"Time together",
-    "body":"It’s not how often you see someone—it’s how present you are.",
-    "reflection":"Who deserves your full attention?"
+    "id": "22222222-bbbb-2222-cccc-222222222223",
+    "category": "Relationships",
+    "title": "Time together",
+    "body": "It\u2019s not how often you see someone\u2014it\u2019s how present you are.",
+    "reflection": "Who deserves your full attention?"
   },
   {
-    "id":"33333333-cccc-3333-dddd-333333333334",
-    "category":"Time",
-    "title":"Patience",
-    "body":"Patience used to be required. Now it’s optional—but still valuable.",
-    "reflection":"Where could patience help you?"
+    "id": "33333333-cccc-3333-dddd-333333333334",
+    "category": "Time",
+    "title": "Patience",
+    "body": "Patience used to be required. Now it\u2019s optional\u2014but still valuable.",
+    "reflection": "Where could patience help you?"
   },
   {
-    "id":"44444444-dddd-4444-eeee-444444444445",
-    "category":"Life",
-    "title":"Clarity",
-    "body":"Clarity often comes after you stop forcing answers.",
-    "reflection":"What are you trying too hard to figure out?"
+    "id": "44444444-dddd-4444-eeee-444444444445",
+    "category": "Life",
+    "title": "Clarity",
+    "body": "Clarity often comes after you stop forcing answers.",
+    "reflection": "What are you trying too hard to figure out?"
   },
   {
-    "id":"55555555-eeee-5555-ffff-555555555556",
-    "category":"Life",
-    "title":"Space",
-    "body":"Everything improves with a little space.",
-    "reflection":"Where do you need space?"
+    "id": "55555555-eeee-5555-ffff-555555555556",
+    "category": "Life",
+    "title": "Space",
+    "body": "Everything improves with a little space.",
+    "reflection": "Where do you need space?"
   },
   {
-    "id":"66666666-ffff-6666-1111-666666666667",
-    "category":"Relationships",
-    "title":"Understanding",
-    "body":"Being understood feels better than being right.",
-    "reflection":"Where could you choose understanding?"
+    "id": "66666666-ffff-6666-1111-666666666667",
+    "category": "Relationships",
+    "title": "Understanding",
+    "body": "Being understood feels better than being right.",
+    "reflection": "Where could you choose understanding?"
   },
   {
-    "id":"77777777-1111-7777-2222-777777777778",
-    "category":"Time",
-    "title":"Now",
-    "body":"You spend a lot of time thinking about later.",
-    "reflection":"What’s good about right now?"
+    "id": "77777777-1111-7777-2222-777777777778",
+    "category": "Time",
+    "title": "Now",
+    "body": "You spend a lot of time thinking about later.",
+    "reflection": "What\u2019s good about right now?"
   },
   {
-    "id":"88888888-2222-8888-3333-888888888889",
-    "category":"Life",
-    "title":"Habits",
-    "body":"Small habits quietly shape your days.",
-    "reflection":"What habit is shaping you right now?"
+    "id": "88888888-2222-8888-3333-888888888889",
+    "category": "Life",
+    "title": "Habits",
+    "body": "Small habits quietly shape your days.",
+    "reflection": "What habit is shaping you right now?"
   },
   {
-    "id":"99999999-3333-9999-4444-999999999990",
-    "category":"Work",
-    "title":"Pressure",
-    "body":"Not all pressure is necessary.",
-    "reflection":"What pressure can you remove?"
+    "id": "99999999-3333-9999-4444-999999999990",
+    "category": "Work",
+    "title": "Pressure",
+    "body": "Not all pressure is necessary.",
+    "reflection": "What pressure can you remove?"
   },
   {
-    "id":"aaaaaaaa-4444-aaaa-5555-aaaaaaaaaaab",
-    "category":"Life",
-    "title":"Rest",
-    "body":"Rest isn’t something you earn—it’s something you need.",
-    "reflection":"Have you rested enough lately?"
+    "id": "aaaaaaaa-4444-aaaa-5555-aaaaaaaaaaab",
+    "category": "Life",
+    "title": "Rest",
+    "body": "Rest isn\u2019t something you earn\u2014it\u2019s something you need.",
+    "reflection": "Have you rested enough lately?"
   },
   {
-    "id":"bbbbbbbb-5555-bbbb-6666-bbbbbbbbbbbc",
-    "category":"Relationships",
-    "title":"Kindness",
-    "body":"Kindness is remembered longer than most things.",
-    "reflection":"Where can you offer it today?"
+    "id": "bbbbbbbb-5555-bbbb-6666-bbbbbbbbbbbc",
+    "category": "Relationships",
+    "title": "Kindness",
+    "body": "Kindness is remembered longer than most things.",
+    "reflection": "Where can you offer it today?"
   },
   {
-    "id":"cccccccc-6666-cccc-7777-cccccccccccd",
-    "category":"Time",
-    "title":"Looking ahead",
-    "body":"You used to look forward more than you worried.",
-    "reflection":"What are you looking forward to now?"
+    "id": "cccccccc-6666-cccc-7777-cccccccccccd",
+    "category": "Time",
+    "title": "Looking ahead",
+    "body": "You used to look forward more than you worried.",
+    "reflection": "What are you looking forward to now?"
   },
   {
-    "id":"dddddddd-7777-dddd-8888-ddddddddddde",
-    "category":"Life",
-    "title":"Less",
-    "body":"Less can feel like relief, not loss.",
-    "reflection":"What could you have less of?"
+    "id": "dddddddd-7777-dddd-8888-ddddddddddde",
+    "category": "Life",
+    "title": "Less",
+    "body": "Less can feel like relief, not loss.",
+    "reflection": "What could you have less of?"
   },
   {
-    "id":"eeeeeeee-8888-eeee-9999-eeeeeeeeeeef",
-    "category":"Relationships",
-    "title":"Connection",
-    "body":"Real connection doesn’t need constant updates.",
-    "reflection":"Who do you feel connected to without effort?"
+    "id": "eeeeeeee-8888-eeee-9999-eeeeeeeeeeef",
+    "category": "Relationships",
+    "title": "Connection",
+    "body": "Real connection doesn\u2019t need constant updates.",
+    "reflection": "Who do you feel connected to without effort?"
   },
   {
-    "id":"ffffffff-9999-ffff-1111-fffffffffff0",
-    "category":"Life",
-    "title":"Attention",
-    "body":"What you pay attention to grows.",
-    "reflection":"Where is your attention going?"
+    "id": "ffffffff-9999-ffff-1111-fffffffffff0",
+    "category": "Life",
+    "title": "Attention",
+    "body": "What you pay attention to grows.",
+    "reflection": "Where is your attention going?"
   },
   {
-    "id":"11111111-aaaa-1111-2222-111111111112",
-    "category":"Time",
-    "title":"Then and now",
-    "body":"You’ve lived enough to know things change—and that you adapt.",
-    "reflection":"What have you adapted to well?"
+    "id": "11111111-aaaa-1111-2222-111111111112",
+    "category": "Time",
+    "title": "Then and now",
+    "body": "You\u2019ve lived enough to know things change\u2014and that you adapt.",
+    "reflection": "What have you adapted to well?"
   },
   {
-    "id":"22222222-bbbb-2222-3333-222222222223",
-    "category":"Life",
-    "title":"Balance",
-    "body":"Balance isn’t perfect—it shifts constantly.",
-    "reflection":"What feels out of balance?"
+    "id": "22222222-bbbb-2222-3333-222222222223",
+    "category": "Life",
+    "title": "Balance",
+    "body": "Balance isn\u2019t perfect\u2014it shifts constantly.",
+    "reflection": "What feels out of balance?"
   },
   {
-    "id":"33333333-cccc-3333-4444-333333333334",
-    "category":"Work",
-    "title":"Enough effort",
-    "body":"Not everything needs your maximum effort.",
-    "reflection":"Where is 'good enough' enough?"
+    "id": "33333333-cccc-3333-4444-333333333334",
+    "category": "Work",
+    "title": "Enough effort",
+    "body": "Not everything needs your maximum effort.",
+    "reflection": "Where is 'good enough' enough?"
   },
   {
-    "id":"44444444-dddd-4444-5555-444444444445",
-    "category":"Relationships",
-    "title":"Presence",
-    "body":"Being there matters more than saying the right thing.",
-    "reflection":"Who could you simply be there for?"
+    "id": "44444444-dddd-4444-5555-444444444445",
+    "category": "Relationships",
+    "title": "Presence",
+    "body": "Being there matters more than saying the right thing.",
+    "reflection": "Who could you simply be there for?"
   },
   {
-    "id":"55555555-eeee-5555-6666-555555555556",
-    "category":"Life",
-    "title":"This moment",
-    "body":"This moment is quieter than you think.",
-    "reflection":"Can you sit with it for a second?"
+    "id": "55555555-eeee-5555-6666-555555555556",
+    "category": "Life",
+    "title": "This moment",
+    "body": "This moment is quieter than you think.",
+    "reflection": "Can you sit with it for a second?"
+  },
+  {
+    "id": "d67f23e8-2eb1-4fe6-b9cb-b25f9b340b32",
+    "category": "Life",
+    "title": "The middle chapters",
+    "body": "The middle of the story is rarely as dramatic as the beginning, but it is where the actual living happens.",
+    "reflection": "What is beautiful about the chapter you are in right now?",
+    "author": null
+  },
+  {
+    "id": "4a2f1dcb-bf69-44b4-a8ca-3b9e8a816eaf",
+    "category": "Life",
+    "title": "Heavy things",
+    "body": "You don\u2019t have to carry everything you pick up.",
+    "reflection": "What can you set down today?",
+    "author": null
+  },
+  {
+    "id": "aac0a7a9-5212-4bff-bfed-00d1a277b227",
+    "category": "Life",
+    "title": "Arrival",
+    "body": "There is no final destination where everything is permanently sorted out.",
+    "reflection": "Can you be okay with things being in process?",
+    "author": null
+  },
+  {
+    "id": "3c4cbad3-d1b7-48db-a413-652cb89893f2",
+    "category": "Life",
+    "title": "Unnoticed joy",
+    "body": "Most of your best days passed by without you realizing they were the best days.",
+    "reflection": "What makes today a good day?",
+    "author": null
+  },
+  {
+    "id": "633e7de9-6599-4937-b410-222f9ba7f433",
+    "category": "Life",
+    "title": "Changing minds",
+    "body": "It is a quiet relief to realize you are allowed to change your mind as you grow.",
+    "reflection": "What have you changed your mind about recently?",
+    "author": null
+  },
+  {
+    "id": "a833759a-a473-414f-8d88-24a0d603c666",
+    "category": "Life",
+    "title": "The noise",
+    "body": "Not every piece of information requires your reaction.",
+    "reflection": "What can you safely ignore today?",
+    "author": null
+  },
+  {
+    "id": "4a8a5b58-a41f-4c5d-a305-1566e7149ca8",
+    "category": "Life",
+    "title": "Tides",
+    "body": "Like the ocean, your energy and capacity will have high and low tides.",
+    "reflection": "Are you fighting your current tide?",
+    "author": null
+  },
+  {
+    "id": "3f5bed1a-4b8a-4b76-9cca-6b95005c0241",
+    "category": "Life",
+    "title": "Expectations",
+    "body": "Much of our disappointment comes from expecting a different reality than the one we are in.",
+    "reflection": "What happens when you accept what is actually happening?",
+    "author": null
+  },
+  {
+    "id": "0fd493d1-1579-442c-89d7-2e39c8911142",
+    "category": "Life",
+    "title": "Softening",
+    "body": "Life has a way of softening the hard edges we used to protect ourselves.",
+    "reflection": "Where have you become softer?",
+    "author": null
+  },
+  {
+    "id": "052138e9-8cab-457f-8769-8b8a123308ec",
+    "category": "Life",
+    "title": "Ordinary days",
+    "body": "A deeply ordinary day is a profoundly successful day.",
+    "reflection": "What was the best ordinary moment today?",
+    "author": null
+  },
+  {
+    "id": "10ac9689-71a9-47bd-9673-26d1739425f5",
+    "category": "Life",
+    "title": "Letting go",
+    "body": "Some things are meant to be in your life for a season, not forever.",
+    "reflection": "What season has naturally ended?",
+    "author": null
+  },
+  {
+    "id": "7ac62a48-61f7-446e-aebe-f6c5a1867291",
+    "category": "Life",
+    "title": "The rush",
+    "body": "We spend so much of our lives rushing toward a future that is entirely unknown.",
+    "reflection": "What is worth savoring right now?",
+    "author": null
+  },
+  {
+    "id": "d1fbba0d-5c54-40f9-8143-74a951dcf2b2",
+    "category": "Life",
+    "title": "Certainty",
+    "body": "As you age, you realize how little you actually know for certain\u2014and that is a comfortable place to be.",
+    "reflection": "What are you okay with not knowing?",
+    "author": null
+  },
+  {
+    "id": "33069933-0a73-47cb-83ee-8b28827bac3d",
+    "category": "Life",
+    "title": "Small worlds",
+    "body": "Your world doesn't need to be large to be deeply fulfilling.",
+    "reflection": "Who and what makes up your small world?",
+    "author": null
+  },
+  {
+    "id": "259be616-ab7f-4c6a-9d99-737c70e7d92d",
+    "category": "Life",
+    "title": "The observer",
+    "body": "You are the observer of your thoughts, not the thoughts themselves.",
+    "reflection": "What thoughts are passing through right now?",
+    "author": null
+  },
+  {
+    "id": "e31a7ff2-13dd-4066-a04c-f71af68da7ec",
+    "category": "Life",
+    "title": "Forgiveness",
+    "body": "Forgiveness is often just accepting that the past cannot be changed.",
+    "reflection": "What part of the past can you leave in the past?",
+    "author": null
+  },
+  {
+    "id": "396a01de-b5ed-4f24-b09e-770af74b5b7b",
+    "category": "Life",
+    "title": "Daily bread",
+    "body": "Joy is usually found in the daily, repetitive acts of living.",
+    "reflection": "What repetitive task brings you a strange sense of peace?",
+    "author": null
+  },
+  {
+    "id": "50f887bc-cb80-4c57-a29d-c105f296d890",
+    "category": "Life",
+    "title": "The current",
+    "body": "Swimming against the current exhausts you. Floating carries you.",
+    "reflection": "Where are you fighting the current?",
+    "author": null
+  },
+  {
+    "id": "b6b9af04-a8a8-498e-8321-8c69ca7929f7",
+    "category": "Life",
+    "title": "Unfinished business",
+    "body": "It is perfectly fine to have a life full of unfinished projects and unread books.",
+    "reflection": "What unfinished thing are you completely okay with?",
+    "author": null
+  },
+  {
+    "id": "a8349c3c-ffa3-4cea-ab63-ed1b4f1af234",
+    "category": "Life",
+    "title": "Inner quiet",
+    "body": "The world will always be loud. The quiet has to come from within.",
+    "reflection": "How do you find your inner quiet?",
+    "author": null
+  },
+  {
+    "id": "76edeaca-df6f-49ab-a1df-b705c288b49e",
+    "category": "Life",
+    "title": "Grace",
+    "body": "Give yourself the same grace you so easily extend to your oldest friends.",
+    "reflection": "Where are you being too hard on yourself?",
+    "author": null
+  },
+  {
+    "id": "3ebfc59e-f7b8-4947-82b7-2de7384bfa9b",
+    "category": "Life",
+    "title": "The garden",
+    "body": "A garden doesn't bloom all year round. Neither do you.",
+    "reflection": "Are you in a season of blooming or a season of resting?",
+    "author": null
+  },
+  {
+    "id": "a21751d7-03e5-4a82-b12b-3e704cbe4b29",
+    "category": "Life",
+    "title": "Good enough",
+    "body": "The pursuit of 'perfect' is the enemy of 'good enough'.",
+    "reflection": "Where in your life is 'good enough' absolutely perfect?",
+    "author": null
+  },
+  {
+    "id": "d33e197a-96d2-4b67-8fd5-c38edfc7df5a",
+    "category": "Life",
+    "title": "Comparisons",
+    "body": "Measuring your life against someone else's highlight reel is a guaranteed way to feel behind.",
+    "reflection": "What is uniquely beautiful about your actual life?",
+    "author": null
+  },
+  {
+    "id": "005566cb-70dc-4492-b627-eb23e26918ab",
+    "category": "Life",
+    "title": "Deep roots",
+    "body": "Trees grow their deepest roots during the quiet, dormant winter.",
+    "reflection": "What is growing within you during this quiet time?",
+    "author": null
+  },
+  {
+    "id": "56729952-ed12-4fff-b744-705c16124a87",
+    "category": "Life",
+    "title": "The fix",
+    "body": "Not everything that feels uncomfortable is a problem that needs to be fixed.",
+    "reflection": "Can you sit with the discomfort for a moment?",
+    "author": null
+  },
+  {
+    "id": "78a1e717-8e30-4761-ac9c-8542f4dc01ba",
+    "category": "Life",
+    "title": "Approval",
+    "body": "The older you get, the less appealing the approval of strangers becomes.",
+    "reflection": "Whose opinion actually matters to you now?",
+    "author": null
+  },
+  {
+    "id": "31c93711-f5ae-4333-aebd-09a219081524",
+    "category": "Life",
+    "title": "Second halves",
+    "body": "The second half of life is about subtraction, not addition.",
+    "reflection": "What are you subtracting?",
+    "author": null
+  },
+  {
+    "id": "b6ceacd6-18f4-4fa7-a487-7bfd79818ace",
+    "category": "Life",
+    "title": "The pause",
+    "body": "There is immense power in a five-second pause before responding.",
+    "reflection": "Where could a pause change the outcome?",
+    "author": null
+  },
+  {
+    "id": "daf46af9-48d5-4fd4-b01d-189a952c42fb",
+    "category": "Life",
+    "title": "Accumulation",
+    "body": "We spend decades accumulating things, only to realize freedom lies in having less.",
+    "reflection": "What could you give away today?",
+    "author": null
+  },
+  {
+    "id": "bbf0499a-8946-4433-9d6a-c0ee3c691b81",
+    "category": "Life",
+    "title": "The destination",
+    "body": "The joy of a walk is the walking, not the arriving.",
+    "reflection": "Where can you just walk today without needing to arrive?",
+    "author": null
+  },
+  {
+    "id": "77bb5468-6ba0-4a79-af3a-47cd9463127c",
+    "category": "Life",
+    "title": "Predictability",
+    "body": "There is a profound comfort in a predictable evening.",
+    "reflection": "What is your favorite predictable routine?",
+    "author": null
+  },
+  {
+    "id": "05d929de-4cad-4857-b74f-9fafa61da686",
+    "category": "Life",
+    "title": "Hidden strength",
+    "body": "You have survived 100% of your bad days.",
+    "reflection": "What challenge did you survive that made you stronger?",
+    "author": null
+  },
+  {
+    "id": "2bc9275d-912a-4813-9c10-218c449a7f36",
+    "category": "Life",
+    "title": "The mirror",
+    "body": "How you treat the world is a reflection of how you treat yourself.",
+    "reflection": "Are you treating yourself kindly today?",
+    "author": null
+  },
+  {
+    "id": "348b31e4-8768-4421-ac51-9a44b75b4c25",
+    "category": "Life",
+    "title": "Unspoken words",
+    "body": "Many things are better left unsaid.",
+    "reflection": "What did you wisely choose not to say recently?",
+    "author": null
+  },
+  {
+    "id": "ba4426e7-dd8b-4531-a779-1f93d61fa4de",
+    "category": "Life",
+    "title": "The map",
+    "body": "There is no map for the rest of your life. You are drawing it as you go.",
+    "reflection": "What direction feels right today?",
+    "author": null
+  },
+  {
+    "id": "489f56bf-5877-4186-8817-315acf2561ae",
+    "category": "Life",
+    "title": "Shadows",
+    "body": "You cannot have light without casting a shadow.",
+    "reflection": "Can you accept your own shadows?",
+    "author": null
+  },
+  {
+    "id": "870787a1-add4-40d1-a14d-9c04013dfb5d",
+    "category": "Life",
+    "title": "The weather",
+    "body": "You cannot control the weather, but you can choose your coat.",
+    "reflection": "How are you preparing for today's 'weather'?",
+    "author": null
+  },
+  {
+    "id": "4c2281d5-a1c8-4802-8cf5-36ea85afb0a8",
+    "category": "Life",
+    "title": "Echoes",
+    "body": "The echoes of past mistakes fade when you stop shouting into the canyon.",
+    "reflection": "What echo are you ready to stop listening to?",
+    "author": null
+  },
+  {
+    "id": "89676b9c-893e-43f3-9d2a-399f882b32b1",
+    "category": "Life",
+    "title": "The harvest",
+    "body": "You are currently harvesting what you planted years ago.",
+    "reflection": "What did you plant that you are grateful for now?",
+    "author": null
+  },
+  {
+    "id": "3edabe9d-20a9-4200-8e2a-569a243b1086",
+    "category": "Life",
+    "title": "The compass",
+    "body": "Your intuition is a quieter, slower compass than your anxiety.",
+    "reflection": "What is your quiet intuition telling you?",
+    "author": null
+  },
+  {
+    "id": "0aa8b672-95c8-40e1-ba97-d4a58d925430",
+    "category": "Life",
+    "title": "The audience",
+    "body": "You are the only permanent audience member of your life.",
+    "reflection": "Are you living a life that you enjoy watching?",
+    "author": null
+  },
+  {
+    "id": "310c48c3-be13-4901-8eba-4204e645e7da",
+    "category": "Life",
+    "title": "Friction",
+    "body": "Friction causes wear, but it also polishes stone.",
+    "reflection": "What friction is polishing you?",
+    "author": null
+  },
+  {
+    "id": "bfa368c9-943c-46fb-94fc-ee51ed524e68",
+    "category": "Life",
+    "title": "The attic",
+    "body": "Cleaning out the attic of your mind takes time, but the extra space is worth it.",
+    "reflection": "What old thought are you ready to throw away?",
+    "author": null
+  },
+  {
+    "id": "d038b074-d7d0-40e7-af67-c12cef821482",
+    "category": "Life",
+    "title": "Sunrise",
+    "body": "The sun rises whether you are awake to see it or not.",
+    "reflection": "What beautiful things are happening without your participation?",
+    "author": null
+  },
+  {
+    "id": "fec7e9ea-4da2-44b5-a60e-c022b351756a",
+    "category": "Life",
+    "title": "The detour",
+    "body": "Sometimes the wrong train takes you to the right station.",
+    "reflection": "What detour turned out to be a blessing?",
+    "author": null
+  },
+  {
+    "id": "7ad34d62-7970-4f0d-995d-d98aa2c0781c",
+    "category": "Life",
+    "title": "The script",
+    "body": "You do not have to read the script that was handed to you.",
+    "reflection": "What part of the script are you rewriting?",
+    "author": null
+  },
+  {
+    "id": "7db32d28-6ffb-461e-8ea3-77c655303bdf",
+    "category": "Life",
+    "title": "The anchor",
+    "body": "When the surface is stormy, drop an anchor to the quiet depths.",
+    "reflection": "What is your anchor?",
+    "author": null
+  },
+  {
+    "id": "b84d31b2-0d0f-4a6c-89de-9fff17fc5336",
+    "category": "Life",
+    "title": "The horizon",
+    "body": "The horizon always moves as you walk toward it.",
+    "reflection": "What are you chasing that will always move?",
+    "author": null
+  },
+  {
+    "id": "bea2bf40-242a-4d79-8735-b88d5cbccc6a",
+    "category": "Life",
+    "title": "The evening",
+    "body": "The day is done. You cannot change it now.",
+    "reflection": "Can you let today be finished?",
+    "author": null
+  },
+  {
+    "id": "eb80cf56-dad5-4ee1-b3a8-89fe8ed870a8",
+    "category": "Work",
+    "title": "The inbox",
+    "body": "An empty inbox is a temporary state, not a reflection of your worth.",
+    "reflection": "What actually matters outside of your messages?",
+    "author": null
+  },
+  {
+    "id": "7eb68ce8-c1c4-41c9-aa62-8390d54a73d7",
+    "category": "Work",
+    "title": "Urgency",
+    "body": "Most things presented as urgent are simply poorly planned by someone else.",
+    "reflection": "What is actually urgent today?",
+    "author": null
+  },
+  {
+    "id": "c1160357-3df4-476c-bade-74acce65e485",
+    "category": "Work",
+    "title": "The ladder",
+    "body": "Climbing the ladder is only useful if it leans against the right wall.",
+    "reflection": "Where is your effort leading you?",
+    "author": null
+  },
+  {
+    "id": "9540f91c-8413-4ae5-b65d-c768a78d9481",
+    "category": "Work",
+    "title": "Status",
+    "body": "Status is a heavy coat to wear every single day.",
+    "reflection": "When do you feel comfortable taking it off?",
+    "author": null
+  },
+  {
+    "id": "da183c40-3ee0-4613-800d-c467f11cde5c",
+    "category": "Work",
+    "title": "The pivot",
+    "body": "It is entirely acceptable to change careers when you realize you are succeeding at something you don't want to do.",
+    "reflection": "What are you succeeding at that doesn't fulfill you?",
+    "author": null
+  },
+  {
+    "id": "b85cc489-c07f-4f8b-8d1d-e6a4ca9844ff",
+    "category": "Work",
+    "title": "Rest as work",
+    "body": "Rest is not the absence of work; it is the requirement for it.",
+    "reflection": "Are you treating rest as a necessity?",
+    "author": null
+  },
+  {
+    "id": "114fff2e-7038-4151-af62-fb24021f0e15",
+    "category": "Work",
+    "title": "The meeting",
+    "body": "Many hours are lost discussing the work instead of simply doing the work.",
+    "reflection": "What conversation could be an action?",
+    "author": null
+  },
+  {
+    "id": "13d5bc93-f644-4b0f-b744-d8308f5b4548",
+    "category": "Work",
+    "title": "Expertise",
+    "body": "True expertise is knowing what to ignore.",
+    "reflection": "What noise are you currently ignoring?",
+    "author": null
+  },
+  {
+    "id": "7e1a454a-df0b-4d8f-b2b1-10d1c0f36b03",
+    "category": "Work",
+    "title": "The grind",
+    "body": "The grind will take as much of you as you are willing to give.",
+    "reflection": "Where are you drawing the line today?",
+    "author": null
+  },
+  {
+    "id": "ff2677ac-8e20-42fd-bc0d-4bc4feab2e08",
+    "category": "Work",
+    "title": "Retirement",
+    "body": "You do not have to wait until retirement to experience a quiet Tuesday afternoon.",
+    "reflection": "How can you claim a quiet hour this week?",
+    "author": null
+  },
+  {
+    "id": "c631542c-c7c5-4f95-92e1-bf97cfee1185",
+    "category": "Work",
+    "title": "Boundaries",
+    "body": "A boundary is simply deciding what you will not do.",
+    "reflection": "What is one thing you will not do today?",
+    "author": null
+  },
+  {
+    "id": "7deb713f-ad3b-4034-bc39-dcdaee561367",
+    "category": "Work",
+    "title": "The sprint",
+    "body": "You cannot sprint a marathon without collapsing before the finish line.",
+    "reflection": "Are you pacing yourself for the long run?",
+    "author": null
+  },
+  {
+    "id": "9c69c671-b38f-44b1-8bfa-ebb3deed2a4f",
+    "category": "Work",
+    "title": "Validation",
+    "body": "External validation is a moving target.",
+    "reflection": "How do you validate your own effort?",
+    "author": null
+  },
+  {
+    "id": "77afddcb-05c4-4f1d-87ea-39ad70962d8a",
+    "category": "Work",
+    "title": "The title",
+    "body": "Your job title describes how you spend your hours, not who you are.",
+    "reflection": "Who are you when you log off?",
+    "author": null
+  },
+  {
+    "id": "fef4562d-54bb-4ccd-829f-2a696e003d4b",
+    "category": "Work",
+    "title": "Good work",
+    "body": "Sometimes good work is simply finishing the task and going home.",
+    "reflection": "What task is ready to just be finished?",
+    "author": null
+  },
+  {
+    "id": "6a2ac6a7-3a86-44b5-b7bd-4ab174bf6973",
+    "category": "Work",
+    "title": "The legacy",
+    "body": "Very few people will remember the presentations you gave. They will remember how you treated them.",
+    "reflection": "How are you treating the people around you?",
+    "author": null
+  },
+  {
+    "id": "0cfa45eb-856a-4a65-97d8-b4c0ba60d2c5",
+    "category": "Work",
+    "title": "The off switch",
+    "body": "The ability to disconnect completely is a skill that must be practiced.",
+    "reflection": "When was the last time you were entirely unreachable?",
+    "author": null
+  },
+  {
+    "id": "028dd5da-b17c-4c1e-9999-b5fcea7a8533",
+    "category": "Work",
+    "title": "The plateau",
+    "body": "A career plateau is often just a stable, comfortable place to rest and build a life.",
+    "reflection": "Can you appreciate the stability?",
+    "author": null
+  },
+  {
+    "id": "294f757d-bf41-42d3-b227-98599faf8b6b",
+    "category": "Work",
+    "title": "The promotion",
+    "body": "A promotion that costs you your peace is not a promotion.",
+    "reflection": "What is the actual cost of your ambition?",
+    "author": null
+  },
+  {
+    "id": "ccf1b2a9-a856-4719-b501-8be52211439d",
+    "category": "Work",
+    "title": "Deep work",
+    "body": "Two hours of uninterrupted focus will accomplish more than eight hours of fragmented attention.",
+    "reflection": "When can you carve out two hours?",
+    "author": null
+  },
+  {
+    "id": "8a92a439-0854-48fe-a6e4-fe688d680c6a",
+    "category": "Work",
+    "title": "The outcome",
+    "body": "You can control your effort, but you rarely control the final outcome.",
+    "reflection": "Are you at peace with your effort?",
+    "author": null
+  },
+  {
+    "id": "46ad7ac6-07d0-4044-b382-dbab48423262",
+    "category": "Work",
+    "title": "The hustle",
+    "body": "Hustle culture often glorifies exhaustion instead of efficiency.",
+    "reflection": "Where can you be more efficient and less exhausted?",
+    "author": null
+  },
+  {
+    "id": "9a384c98-6f3a-4478-87c8-108b047d18d8",
+    "category": "Work",
+    "title": "The machine",
+    "body": "The organization will keep running whether you answer the email tonight or tomorrow morning.",
+    "reflection": "What can wait until tomorrow?",
+    "author": null
+  },
+  {
+    "id": "cf52cac6-b866-432b-b6f0-73f0192c8b7b",
+    "category": "Work",
+    "title": "The mentor",
+    "body": "A good mentor shows you what is possible; a great mentor shows you what is unnecessary.",
+    "reflection": "What unnecessary thing can you stop doing?",
+    "author": null
+  },
+  {
+    "id": "30eb7532-abd3-45d7-9d45-b4d9c43ae324",
+    "category": "Work",
+    "title": "The break",
+    "body": "The best ideas often arrive when you have stopped trying to force them.",
+    "reflection": "When did you last step away from the problem?",
+    "author": null
+  },
+  {
+    "id": "13e31171-da39-44e7-9fc2-f670d2d8e949",
+    "category": "Work",
+    "title": "The standard",
+    "body": "Your personal standard of excellence is more important than the company's metrics.",
+    "reflection": "What does excellent work look like to you?",
+    "author": null
+  },
+  {
+    "id": "d4ff68a8-1c6d-4355-87ba-2f8888422bdd",
+    "category": "Work",
+    "title": "The pivot",
+    "body": "Quitting a bad strategy is not failure; it is wisdom.",
+    "reflection": "What strategy is no longer serving you?",
+    "author": null
+  },
+  {
+    "id": "a4281b3a-419a-4c90-858e-db9bf75b4d5f",
+    "category": "Work",
+    "title": "The priority",
+    "body": "If everything is a priority, then nothing is a priority.",
+    "reflection": "What is the single most important task today?",
+    "author": null
+  },
+  {
+    "id": "d49b2d2c-6cfc-4370-924b-072fbacabfa5",
+    "category": "Work",
+    "title": "The audience",
+    "body": "You do not need to perform your productivity for anyone.",
+    "reflection": "Can you just do the work quietly?",
+    "author": null
+  },
+  {
+    "id": "d4b58574-89cf-43a5-93ca-e3d2d40e484e",
+    "category": "Work",
+    "title": "The finish line",
+    "body": "There is always another project. The finish line is an illusion.",
+    "reflection": "How do you celebrate the small completions?",
+    "author": null
+  },
+  {
+    "id": "cd2cd21c-4d07-43b5-9a6f-9610870294b9",
+    "category": "Work",
+    "title": "The crisis",
+    "body": "A lack of planning on their part does not constitute an emergency on yours.",
+    "reflection": "Are you absorbing someone else's stress?",
+    "author": null
+  },
+  {
+    "id": "be1f0036-1550-4773-81ea-41d9dacb12fc",
+    "category": "Work",
+    "title": "The weekend",
+    "body": "The weekend is meant for recovery, not preparation for Monday.",
+    "reflection": "Are you actually resting on your days off?",
+    "author": null
+  },
+  {
+    "id": "89c2f3dc-1dcc-490b-ae9e-3c192665123d",
+    "category": "Work",
+    "title": "The long game",
+    "body": "A sustainable career is built on a foundation of adequate sleep.",
+    "reflection": "Are you resting enough to sustain your ambition?",
+    "author": null
+  },
+  {
+    "id": "fe46137c-ca34-4c6a-9a50-c96bae5dd010",
+    "category": "Work",
+    "title": "The output",
+    "body": "Your worth is not measured by your daily output.",
+    "reflection": "How do you measure a good day?",
+    "author": null
+  },
+  {
+    "id": "d0b6aa67-bb54-4f6e-ac95-b362c5882c32",
+    "category": "Work",
+    "title": "The feedback",
+    "body": "Constructive feedback is a tool, not a final judgment of your character.",
+    "reflection": "How can you use the tool and discard the judgment?",
+    "author": null
+  },
+  {
+    "id": "cdbe8b07-cd5b-4de7-ab95-12d81eb56625",
+    "category": "Work",
+    "title": "The transition",
+    "body": "The drive home is the airlock between who you are at work and who you are at home.",
+    "reflection": "How do you transition out of work mode?",
+    "author": null
+  },
+  {
+    "id": "c164c82f-e907-4597-86fd-be71a4b71d00",
+    "category": "Work",
+    "title": "The yes",
+    "body": "Every 'yes' at work is a 'no' to something else.",
+    "reflection": "What are you saying 'no' to right now?",
+    "author": null
+  },
+  {
+    "id": "9c80983f-5085-490b-8fcc-0ba47a7aec9a",
+    "category": "Work",
+    "title": "The metric",
+    "body": "Not everything valuable can be measured on a spreadsheet.",
+    "reflection": "What valuable contribution are you making that cannot be tracked?",
+    "author": null
+  },
+  {
+    "id": "c0603630-63de-43fb-a982-d5877a1740d5",
+    "category": "Work",
+    "title": "The quiet",
+    "body": "A quiet office is a luxury that should be fiercely protected.",
+    "reflection": "How do you protect your quiet time?",
+    "author": null
+  },
+  {
+    "id": "4eaeccd0-86b5-4868-b3fa-487e14b3199f",
+    "category": "Work",
+    "title": "The default",
+    "body": "Make 'no' your default answer until you have time to consider the request.",
+    "reflection": "What request needs more consideration before you accept?",
+    "author": null
+  },
+  {
+    "id": "98557bb6-2a32-4586-9830-45b9b0d59695",
+    "category": "Work",
+    "title": "The routine",
+    "body": "A boring, predictable workday is often a sign of competence.",
+    "reflection": "Are you comfortable with a boring day?",
+    "author": null
+  },
+  {
+    "id": "4af10933-a3a0-4899-a624-4de6b8eaabcc",
+    "category": "Work",
+    "title": "The error",
+    "body": "A mistake at work is simply a data point for future decisions.",
+    "reflection": "What did your last mistake teach you?",
+    "author": null
+  },
+  {
+    "id": "d7786359-ada9-48a6-890f-a6112a74a9d4",
+    "category": "Work",
+    "title": "The balance",
+    "body": "Work-life balance is not a daily achievement; it is a long-term average.",
+    "reflection": "How is your balance averaging out this month?",
+    "author": null
+  },
+  {
+    "id": "f6153d0b-caf3-4088-8e3b-9889acfd7e02",
+    "category": "Work",
+    "title": "The exit",
+    "body": "Knowing when to leave a room, a project, or a job is a superpower.",
+    "reflection": "What are you ready to leave behind?",
+    "author": null
+  },
+  {
+    "id": "57534c51-3832-4210-bf5f-9d9aae04cb83",
+    "category": "Work",
+    "title": "The reward",
+    "body": "The reward for doing good work should not be more work.",
+    "reflection": "How do you reward yourself for a job well done?",
+    "author": null
+  },
+  {
+    "id": "2be35562-1313-4cfb-91b4-b2bf5b647737",
+    "category": "Work",
+    "title": "The transition",
+    "body": "You do not need to monetize your hobbies.",
+    "reflection": "What do you do simply because you enjoy it?",
+    "author": null
+  },
+  {
+    "id": "8d1c6e20-7a5e-4af0-b72f-b4c081826804",
+    "category": "Work",
+    "title": "The speed",
+    "body": "Going slower often results in fewer mistakes and better work.",
+    "reflection": "Where can you slow down today?",
+    "author": null
+  },
+  {
+    "id": "e561d5d7-c395-471e-b510-4b88772b8995",
+    "category": "Work",
+    "title": "The comparison",
+    "body": "Your Chapter 2 cannot be compared to someone else's Chapter 20.",
+    "reflection": "What are you building right now?",
+    "author": null
+  },
+  {
+    "id": "64bb1bb9-7068-4a2b-9343-9da20b6f46ff",
+    "category": "Work",
+    "title": "The presence",
+    "body": "When you are at work, work. When you are home, be home.",
+    "reflection": "Where is your attention right now?",
+    "author": null
+  },
+  {
+    "id": "afd94993-823e-4e4f-b5ad-9a0230a8940f",
+    "category": "Work",
+    "title": "The shift",
+    "body": "The desire for impact eventually replaces the desire for recognition.",
+    "reflection": "What impact are you making quietly?",
+    "author": null
+  },
+  {
+    "id": "7b9f13e2-bddf-4b2b-93ea-da26581ec0ce",
+    "category": "Nature & Seasons",
+    "title": "Winter trees",
+    "body": "A tree does not apologize for losing its leaves in winter. It simply rests.",
+    "reflection": "Where do you need permission to rest?",
+    "author": null
+  },
+  {
+    "id": "7aa4cf50-c93d-421b-b4ec-484444bdb4e2",
+    "category": "Nature & Seasons",
+    "title": "The river",
+    "body": "A river cuts through rock not because of its power, but because of its persistence.",
+    "reflection": "What quiet persistence are you practicing?",
+    "author": null
+  },
+  {
+    "id": "9e477093-0d0a-429c-b6c2-413937637e7c",
+    "category": "Nature & Seasons",
+    "title": "Spring's arrival",
+    "body": "Spring never rushes, yet everything is eventually in bloom.",
+    "reflection": "What is slowly blooming in your life?",
+    "author": null
+  },
+  {
+    "id": "fccfa441-47e0-4ecc-baf6-f0834713f900",
+    "category": "Nature & Seasons",
+    "title": "The tide",
+    "body": "The tide goes out just as predictably as it comes in. Both are necessary.",
+    "reflection": "Are you trying to hold onto a high tide?",
+    "author": null
+  },
+  {
+    "id": "3993409e-2cf6-4561-8c55-1c85a438150d",
+    "category": "Nature & Seasons",
+    "title": "Fallen leaves",
+    "body": "Nature uses what falls away to nourish what will grow next.",
+    "reflection": "What recent loss is quietly nourishing you?",
+    "author": null
+  },
+  {
+    "id": "56fb4ded-c334-4302-9305-8a57a3362aa9",
+    "category": "Nature & Seasons",
+    "title": "The mountain",
+    "body": "The mountain remains unchanged by the weather passing over it.",
+    "reflection": "What is your mountain?",
+    "author": null
+  },
+  {
+    "id": "3f5c5c9a-561a-4504-851d-1be130b93841",
+    "category": "Nature & Seasons",
+    "title": "Wildflowers",
+    "body": "A wildflower does not compare itself to the flower next to it. It just blooms.",
+    "reflection": "Where are you unnecessarily comparing yourself?",
+    "author": null
+  },
+  {
+    "id": "d1af2092-4988-4e83-a1e8-3c705c11dd6c",
+    "category": "Nature & Seasons",
+    "title": "The storm",
+    "body": "After every violent storm, the air is remarkably clear.",
+    "reflection": "What clarity has a recent storm brought you?",
+    "author": null
+  },
+  {
+    "id": "b67a9073-3d70-45e1-973b-63db69be46ab",
+    "category": "Nature & Seasons",
+    "title": "Deep roots",
+    "body": "The tallest trees need the deepest roots to survive the wind.",
+    "reflection": "What grounds you when the wind blows?",
+    "author": null
+  },
+  {
+    "id": "1218a1cb-bdf0-4810-b6c5-0f80e3d439a7",
+    "category": "Nature & Seasons",
+    "title": "The sunrise",
+    "body": "You do not have to earn the sunrise. It is given freely every day.",
+    "reflection": "What else is given freely to you?",
+    "author": null
+  },
+  {
+    "id": "f254bca2-f882-4077-85c4-9415e673df49",
+    "category": "Nature & Seasons",
+    "title": "Autumn's lesson",
+    "body": "Autumn shows us how beautiful it can be to let things go.",
+    "reflection": "What are you holding onto past its season?",
+    "author": null
+  },
+  {
+    "id": "1de3a4fd-4e54-4a4a-9445-73778a025f2d",
+    "category": "Nature & Seasons",
+    "title": "The seed",
+    "body": "A seed spends its most transformative days entirely in the dark.",
+    "reflection": "What is transforming in your own darkness?",
+    "author": null
+  },
+  {
+    "id": "6fd418bd-1a46-4842-9aea-5f3977b69d7e",
+    "category": "Nature & Seasons",
+    "title": "The moon",
+    "body": "The moon is whole even when we can only see a sliver of it.",
+    "reflection": "Can you accept that you are whole, even on partial days?",
+    "author": null
+  },
+  {
+    "id": "f65fbf9c-2d1b-4d29-9c2f-12382180c981",
+    "category": "Nature & Seasons",
+    "title": "The forest path",
+    "body": "A straight path through the forest is rarely the most interesting one.",
+    "reflection": "What detour are you currently walking?",
+    "author": null
+  },
+  {
+    "id": "695fad9c-54c5-4d55-ac6f-3b9bb50bed8f",
+    "category": "Nature & Seasons",
+    "title": "The rain",
+    "body": "The earth does not resist the rain; it simply absorbs what it needs.",
+    "reflection": "What do you need to absorb right now?",
+    "author": null
+  },
+  {
+    "id": "79b8929d-b6a6-42ca-a159-a5b4453e847c",
+    "category": "Nature & Seasons",
+    "title": "The horizon",
+    "body": "The horizon is not a boundary, but an invitation to keep walking.",
+    "reflection": "What is calling you forward?",
+    "author": null
+  },
+  {
+    "id": "0c839eea-dc9d-4aef-bcee-8c61b16f65c2",
+    "category": "Nature & Seasons",
+    "title": "The valley",
+    "body": "The view from the peak is beautiful, but the water and the growth are in the valley.",
+    "reflection": "What is growing in your current valley?",
+    "author": null
+  },
+  {
+    "id": "8af890c8-4e83-4448-bd11-3914ea53e32a",
+    "category": "Nature & Seasons",
+    "title": "The seasons",
+    "body": "You cannot skip winter to get to spring faster.",
+    "reflection": "Are you trying to rush through a cold season?",
+    "author": null
+  },
+  {
+    "id": "d5e7c0ae-9daa-4a38-a838-a767b392a991",
+    "category": "Nature & Seasons",
+    "title": "The moss",
+    "body": "Moss grows quietly, softening the hardest stones over time.",
+    "reflection": "What hard thing in your life is slowly softening?",
+    "author": null
+  },
+  {
+    "id": "77941645-0e2b-40fc-9626-440ed29b5589",
+    "category": "Nature & Seasons",
+    "title": "The clouds",
+    "body": "Clouds do not permanently block the sun; they only pass in front of it.",
+    "reflection": "What temporary cloud is passing over you?",
+    "author": null
+  },
+  {
+    "id": "146c7722-97ef-4a22-8656-d937317ed923",
+    "category": "Nature & Seasons",
+    "title": "The current",
+    "body": "Water flows around obstacles, not through them.",
+    "reflection": "What obstacle can you simply flow around today?",
+    "author": null
+  },
+  {
+    "id": "f2fa18e7-15b3-4e18-b687-a173fa6af855",
+    "category": "Nature & Seasons",
+    "title": "The night sky",
+    "body": "The stars are always there, even when the city lights hide them.",
+    "reflection": "What constant truth are you struggling to see right now?",
+    "author": null
+  },
+  {
+    "id": "08be94b9-43b0-4e4d-a91d-09c617fe91d3",
+    "category": "Nature & Seasons",
+    "title": "The garden",
+    "body": "You cannot force a tomato to ripen by pulling on its stem.",
+    "reflection": "What are you trying to force?",
+    "author": null
+  },
+  {
+    "id": "f7d2f2a0-4f63-40cd-8c99-2e68762a9bc9",
+    "category": "Nature & Seasons",
+    "title": "The sparrow",
+    "body": "The bird sings not because it has an answer, but because it has a song.",
+    "reflection": "What is your song today?",
+    "author": null
+  },
+  {
+    "id": "da797f59-769f-4294-b1c0-2c69301b3e56",
+    "category": "Nature & Seasons",
+    "title": "The drought",
+    "body": "A period of drought makes the eventual rain feel like a miracle.",
+    "reflection": "What are you thirsting for?",
+    "author": null
+  },
+  {
+    "id": "beae25e1-8e4c-47e2-aed9-f8dbdb769c5b",
+    "category": "Nature & Seasons",
+    "title": "The ember",
+    "body": "A buried ember can stay warm through the longest, coldest night.",
+    "reflection": "What quiet hope are you keeping alive?",
+    "author": null
+  },
+  {
+    "id": "c93206cc-fc09-4e19-98d9-2d62059c18d1",
+    "category": "Nature & Seasons",
+    "title": "The breeze",
+    "body": "You cannot catch the wind, but you can feel it pass.",
+    "reflection": "What fleeting moment did you notice today?",
+    "author": null
+  },
+  {
+    "id": "ae01f421-8e2d-4ad8-bf89-f725e4dae86a",
+    "category": "Nature & Seasons",
+    "title": "The frost",
+    "body": "Frost preserves the ground so it can hold the thaw.",
+    "reflection": "What is currently being preserved in you?",
+    "author": null
+  },
+  {
+    "id": "c336b570-b7c8-4c9b-ace4-b3c888fc19a1",
+    "category": "Nature & Seasons",
+    "title": "The canopy",
+    "body": "The leaves at the top get the most sun, but the roots at the bottom hold everything together.",
+    "reflection": "Are you tending to your roots?",
+    "author": null
+  },
+  {
+    "id": "9929d636-dce6-4832-9957-1188040e57b7",
+    "category": "Nature & Seasons",
+    "title": "The dew",
+    "body": "Morning dew disappears quickly, yet it sustains the grass.",
+    "reflection": "What small thing sustained you this morning?",
+    "author": null
+  },
+  {
+    "id": "88b6fdc8-fceb-4124-8c4a-d183500ad5fa",
+    "category": "Nature & Seasons",
+    "title": "The migration",
+    "body": "Birds do not resist the changing season; they move with it.",
+    "reflection": "Are you resisting a necessary change?",
+    "author": null
+  },
+  {
+    "id": "4644bded-b074-49a5-8009-d2b458e5374e",
+    "category": "Nature & Seasons",
+    "title": "The canyon",
+    "body": "A canyon is formed by thousands of years of gentle water.",
+    "reflection": "What gentle habit is shaping your life?",
+    "author": null
+  },
+  {
+    "id": "9abba30f-30d8-4cd6-9ac6-ddb4e53ae95e",
+    "category": "Nature & Seasons",
+    "title": "The dawn",
+    "body": "The darkest part of the night is right before the dawn.",
+    "reflection": "Are you in the dark before the light?",
+    "author": null
+  },
+  {
+    "id": "a85408ad-eb67-4e95-8ba5-6de580108f1c",
+    "category": "Nature & Seasons",
+    "title": "The soil",
+    "body": "Good soil requires patience, compost, and time.",
+    "reflection": "What are you cultivating right now?",
+    "author": null
+  },
+  {
+    "id": "54ec54c7-4934-49fd-9a6a-d6b8d6e2823c",
+    "category": "Nature & Seasons",
+    "title": "The echo",
+    "body": "An echo reminds us that what we put out into the world returns to us.",
+    "reflection": "What are you sending out today?",
+    "author": null
+  },
+  {
+    "id": "6d929c93-9ec8-4062-b018-4f654a8c92f1",
+    "category": "Nature & Seasons",
+    "title": "The fire",
+    "body": "A fire needs space between the logs to breathe and burn.",
+    "reflection": "Where do you need more space in your life?",
+    "author": null
+  },
+  {
+    "id": "083b60ac-be91-4022-9566-254313201ff6",
+    "category": "Nature & Seasons",
+    "title": "The hibernation",
+    "body": "Many creatures survive winter by simply going to sleep.",
+    "reflection": "Is it time for you to rest?",
+    "author": null
+  },
+  {
+    "id": "3f8c1146-300e-4ee5-8a0e-94afbee89794",
+    "category": "Nature & Seasons",
+    "title": "The pebble",
+    "body": "A single pebble changes the course of a tiny stream.",
+    "reflection": "What small action changed your day?",
+    "author": null
+  },
+  {
+    "id": "add257dd-2678-4e9b-b33f-9f4e40a83d24",
+    "category": "Nature & Seasons",
+    "title": "The clearing",
+    "body": "A clearing in the woods provides space to see the sky.",
+    "reflection": "Where is your clearing?",
+    "author": null
+  },
+  {
+    "id": "1aa8750f-6043-46eb-af7d-ffac067874be",
+    "category": "Nature & Seasons",
+    "title": "The sunset",
+    "body": "No two sunsets are identical, and yet they are all beautiful.",
+    "reflection": "What unique beauty did you witness today?",
+    "author": null
+  },
+  {
+    "id": "c6e8160b-321a-4e05-96c5-cce3816b45ff",
+    "category": "Nature & Seasons",
+    "title": "The thaw",
+    "body": "The spring thaw is messy, muddy, and entirely necessary for new life.",
+    "reflection": "Are you navigating a messy transition?",
+    "author": null
+  },
+  {
+    "id": "d346fa0e-22a5-4803-aca8-426e21ad14db",
+    "category": "Nature & Seasons",
+    "title": "The silence",
+    "body": "A snow-covered field absorbs sound, creating a profound silence.",
+    "reflection": "Where do you find profound silence?",
+    "author": null
+  },
+  {
+    "id": "65f900e6-c80e-4d8d-86a7-7a02f7984472",
+    "category": "Nature & Seasons",
+    "title": "The shade",
+    "body": "In the heat of summer, a shaded tree is a sanctuary.",
+    "reflection": "Who or what provides you sanctuary?",
+    "author": null
+  },
+  {
+    "id": "61d25772-110b-4e33-82ba-f460d4770c37",
+    "category": "Nature & Seasons",
+    "title": "The footprint",
+    "body": "Every footprint left on a trail is eventually washed away.",
+    "reflection": "Are you worried about a mistake that will soon fade?",
+    "author": null
+  },
+  {
+    "id": "01f7ebdd-0106-4848-9d88-3b3fa284153f",
+    "category": "Nature & Seasons",
+    "title": "The branch",
+    "body": "A branch must bend in the wind, or it will break.",
+    "reflection": "Where are you refusing to bend?",
+    "author": null
+  },
+  {
+    "id": "ef7e63d3-513d-4f53-9521-10f88d257080",
+    "category": "Nature & Seasons",
+    "title": "The tide pool",
+    "body": "A tide pool holds an entire ecosystem in a tiny space.",
+    "reflection": "What makes up your own small ecosystem?",
+    "author": null
+  },
+  {
+    "id": "4c36c1ee-1ef6-42ef-8d1f-e50e23c0da2a",
+    "category": "Nature & Seasons",
+    "title": "The harvest",
+    "body": "You cannot harvest what you did not plant.",
+    "reflection": "What are you planting today?",
+    "author": null
+  },
+  {
+    "id": "a7e2895f-3a63-47d6-bc34-8e31ff656223",
+    "category": "Nature & Seasons",
+    "title": "The mist",
+    "body": "Mist obscures the distance but reveals the immediate surroundings.",
+    "reflection": "What is immediately in front of you right now?",
+    "author": null
+  },
+  {
+    "id": "27c74fd5-51a8-4853-8067-ca6e7d0188a1",
+    "category": "Nature & Seasons",
+    "title": "The coastline",
+    "body": "The coast is always changing, shaped daily by the sea.",
+    "reflection": "How are you being shaped today?",
+    "author": null
+  },
+  {
+    "id": "b591bab3-e406-4efc-8f22-3e2cc04e807e",
+    "category": "Nature & Seasons",
+    "title": "The wilderness",
+    "body": "There is a wildness in nature that cannot be tamed, only respected.",
+    "reflection": "What wild part of yourself are you learning to respect?",
+    "author": null
+  },
+  {
+    "id": "3ab837ac-a867-48df-b482-7afebc541705",
+    "category": "Simplicity",
+    "title": "The closet",
+    "body": "A full closet does not make it easier to get dressed. It usually makes it harder.",
+    "reflection": "What options are you ready to remove?",
+    "author": null
+  },
+  {
+    "id": "b982d763-39a7-4b8b-bc7e-e773911d4e12",
+    "category": "Simplicity",
+    "title": "The calendar",
+    "body": "A blank space on your calendar is not a void to be filled. It is room to breathe.",
+    "reflection": "Where is there room to breathe this week?",
+    "author": null
+  },
+  {
+    "id": "4be0fd1c-7bc5-43e8-8298-7ed620bc9bcc",
+    "category": "Simplicity",
+    "title": "The menu",
+    "body": "A restaurant with a three-item menu is confident. A restaurant with a hundred items is anxious.",
+    "reflection": "Where in your life are you offering too many choices?",
+    "author": null
+  },
+  {
+    "id": "cdee429a-5dd1-4cfe-848e-0e73aa2bda8d",
+    "category": "Simplicity",
+    "title": "The suitcase",
+    "body": "You always pack more than you need, and you always survive with less than you packed.",
+    "reflection": "What are you carrying that you don't actually need?",
+    "author": null
+  },
+  {
+    "id": "5a30839c-8fa5-4fca-a8cd-3fccfe0c82c8",
+    "category": "Simplicity",
+    "title": "The silence",
+    "body": "Silence is not the absence of sound, but the absence of noise.",
+    "reflection": "What noise can you turn off right now?",
+    "author": null
+  },
+  {
+    "id": "fc7c95ba-2f29-468d-9851-225097de15c9",
+    "category": "Simplicity",
+    "title": "The clear desk",
+    "body": "A clear desk does not mean you have no work. It means you are ready to begin.",
+    "reflection": "What physical space needs clearing?",
+    "author": null
+  },
+  {
+    "id": "5af68c20-e587-4281-a737-11a5fc6919f6",
+    "category": "Simplicity",
+    "title": "The default",
+    "body": "Setting a default choice removes the fatigue of deciding every single day.",
+    "reflection": "What simple decision can you automate?",
+    "author": null
+  },
+  {
+    "id": "c8c0b832-5541-4e1a-90e0-284fa308121b",
+    "category": "Simplicity",
+    "title": "The subtraction",
+    "body": "Improvement is almost always found in subtraction, not addition.",
+    "reflection": "What could you subtract today to make things better?",
+    "author": null
+  },
+  {
+    "id": "af27029a-5311-4c3d-8bf4-3e1848e56b27",
+    "category": "Simplicity",
+    "title": "The quiet room",
+    "body": "A quiet room with a comfortable chair is often more luxurious than a crowded resort.",
+    "reflection": "Where is your quiet room?",
+    "author": null
+  },
+  {
+    "id": "cb1e41fc-e292-4942-8060-f62cec9d7915",
+    "category": "Simplicity",
+    "title": "The single task",
+    "body": "Doing one thing at a time is the ultimate rebellion against a fractured world.",
+    "reflection": "Can you do just one thing right now?",
+    "author": null
+  },
+  {
+    "id": "f5fa97a4-3e28-4d27-959d-d42555645d45",
+    "category": "Simplicity",
+    "title": "The unread book",
+    "body": "You do not have to finish a book that you are not enjoying.",
+    "reflection": "What obligation are you ready to abandon?",
+    "author": null
+  },
+  {
+    "id": "f2de7651-6933-4608-9928-e5ce5ff5f909",
+    "category": "Simplicity",
+    "title": "The old sweater",
+    "body": "The sweater you reach for every evening is the only one that actually matters.",
+    "reflection": "What reliably brings you comfort?",
+    "author": null
+  },
+  {
+    "id": "671441b2-fd32-42d4-9f98-fb9b6eb7df78",
+    "category": "Simplicity",
+    "title": "The plain truth",
+    "body": "The truth is rarely complicated. The lies we tell to avoid it are what tangle us.",
+    "reflection": "What plain truth are you avoiding?",
+    "author": null
+  },
+  {
+    "id": "637c5e1c-4913-4563-aa9b-5286d79ce0ea",
+    "category": "Simplicity",
+    "title": "The open window",
+    "body": "An open window and fresh air will solve more problems than you think.",
+    "reflection": "When did you last let the fresh air in?",
+    "author": null
+  },
+  {
+    "id": "5f74989b-2512-424d-af92-602218296936",
+    "category": "Simplicity",
+    "title": "The simple answer",
+    "body": "A simple 'no' requires far less maintenance than a complicated 'maybe'.",
+    "reflection": "Who needs a simple 'no' from you?",
+    "author": null
+  },
+  {
+    "id": "c94f6008-c906-4690-b41e-e298f1ed3661",
+    "category": "Simplicity",
+    "title": "The ingredient",
+    "body": "The best meals rely on the quality of a few ingredients, not the quantity of spices.",
+    "reflection": "What are your essential ingredients for a good day?",
+    "author": null
+  },
+  {
+    "id": "dadeec19-38f3-4d84-8e46-1cb059acb13c",
+    "category": "Simplicity",
+    "title": "The routine",
+    "body": "A boring routine is the foundation of a creative life.",
+    "reflection": "What boring routine supports you?",
+    "author": null
+  },
+  {
+    "id": "2102e1da-6edb-427d-b6f7-e9e276610cdd",
+    "category": "Simplicity",
+    "title": "The walk",
+    "body": "A walk without a destination or a podcast is a rare and powerful thing.",
+    "reflection": "Can you walk just to walk today?",
+    "author": null
+  },
+  {
+    "id": "6b6c0d39-253c-4876-87e0-633ad659f2d3",
+    "category": "Simplicity",
+    "title": "The enough",
+    "body": "Knowing exactly what 'enough' looks like is the key to lasting peace.",
+    "reflection": "What does 'enough' look like for you?",
+    "author": null
+  },
+  {
+    "id": "928cfa40-af86-4bf0-9785-667b337f9ac6",
+    "category": "Simplicity",
+    "title": "The empty shelf",
+    "body": "An empty shelf is full of possibility. A cluttered shelf is full of the past.",
+    "reflection": "What possibility are you making room for?",
+    "author": null
+  },
+  {
+    "id": "e23ec952-7a73-4966-836e-37c1b0b9c71d",
+    "category": "Simplicity",
+    "title": "The small circle",
+    "body": "You only need a few people who truly understand you.",
+    "reflection": "Who is in your small circle?",
+    "author": null
+  },
+  {
+    "id": "601a0ebf-aca1-46a7-b9b0-baecb4088339",
+    "category": "Simplicity",
+    "title": "The basics",
+    "body": "When you feel lost, return to the basics: sleep, water, and sunlight.",
+    "reflection": "Which basic need requires your attention?",
+    "author": null
+  },
+  {
+    "id": "a22e764b-9d79-4f18-b6b6-2ad478db0a4f",
+    "category": "Simplicity",
+    "title": "The unfollow",
+    "body": "Curating your inputs is just as important as curating your diet.",
+    "reflection": "Who or what do you need to quietly unfollow?",
+    "author": null
+  },
+  {
+    "id": "6238c76f-ce52-4f2d-b5da-f0b99c568432",
+    "category": "Simplicity",
+    "title": "The quiet evening",
+    "body": "A quiet evening at home is not a missed opportunity; it is a successful day.",
+    "reflection": "Are you protecting your quiet evenings?",
+    "author": null
+  },
+  {
+    "id": "63bfa564-90c5-40d4-a688-7c594ff15fa9",
+    "category": "Simplicity",
+    "title": "The simple joy",
+    "body": "The first cup of coffee in the morning is a joy that never diminishes.",
+    "reflection": "What simple joy do you rely on?",
+    "author": null
+  },
+  {
+    "id": "594e1529-244a-4a75-92be-dbc6af84810b",
+    "category": "Simplicity",
+    "title": "The fewer words",
+    "body": "If you can say it in ten words, do not use fifty.",
+    "reflection": "Where are you over-explaining yourself?",
+    "author": null
+  },
+  {
+    "id": "1d98fe5e-8910-4680-ba2b-07a50029b1a0",
+    "category": "Simplicity",
+    "title": "The clean surface",
+    "body": "Wiping down the counter is a small act of respect for tomorrow morning.",
+    "reflection": "How can you respect tomorrow morning?",
+    "author": null
+  },
+  {
+    "id": "0205b3e6-d140-4e8c-8a79-c695dda69247",
+    "category": "Simplicity",
+    "title": "The single tab",
+    "body": "Close the browser tabs you are keeping open 'just in case'.",
+    "reflection": "What 'just in case' are you holding onto?",
+    "author": null
+  },
+  {
+    "id": "eb9737c2-eee0-4d54-8af3-21de63503e43",
+    "category": "Simplicity",
+    "title": "The old friend",
+    "body": "You do not have to explain your context to an old friend. You just start talking.",
+    "reflection": "Who requires no explanation?",
+    "author": null
+  },
+  {
+    "id": "c07e4a5e-273a-45ae-94bb-73fad61fabd4",
+    "category": "Simplicity",
+    "title": "The clear path",
+    "body": "The simplest path forward is usually the one you are avoiding.",
+    "reflection": "What simple path is right in front of you?",
+    "author": null
+  },
+  {
+    "id": "9752c524-cd45-41f1-a58f-0ff82915c513",
+    "category": "Simplicity",
+    "title": "The declutter",
+    "body": "Decluttering is not just about organizing things; it is about organizing your attention.",
+    "reflection": "Where is your attention scattered?",
+    "author": null
+  },
+  {
+    "id": "8898edca-9bb3-4d8d-87aa-95adcd9a72e0",
+    "category": "Simplicity",
+    "title": "The physical object",
+    "body": "Holding a physical book is fundamentally different than scrolling a screen.",
+    "reflection": "What physical object grounds you?",
+    "author": null
+  },
+  {
+    "id": "51d30319-b9dc-429d-ae62-e9e4721f833e",
+    "category": "Simplicity",
+    "title": "The empty page",
+    "body": "An empty page is not a demand for brilliance; it is an invitation to begin.",
+    "reflection": "What are you ready to begin?",
+    "author": null
+  },
+  {
+    "id": "fe75079a-44ca-40c0-a2cd-6d2f63b2c3dd",
+    "category": "Simplicity",
+    "title": "The single focus",
+    "body": "You can do anything, but you cannot do everything at the same time.",
+    "reflection": "What is your single focus today?",
+    "author": null
+  },
+  {
+    "id": "bd160912-d96b-46a3-b633-e9405c244dd3",
+    "category": "Simplicity",
+    "title": "The quiet mind",
+    "body": "A quiet mind is the result of letting go, not of holding on tighter.",
+    "reflection": "What are you gripping too tightly?",
+    "author": null
+  },
+  {
+    "id": "91cfb251-c9b5-423c-9caf-cb224d783637",
+    "category": "Simplicity",
+    "title": "The basic tool",
+    "body": "The best tool is usually the simplest one that gets the job done.",
+    "reflection": "What complicated tool can you replace with a simple one?",
+    "author": null
+  },
+  {
+    "id": "487ed454-e971-4b39-9b58-089a6258c073",
+    "category": "Simplicity",
+    "title": "The subtraction",
+    "body": "When in doubt, take something away.",
+    "reflection": "What is the first thing you should take away?",
+    "author": null
+  },
+  {
+    "id": "df394259-7486-4ad4-935e-b9c12b428074",
+    "category": "Simplicity",
+    "title": "The open space",
+    "body": "You need open space in your schedule to allow for the unexpected.",
+    "reflection": "How much open space do you have today?",
+    "author": null
+  },
+  {
+    "id": "4e1d0332-b301-4681-b022-ecd18513f37b",
+    "category": "Simplicity",
+    "title": "The simple plea",
+    "body": "You do not always need a grand philosophy. Sometimes you just need a nap.",
+    "reflection": "Do you just need a nap?",
+    "author": null
+  },
+  {
+    "id": "768b7728-d41f-46fa-bbc8-e3b317ebcc11",
+    "category": "Simplicity",
+    "title": "The quiet corner",
+    "body": "Every home needs a quiet corner where nothing is required of you.",
+    "reflection": "Where is your quiet corner?",
+    "author": null
+  },
+  {
+    "id": "fec7b28f-7242-447e-bca9-caa591ebbb78",
+    "category": "Simplicity",
+    "title": "The single decision",
+    "body": "Make the decision that makes all the other decisions easier.",
+    "reflection": "What is the keystone decision you need to make?",
+    "author": null
+  },
+  {
+    "id": "debad88b-84af-4f99-86a1-826f13043e92",
+    "category": "Simplicity",
+    "title": "The empty hands",
+    "body": "You must empty your hands before you can pick up something new.",
+    "reflection": "What are you putting down?",
+    "author": null
+  },
+  {
+    "id": "a0f11a22-c0f1-4825-8772-cf039badd815",
+    "category": "Simplicity",
+    "title": "The simple boundary",
+    "body": "A boundary does not need to be an argument. It can just be a statement.",
+    "reflection": "What statement do you need to make?",
+    "author": null
+  },
+  {
+    "id": "6015697c-6026-4cd3-b0b6-3ad897834b11",
+    "category": "Simplicity",
+    "title": "The quiet confidence",
+    "body": "True confidence does not need to announce itself.",
+    "reflection": "Where do you feel quietly confident?",
+    "author": null
+  },
+  {
+    "id": "cb3f0b41-c996-4957-9ac7-9c8bb0000e7a",
+    "category": "Simplicity",
+    "title": "The essential",
+    "body": "Strip away the non-essential until only the necessary remains.",
+    "reflection": "What is truly necessary right now?",
+    "author": null
+  },
+  {
+    "id": "ca5ae265-a302-4a3e-bb17-ef21460b810c",
+    "category": "Simplicity",
+    "title": "The simple truth",
+    "body": "The truth is usually the simplest explanation.",
+    "reflection": "What is the simple truth of your current situation?",
+    "author": null
+  },
+  {
+    "id": "aec23bce-9135-4b19-bc60-dc2f532144c5",
+    "category": "Simplicity",
+    "title": "The quiet exit",
+    "body": "You can leave the party without making an announcement.",
+    "reflection": "What are you ready to quietly exit?",
+    "author": null
+  },
+  {
+    "id": "e414c50c-fb21-4b7d-add3-d117bee360f4",
+    "category": "Simplicity",
+    "title": "The empty sky",
+    "body": "An empty blue sky is beautiful exactly because there is nothing in it.",
+    "reflection": "Can you appreciate the emptiness?",
+    "author": null
+  },
+  {
+    "id": "b6468e85-75d3-4585-a782-80e53aa15aff",
+    "category": "Simplicity",
+    "title": "The simple act",
+    "body": "The simple act of washing the dishes can be a meditation.",
+    "reflection": "What chore can be your meditation today?",
+    "author": null
+  },
+  {
+    "id": "003d8738-5573-4acd-9e57-0d1e357bedcc",
+    "category": "Simplicity",
+    "title": "The quiet arrival",
+    "body": "The best moments often arrive quietly, without any fanfare.",
+    "reflection": "What quiet moment did you notice today?",
+    "author": null
+  },
+  {
+    "id": "e1694be0-ef7a-4aae-b3cd-33f6a8397d29",
+    "category": "Time",
+    "title": "The pace",
+    "body": "Walking slowly does not mean you will never arrive. It means you will not be exhausted when you do.",
+    "reflection": "Where are you walking too fast?",
+    "author": null
+  },
+  {
+    "id": "57f2fcb5-e8d5-4d6d-bfa3-f28b5639d512",
+    "category": "Time",
+    "title": "The hour",
+    "body": "An hour spent doing nothing is not a wasted hour. It is a necessary reset.",
+    "reflection": "When can you schedule an hour of nothing?",
+    "author": null
+  },
+  {
+    "id": "5eb67f5e-cc17-4c7a-9e52-0be4bb2a0e13",
+    "category": "Time",
+    "title": "The deadline",
+    "body": "Most deadlines are entirely imaginary.",
+    "reflection": "What imaginary deadline is stressing you out?",
+    "author": null
+  },
+  {
+    "id": "5aea5ba8-21a7-4d89-a323-86fc802d8123",
+    "category": "Time",
+    "title": "The past",
+    "body": "You cannot edit the past, no matter how much time you spend reading it.",
+    "reflection": "What chapter are you ready to stop re-reading?",
+    "author": null
+  },
+  {
+    "id": "d411ece0-025e-4728-9001-6cc972669806",
+    "category": "Time",
+    "title": "The future",
+    "body": "Worrying about tomorrow simply ruins today.",
+    "reflection": "What future event is stealing your current peace?",
+    "author": null
+  },
+  {
+    "id": "f4db00eb-8be6-4122-bd15-4467d543f5fd",
+    "category": "Time",
+    "title": "The waiting room",
+    "body": "Waiting is only frustrating if you believe you should already be somewhere else.",
+    "reflection": "Can you simply be in the waiting room?",
+    "author": null
+  },
+  {
+    "id": "275124ab-4a07-424c-9fd5-b631bcc2edea",
+    "category": "Time",
+    "title": "The slow growth",
+    "body": "A tree does not grow in a day, but it is growing every day.",
+    "reflection": "What slow progress are you overlooking?",
+    "author": null
+  },
+  {
+    "id": "fff27731-23f0-4988-963e-4d1a0303e730",
+    "category": "Time",
+    "title": "The late start",
+    "body": "You are not too late. You are exactly where you need to be to begin.",
+    "reflection": "What is it time to begin?",
+    "author": null
+  },
+  {
+    "id": "4d82888b-97be-44d5-aaf1-73db94c58021",
+    "category": "Time",
+    "title": "The urgency",
+    "body": "If it is truly urgent, someone will call. Otherwise, it can wait.",
+    "reflection": "What are you treating as urgent that is actually just an interruption?",
+    "author": null
+  },
+  {
+    "id": "c5c334fb-ae15-4b8a-acd9-ed4de04be556",
+    "category": "Time",
+    "title": "The present",
+    "body": "The present moment is the only place where anything actually happens.",
+    "reflection": "Are you here right now?",
+    "author": null
+  },
+  {
+    "id": "a7fd7021-0acf-43ca-a073-1f3d00450d55",
+    "category": "Time",
+    "title": "The lost time",
+    "body": "Time spent enjoying yourself is not lost time.",
+    "reflection": "What did you enjoy doing today?",
+    "author": null
+  },
+  {
+    "id": "f50960b9-d234-43bb-946d-fa0578e3444d",
+    "category": "Time",
+    "title": "The hurry",
+    "body": "Hurrying usually causes more problems than it solves.",
+    "reflection": "What mistake did hurrying cause recently?",
+    "author": null
+  },
+  {
+    "id": "23cbd06b-92de-47a0-b4d0-b77d3707e7ed",
+    "category": "Time",
+    "title": "The long term",
+    "body": "In ten years, this current emergency will be entirely forgotten.",
+    "reflection": "How much does this actually matter?",
+    "author": null
+  },
+  {
+    "id": "dbd9b44c-5690-4a5f-830e-b4e1773efc57",
+    "category": "Time",
+    "title": "The pause",
+    "body": "A five-minute pause can change the trajectory of an entire afternoon.",
+    "reflection": "Can you take five minutes right now?",
+    "author": null
+  },
+  {
+    "id": "c15e3881-c541-4a21-8cd3-849a42fe91fa",
+    "category": "Time",
+    "title": "The evening",
+    "body": "The evening is not an extension of the workday. It is the beginning of your time.",
+    "reflection": "How do you claim your evening?",
+    "author": null
+  },
+  {
+    "id": "d4a9581e-ecfa-4f2e-b81d-ea614aaf1522",
+    "category": "Time",
+    "title": "The morning",
+    "body": "A slow morning is a protective shield against a chaotic day.",
+    "reflection": "How can you slow down your morning?",
+    "author": null
+  },
+  {
+    "id": "98c633c3-3dde-4ad1-8421-71d31db3f593",
+    "category": "Time",
+    "title": "The passing years",
+    "body": "The years feel fast, but the days are long. Pay attention to the days.",
+    "reflection": "What did you notice about today?",
+    "author": null
+  },
+  {
+    "id": "a9b8eb94-bf41-48b5-9063-428498302181",
+    "category": "Time",
+    "title": "The schedule",
+    "body": "A full schedule is often a sign of a scattered mind, not a productive life.",
+    "reflection": "What can you remove from your schedule?",
+    "author": null
+  },
+  {
+    "id": "62ea7b71-82ca-4a53-bb18-f585b8b2ff51",
+    "category": "Time",
+    "title": "The timeless",
+    "body": "Some things\u2014like a good conversation or a sunset\u2014exist completely outside of time.",
+    "reflection": "What timeless thing did you experience recently?",
+    "author": null
+  },
+  {
+    "id": "d8797bf6-b92b-47a0-87df-f00a967a3f6c",
+    "category": "Time",
+    "title": "The rush hour",
+    "body": "You do not have to participate in the rush hour, physically or mentally.",
+    "reflection": "How can you step out of the rush?",
+    "author": null
+  },
+  {
+    "id": "6702e31f-d44f-4645-a4a9-e99833e0b9ef",
+    "category": "Time",
+    "title": "The right time",
+    "body": "There is rarely a perfect time. There is only the time you decide to act.",
+    "reflection": "What are you waiting for the 'perfect time' to do?",
+    "author": null
+  },
+  {
+    "id": "3dc1d415-cffd-45b6-8b1a-09729dd1d9b8",
+    "category": "Time",
+    "title": "The memory",
+    "body": "A memory is simply a moment you decided to keep.",
+    "reflection": "What moment will you keep from today?",
+    "author": null
+  },
+  {
+    "id": "3e1ee745-def0-43fb-a560-ed1106353d82",
+    "category": "Time",
+    "title": "The aging",
+    "body": "Aging is a privilege denied to many. Wear your years with gratitude.",
+    "reflection": "What are you grateful to have lived long enough to see?",
+    "author": null
+  },
+  {
+    "id": "8f5b127b-82ef-46f6-a61b-4acb68bcbc06",
+    "category": "Time",
+    "title": "The season",
+    "body": "Every season has an end. This one will, too.",
+    "reflection": "Are you in a difficult season or a joyful one?",
+    "author": null
+  },
+  {
+    "id": "bfa7fe7a-1116-4d2d-8837-bbe065be1dbb",
+    "category": "Time",
+    "title": "The half hour",
+    "body": "You can accomplish an incredible amount of reading, resting, or walking in just thirty minutes.",
+    "reflection": "How will you spend your next free half hour?",
+    "author": null
+  },
+  {
+    "id": "0e0f4539-9df3-47e3-97a4-52bdf90ca2c7",
+    "category": "Time",
+    "title": "The delay",
+    "body": "A delay is often a hidden layer of protection.",
+    "reflection": "What delay actually helped you?",
+    "author": null
+  },
+  {
+    "id": "c400f344-9e1a-47d0-94e3-214d02e19c6f",
+    "category": "Time",
+    "title": "The fast forward",
+    "body": "You cannot fast forward through the difficult parts without also missing the growth.",
+    "reflection": "What are you trying to fast forward through?",
+    "author": null
+  },
+  {
+    "id": "4122db5b-bc29-4e08-8007-b0fb8b102ee5",
+    "category": "Time",
+    "title": "The ancient",
+    "body": "Standing next to something very old\u2014a tree, a mountain, an ocean\u2014puts your own timeline into perspective.",
+    "reflection": "What ancient thing puts your life in perspective?",
+    "author": null
+  },
+  {
+    "id": "81d72acb-4192-485e-9055-edd37a6a9509",
+    "category": "Time",
+    "title": "The ticking clock",
+    "body": "The clock only ticks loudly when you are listening to it.",
+    "reflection": "What helps you forget about the clock?",
+    "author": null
+  },
+  {
+    "id": "cf9286cd-e532-4c6c-9f13-6c8680aaa5d9",
+    "category": "Time",
+    "title": "The early arrival",
+    "body": "Arriving ten minutes early provides a quiet buffer before the world demands your attention.",
+    "reflection": "When can you arrive early just to sit?",
+    "author": null
+  },
+  {
+    "id": "b2ed5e49-3062-4735-910a-ae04d581eb10",
+    "category": "Time",
+    "title": "The transition",
+    "body": "The time between ending one thing and starting another is sacred.",
+    "reflection": "Do you allow yourself transition time?",
+    "author": null
+  },
+  {
+    "id": "62a01a6d-b5d5-404e-aa0b-e05bfe81a1b7",
+    "category": "Time",
+    "title": "The long game",
+    "body": "Small, daily efforts outpace massive, occasional bursts of energy every time.",
+    "reflection": "What small daily effort are you committed to?",
+    "author": null
+  },
+  {
+    "id": "b3fb4924-5d27-4fe2-b884-3b52e28054e5",
+    "category": "Time",
+    "title": "The rewind",
+    "body": "You cannot rewind the tape. You can only decide what happens in the next scene.",
+    "reflection": "What happens next?",
+    "author": null
+  },
+  {
+    "id": "f5d6121a-1850-43ff-8a57-69e2181f67fd",
+    "category": "Time",
+    "title": "The empty afternoon",
+    "body": "An empty afternoon is a luxury, not a failure of planning.",
+    "reflection": "Do you have any empty afternoons this week?",
+    "author": null
+  },
+  {
+    "id": "41bfdf9f-b45a-4d18-9a50-c0e3b1770a8f",
+    "category": "Time",
+    "title": "The rhythm",
+    "body": "Find your own rhythm. You do not have to march to the beat of the loudest drum.",
+    "reflection": "What is your natural rhythm?",
+    "author": null
+  },
+  {
+    "id": "18d1fd91-f412-4c8a-a562-62dc40949283",
+    "category": "Time",
+    "title": "The sunset",
+    "body": "The day ends whether you finished everything on your list or not.",
+    "reflection": "Can you let the day end peacefully?",
+    "author": null
+  },
+  {
+    "id": "9f4b8a4b-4a4e-4b84-b70a-d09503762f62",
+    "category": "Time",
+    "title": "The decade",
+    "body": "Think about who you were ten years ago. You have already lived multiple lives.",
+    "reflection": "What version of yourself are you currently living?",
+    "author": null
+  },
+  {
+    "id": "085ccaf3-0c08-44fa-b253-55ba0fdb9398",
+    "category": "Time",
+    "title": "The overnight",
+    "body": "Many problems solve themselves if you simply sleep on them.",
+    "reflection": "What problem needs to be slept on?",
+    "author": null
+  },
+  {
+    "id": "e8570957-53c4-4983-bc45-1086fb9dfb7f",
+    "category": "Time",
+    "title": "The brief encounter",
+    "body": "A ten-second interaction can lift someone's entire day.",
+    "reflection": "Who did you lift up today?",
+    "author": null
+  },
+  {
+    "id": "b7bd6cfe-da93-4b24-8671-6f08fcf1691d",
+    "category": "Time",
+    "title": "The marathon",
+    "body": "Life is a marathon, but it is entirely acceptable to walk for a few miles.",
+    "reflection": "Where do you need to walk instead of run?",
+    "author": null
+  },
+  {
+    "id": "06eee9c3-f0bf-4809-9a1f-0b4251bf3938",
+    "category": "Time",
+    "title": "The time machine",
+    "body": "A photograph is a simple time machine. Use it to visit, not to live.",
+    "reflection": "What photograph brings you comfort?",
+    "author": null
+  },
+  {
+    "id": "9d322913-3c5c-4c34-97db-cbdf422dacd6",
+    "category": "Time",
+    "title": "The patience",
+    "body": "Patience is not simply waiting; it is how you behave while you wait.",
+    "reflection": "How are you behaving in the waiting?",
+    "author": null
+  },
+  {
+    "id": "7f26d754-983b-430e-8263-ab68b845c374",
+    "category": "Time",
+    "title": "The generation",
+    "body": "You are the bridge between the generations before you and the generations after.",
+    "reflection": "What are you passing on?",
+    "author": null
+  },
+  {
+    "id": "3fcca0e4-73a3-44bc-84a1-aa2fefad9a0f",
+    "category": "Time",
+    "title": "The unmeasured time",
+    "body": "The best moments in life are the ones where you completely lose track of time.",
+    "reflection": "When was the last time you lost track of time?",
+    "author": null
+  },
+  {
+    "id": "56fde814-8152-43a3-ac31-5555d2c30ce7",
+    "category": "Time",
+    "title": "The slow fade",
+    "body": "Change rarely happens overnight. It is a slow fade from one state to another.",
+    "reflection": "What is slowly fading in your life?",
+    "author": null
+  },
+  {
+    "id": "0cdb901c-7d09-4732-801f-62a1674459cb",
+    "category": "Time",
+    "title": "The boundary of today",
+    "body": "Today's energy is only meant for today's problems.",
+    "reflection": "Are you spending today's energy on tomorrow?",
+    "author": null
+  },
+  {
+    "id": "79ed5b52-5e6d-4ba6-b443-62b9987194e5",
+    "category": "Time",
+    "title": "The deep breath",
+    "body": "A single deep breath takes only a few seconds, but it resets your entire nervous system.",
+    "reflection": "Take a deep breath right now.",
+    "author": null
+  },
+  {
+    "id": "3964957c-5862-4534-a07f-24e657df0ec9",
+    "category": "Time",
+    "title": "The time well spent",
+    "body": "Time is only wasted if you believe it was wasted.",
+    "reflection": "What 'wasted' time was actually exactly what you needed?",
+    "author": null
+  },
+  {
+    "id": "327d6bef-b1e9-481d-9791-09358825b9fc",
+    "category": "Time",
+    "title": "The quiet ticking",
+    "body": "Let the clock tick. You do not have to keep pace with it.",
+    "reflection": "Can you let time pass without trying to use it?",
+    "author": null
+  },
+  {
+    "id": "21c79b44-c3b4-4bc6-b009-1d044b7c0691",
+    "category": "Time",
+    "title": "The enduring",
+    "body": "What is true today will likely be true tomorrow.",
+    "reflection": "What constant truth anchors you?",
+    "author": null
+  },
+  {
+    "id": "bfacddc7-2d38-4a91-8b2e-cad400cced6c",
+    "category": "Relationships",
+    "title": "The unspoken",
+    "body": "You do not always need to fill the silence with another person. Shared quiet is a sign of trust.",
+    "reflection": "Who can you sit quietly with?",
+    "author": null
+  },
+  {
+    "id": "cad60219-db7c-417a-81e2-aa2035e13734",
+    "category": "Relationships",
+    "title": "The apology",
+    "body": "An apology without a change in behavior is simply a manipulation.",
+    "reflection": "Where do you need to see a change?",
+    "author": null
+  },
+  {
+    "id": "5e20ddcd-4d2d-46ee-98c6-aa6a6d702f09",
+    "category": "Relationships",
+    "title": "The seasons of friendship",
+    "body": "Not all friendships are built to last a lifetime. Some are beautiful for exactly one season.",
+    "reflection": "What seasonal friendship are you grateful for?",
+    "author": null
+  },
+  {
+    "id": "76fd1a2d-379f-4497-8944-13776e0ed775",
+    "category": "Relationships",
+    "title": "The effort",
+    "body": "A relationship should not feel like an endless negotiation. The good ones flow.",
+    "reflection": "Which relationship feels effortless?",
+    "author": null
+  },
+  {
+    "id": "e29da599-6b33-4672-8e49-350b2e6bac45",
+    "category": "Relationships",
+    "title": "The grace",
+    "body": "Give people the grace to be imperfect. You require that same grace yourself.",
+    "reflection": "Who needs your grace today?",
+    "author": null
+  },
+  {
+    "id": "300a610b-45e7-4aa3-bab1-d967ead9d44c",
+    "category": "Relationships",
+    "title": "The listener",
+    "body": "Listening to understand is fundamentally different than listening to reply.",
+    "reflection": "When did you last truly listen?",
+    "author": null
+  },
+  {
+    "id": "f9de86b9-b056-403e-8984-1d80c00a8955",
+    "category": "Relationships",
+    "title": "The distance",
+    "body": "Distance does not break a strong connection, but it reveals a weak one.",
+    "reflection": "What connection has survived the distance?",
+    "author": null
+  },
+  {
+    "id": "14967715-3619-4308-b9da-0ea27edd27d5",
+    "category": "Relationships",
+    "title": "The boundary",
+    "body": "Setting a boundary is an act of love. It tells the other person how to stay in your life.",
+    "reflection": "What boundary needs communicating?",
+    "author": null
+  },
+  {
+    "id": "5dc3b976-6511-496f-bf63-60f25617fe61",
+    "category": "Relationships",
+    "title": "The release",
+    "body": "You cannot hold onto someone who is determined to walk away.",
+    "reflection": "Who are you trying to hold onto?",
+    "author": null
+  },
+  {
+    "id": "73fed027-9394-413d-adb0-94500bc618b8",
+    "category": "Relationships",
+    "title": "The celebration",
+    "body": "Pay close attention to who genuinely celebrates your success.",
+    "reflection": "Who claps the loudest for you?",
+    "author": null
+  },
+  {
+    "id": "0efd94dc-129d-40b7-8595-7f24752eb648",
+    "category": "Relationships",
+    "title": "The history",
+    "body": "A shared history is valuable, but it is not a reason to stay in a harmful dynamic.",
+    "reflection": "What history are you holding onto out of obligation?",
+    "author": null
+  },
+  {
+    "id": "49b3dd92-480f-4ed8-8089-902e951ce655",
+    "category": "Relationships",
+    "title": "The mirror",
+    "body": "The people closest to you are often mirrors reflecting your own character back to you.",
+    "reflection": "What do your closest relationships reflect?",
+    "author": null
+  },
+  {
+    "id": "68370a1f-d18f-4908-b39a-20feca19a64e",
+    "category": "Relationships",
+    "title": "The simple text",
+    "body": "A quick message to say 'I was thinking of you' can change someone's entire week.",
+    "reflection": "Who can you text right now?",
+    "author": null
+  },
+  {
+    "id": "b8b42e1e-621e-400b-be2b-ecfc0a60cc76",
+    "category": "Relationships",
+    "title": "The attention",
+    "body": "Your undivided attention is the rarest and most valuable gift you can offer.",
+    "reflection": "Who deserves your full attention today?",
+    "author": null
+  },
+  {
+    "id": "9a038c22-1dd4-4f36-abd8-4b433518f8e6",
+    "category": "Relationships",
+    "title": "The assumption",
+    "body": "Assuming the best of someone's intentions saves a tremendous amount of unnecessary pain.",
+    "reflection": "Where can you assume positive intent?",
+    "author": null
+  },
+  {
+    "id": "99935aa8-ce2e-4408-a923-eb6e3f180cfe",
+    "category": "Relationships",
+    "title": "The familiar",
+    "body": "There is a profound comfort in being entirely known by someone else.",
+    "reflection": "Who knows you best?",
+    "author": null
+  },
+  {
+    "id": "6c247d8e-e467-41f3-8de2-bc611856e3eb",
+    "category": "Relationships",
+    "title": "The argument",
+    "body": "In a good relationship, it is the two of you against the problem, not you against each other.",
+    "reflection": "What problem needs a unified front?",
+    "author": null
+  },
+  {
+    "id": "e4398be5-42b1-480b-bb4f-de23332b4473",
+    "category": "Relationships",
+    "title": "The small things",
+    "body": "Love is rarely found in grand gestures. It is built in the daily, mundane acts of care.",
+    "reflection": "What small act of care did you receive today?",
+    "author": null
+  },
+  {
+    "id": "6371bf8a-df41-4c9a-8534-5d669618b2b0",
+    "category": "Relationships",
+    "title": "The drift",
+    "body": "It is natural for people to drift apart as they grow. It does not mean the connection was a failure.",
+    "reflection": "Who have you drifted from peacefully?",
+    "author": null
+  },
+  {
+    "id": "aa380d34-e0f2-4de1-a882-af42dbdcaea6",
+    "category": "Relationships",
+    "title": "The honesty",
+    "body": "A hard truth delivered with kindness is always better than a comforting lie.",
+    "reflection": "What hard truth needs to be spoken?",
+    "author": null
+  },
+  {
+    "id": "73bba3b7-31bb-460f-992f-05a97e422785",
+    "category": "Relationships",
+    "title": "The arrival",
+    "body": "Notice how your body feels when a specific person enters the room. Your body knows.",
+    "reflection": "Who makes your shoulders drop when they arrive?",
+    "author": null
+  },
+  {
+    "id": "6e9918b5-e36f-406a-a31b-fee54da9ad30",
+    "category": "Relationships",
+    "title": "The empty cup",
+    "body": "You cannot pour into someone else's life if your own cup is completely empty.",
+    "reflection": "How are you refilling your own cup?",
+    "author": null
+  },
+  {
+    "id": "57bd0823-1064-430e-a757-a89bcba789a0",
+    "category": "Relationships",
+    "title": "The quiet support",
+    "body": "Sometimes the best support is just sitting beside someone in the dark.",
+    "reflection": "Who needs you to just sit with them?",
+    "author": null
+  },
+  {
+    "id": "c22e53bf-d96c-4c09-8c5e-cf1825ab9d26",
+    "category": "Relationships",
+    "title": "The comparison",
+    "body": "Your relationship does not need to look like anyone else's relationship.",
+    "reflection": "What is uniquely yours?",
+    "author": null
+  },
+  {
+    "id": "1e7f1d85-7d39-450c-98ed-dd6f900a6460",
+    "category": "Relationships",
+    "title": "The acceptance",
+    "body": "You cannot change another person. You can only love them, or leave them.",
+    "reflection": "Where are you trying to force a change?",
+    "author": null
+  },
+  {
+    "id": "1c1022b8-4465-41b2-a981-95c1836807d1",
+    "category": "Relationships",
+    "title": "The invitation",
+    "body": "An invitation is a risk. Be gentle with people who invite you into their lives.",
+    "reflection": "Who has recently invited you in?",
+    "author": null
+  },
+  {
+    "id": "97df01a0-2b95-4ea0-9cca-1eb58fa565ff",
+    "category": "Relationships",
+    "title": "The easy laugh",
+    "body": "A shared sense of humor is a powerful glue.",
+    "reflection": "Who makes you laugh effortlessly?",
+    "author": null
+  },
+  {
+    "id": "3dceb6c3-5569-4fbf-9f1b-6a9f1b372b4c",
+    "category": "Relationships",
+    "title": "The reunion",
+    "body": "The best reunions feel as though no time has passed at all.",
+    "reflection": "Who can you pick right back up with?",
+    "author": null
+  },
+  {
+    "id": "ece3cdbc-b9fa-49b3-8ed9-95c7abb14e7a",
+    "category": "Relationships",
+    "title": "The space",
+    "body": "A healthy relationship provides enough space for both people to grow as individuals.",
+    "reflection": "Do you have enough space?",
+    "author": null
+  },
+  {
+    "id": "0d9a1d27-df89-4fe1-acc9-c4fe657c1a6f",
+    "category": "Relationships",
+    "title": "The hidden burden",
+    "body": "Everyone you meet is carrying a burden you know absolutely nothing about.",
+    "reflection": "How does this change the way you interact?",
+    "author": null
+  },
+  {
+    "id": "184fc22b-a6e2-4b24-94f8-961fe710e07b",
+    "category": "Relationships",
+    "title": "The default",
+    "body": "Make kindness your default reaction.",
+    "reflection": "Where is your default something else?",
+    "author": null
+  },
+  {
+    "id": "dbc887a2-c60b-41f6-9845-306b3f0353da",
+    "category": "Relationships",
+    "title": "The shared meal",
+    "body": "Breaking bread with someone is one of the oldest forms of connection.",
+    "reflection": "Who can you share a meal with?",
+    "author": null
+  },
+  {
+    "id": "1023947d-40eb-44a3-b370-e085eba63ff1",
+    "category": "Relationships",
+    "title": "The old wounds",
+    "body": "Do not bleed on people who did not cut you.",
+    "reflection": "Are you projecting an old wound?",
+    "author": null
+  },
+  {
+    "id": "ed06c71d-27dc-4fd5-ad1c-258f8eab8442",
+    "category": "Relationships",
+    "title": "The foundation",
+    "body": "Trust takes years to build, seconds to break, and a lifetime to repair.",
+    "reflection": "Where is your trust absolute?",
+    "author": null
+  },
+  {
+    "id": "88ec6cb1-7279-4721-827b-c4fded40326a",
+    "category": "Relationships",
+    "title": "The letting go",
+    "body": "Forgiving someone does not mean you have to invite them back to your table.",
+    "reflection": "Who have you forgiven from a distance?",
+    "author": null
+  },
+  {
+    "id": "dd7a30a2-c5a8-4696-9782-e25a4009bc9d",
+    "category": "Relationships",
+    "title": "The small circle",
+    "body": "As you age, your circle gets smaller, but the connections grow much deeper.",
+    "reflection": "Who is in your inner circle?",
+    "author": null
+  },
+  {
+    "id": "ded1b120-cd8f-4f06-8148-b980b7bcc7eb",
+    "category": "Relationships",
+    "title": "The soft landing",
+    "body": "A true friend provides a soft landing when the world has been hard.",
+    "reflection": "Who is your soft landing?",
+    "author": null
+  },
+  {
+    "id": "e3af2c23-1b06-4da3-b3ac-0a388f71cb1f",
+    "category": "Relationships",
+    "title": "The unspoken expectation",
+    "body": "An unspoken expectation is simply a premeditated resentment.",
+    "reflection": "What expectation needs to be voiced?",
+    "author": null
+  },
+  {
+    "id": "ad231dee-7ab7-4643-ae52-fb5e5ff09824",
+    "category": "Relationships",
+    "title": "The right words",
+    "body": "You do not always need to have the right words. 'I am here' is often enough.",
+    "reflection": "Who needs to hear that you are there?",
+    "author": null
+  },
+  {
+    "id": "71c7813e-566a-4259-92ad-c17b968eb73a",
+    "category": "Relationships",
+    "title": "The reflection",
+    "body": "We see in others what we recognize in ourselves.",
+    "reflection": "What beauty do you recognize in someone else?",
+    "author": null
+  },
+  {
+    "id": "25366961-5281-43dd-9891-de11c210afa5",
+    "category": "Relationships",
+    "title": "The slow fade",
+    "body": "Sometimes a relationship doesn't explode; it just slowly fades away. That is okay.",
+    "reflection": "What fade are you accepting?",
+    "author": null
+  },
+  {
+    "id": "0167346d-94e8-4482-9a22-7f7e017db726",
+    "category": "Relationships",
+    "title": "The simple request",
+    "body": "Asking for what you need is the kindest thing you can do for a partner.",
+    "reflection": "What do you need to ask for?",
+    "author": null
+  },
+  {
+    "id": "88a94ad7-c6b0-4375-8b2c-5873d0145810",
+    "category": "Relationships",
+    "title": "The loyalty",
+    "body": "Loyalty is not blind obedience. It is telling the truth when it is difficult.",
+    "reflection": "Who do you trust to tell you the truth?",
+    "author": null
+  },
+  {
+    "id": "322ffcff-33b0-4f10-9b13-19016d1cd91d",
+    "category": "Relationships",
+    "title": "The energy",
+    "body": "Notice the people who give you energy, and the people who drain it.",
+    "reflection": "Who gives you energy?",
+    "author": null
+  },
+  {
+    "id": "bbfe3846-6023-41d4-be0d-0cd727ff1455",
+    "category": "Relationships",
+    "title": "The common ground",
+    "body": "You do not have to agree on everything to treat someone with profound respect.",
+    "reflection": "Where can you find common ground?",
+    "author": null
+  },
+  {
+    "id": "50b1fe7b-b24b-433f-ab24-095f706e436e",
+    "category": "Relationships",
+    "title": "The chosen family",
+    "body": "The family you choose is just as valid as the family you were born into.",
+    "reflection": "Who is your chosen family?",
+    "author": null
+  },
+  {
+    "id": "681cd723-e8f1-4ed3-9479-c4e9df557d22",
+    "category": "Relationships",
+    "title": "The pause",
+    "body": "Before you react in anger, take one breath. It changes everything.",
+    "reflection": "Where do you need a breath?",
+    "author": null
+  },
+  {
+    "id": "69f06a2a-154d-4d14-83f3-c97908e4d1cb",
+    "category": "Relationships",
+    "title": "The open door",
+    "body": "Leave the door open for the people who truly matter.",
+    "reflection": "Is your door open?",
+    "author": null
+  },
+  {
+    "id": "cf543b7b-61e9-4227-bf5b-fc03c203178d",
+    "category": "Relationships",
+    "title": "The long view",
+    "body": "A momentary disagreement is a tiny blip on a lifelong timeline.",
+    "reflection": "Does this disagreement actually matter?",
+    "author": null
+  },
+  {
+    "id": "871e8488-cb2d-40af-ab7e-3255517e4bec",
+    "category": "Relationships",
+    "title": "The anchor",
+    "body": "Some people are anchors, holding you steady in the storm.",
+    "reflection": "Who is your anchor?",
+    "author": null
+  },
+  {
+    "id": "d956e467-107d-4fe7-8a94-88a4f6082a1c",
+    "category": "Solitude",
+    "title": "The empty room",
+    "body": "An empty room is not lonely. It is entirely yours.",
+    "reflection": "How do you fill your empty rooms?",
+    "author": null
+  },
+  {
+    "id": "0e405589-e208-4e9d-bdb5-44cb99f23708",
+    "category": "Solitude",
+    "title": "The quiet morning",
+    "body": "Waking up before the rest of the world is a private victory.",
+    "reflection": "What do you do with your quiet morning?",
+    "author": null
+  },
+  {
+    "id": "29cff0ad-5434-40cf-bb33-1a5e26a3e98e",
+    "category": "Solitude",
+    "title": "The solo walk",
+    "body": "Walking without a companion allows you to finally hear your own thoughts.",
+    "reflection": "What did you hear on your last solo walk?",
+    "author": null
+  },
+  {
+    "id": "844be1b8-3bdf-4671-a59e-0a403aeaabe1",
+    "category": "Solitude",
+    "title": "The unshared moment",
+    "body": "Some moments are too beautiful to be shared. They are meant only for you.",
+    "reflection": "What beautiful thing did you keep to yourself today?",
+    "author": null
+  },
+  {
+    "id": "a19ff7fd-a0cc-475b-ae0c-7ab54ad1d5e3",
+    "category": "Solitude",
+    "title": "The closed door",
+    "body": "Closing the door to your room is an act of self-preservation.",
+    "reflection": "When did you last close the door?",
+    "author": null
+  },
+  {
+    "id": "33a3fbeb-1c93-44cc-97ae-e2d3271ac979",
+    "category": "Solitude",
+    "title": "The private joke",
+    "body": "A joke that only you understand is still worth laughing at.",
+    "reflection": "What made you laugh quietly today?",
+    "author": null
+  },
+  {
+    "id": "6b6012bb-225d-4fca-abb4-4e013f5ec4f3",
+    "category": "Solitude",
+    "title": "The solitary meal",
+    "body": "Eating a meal alone is an opportunity to truly taste the food.",
+    "reflection": "What was the best part of your last solitary meal?",
+    "author": null
+  },
+  {
+    "id": "f73b8310-036f-46a0-9057-413976ed9c7b",
+    "category": "Solitude",
+    "title": "The unplugged day",
+    "body": "Turning off your phone is the modern equivalent of retreating to the mountains.",
+    "reflection": "When can you retreat tomorrow?",
+    "author": null
+  },
+  {
+    "id": "4068c8bd-6052-4527-b993-39666a449257",
+    "category": "Solitude",
+    "title": "The inner voice",
+    "body": "Your inner voice only speaks when the external noise is turned off.",
+    "reflection": "What is your inner voice trying to say?",
+    "author": null
+  },
+  {
+    "id": "a7bfc7a2-8371-482e-851a-5416c1861613",
+    "category": "Solitude",
+    "title": "The alone time",
+    "body": "Time spent alone is an investment in your relationship with yourself.",
+    "reflection": "Are you investing enough time in yourself?",
+    "author": null
+  },
+  {
+    "id": "1098db94-4781-4624-a400-43b1660e947e",
+    "category": "Solitude",
+    "title": "The companion",
+    "body": "You must become a person you enjoy spending time with.",
+    "reflection": "Do you enjoy your own company?",
+    "author": null
+  },
+  {
+    "id": "658a9f3e-3028-4871-951b-7a88d203e240",
+    "category": "Solitude",
+    "title": "The quiet night",
+    "body": "The silence of a midnight house is profoundly comforting.",
+    "reflection": "What brings you comfort at night?",
+    "author": null
+  },
+  {
+    "id": "0c97fabb-cacc-4c85-8048-f50fc2808ab4",
+    "category": "Solitude",
+    "title": "The solo journey",
+    "body": "Traveling alone forces you to trust your own navigation.",
+    "reflection": "Where are you navigating alone right now?",
+    "author": null
+  },
+  {
+    "id": "caae97ce-fe6c-464f-998c-98a100830837",
+    "category": "Solitude",
+    "title": "The unobserved life",
+    "body": "There is a deep peace in doing something when absolutely no one is watching.",
+    "reflection": "What do you do when no one is watching?",
+    "author": null
+  },
+  {
+    "id": "fe858876-9e72-4187-9831-f3b1ac23e6f0",
+    "category": "Solitude",
+    "title": "The retreat",
+    "body": "Retreating is not surrendering. It is regrouping.",
+    "reflection": "Is it time to regroup?",
+    "author": null
+  },
+  {
+    "id": "19fd26b6-c898-4363-bff8-35f79a1b5dc5",
+    "category": "Solitude",
+    "title": "The empty calendar",
+    "body": "A weekend with zero plans is a blank canvas for your soul.",
+    "reflection": "How will you paint your next blank weekend?",
+    "author": null
+  },
+  {
+    "id": "3c911ff0-f1f9-4ecf-8405-35e5f0bd2383",
+    "category": "Solitude",
+    "title": "The solitary hobby",
+    "body": "A hobby that requires only you is a sanctuary.",
+    "reflection": "What is your solitary sanctuary?",
+    "author": null
+  },
+  {
+    "id": "4947e563-a199-4406-abf7-766a5a4cff8e",
+    "category": "Solitude",
+    "title": "The quiet observer",
+    "body": "Sitting on a park bench and simply watching the world go by is a radical act.",
+    "reflection": "When did you last simply watch the world?",
+    "author": null
+  },
+  {
+    "id": "f8e9b75c-d559-4c82-a76b-2cc079c1ec4b",
+    "category": "Solitude",
+    "title": "The self-reliance",
+    "body": "Knowing you can handle things on your own removes the desperation from your relationships.",
+    "reflection": "What have you handled completely on your own?",
+    "author": null
+  },
+  {
+    "id": "00c55860-7fe9-46ac-8e3a-809ea670be02",
+    "category": "Solitude",
+    "title": "The silent drive",
+    "body": "Driving with the radio off provides space for the mind to wander.",
+    "reflection": "Where does your mind wander in the silence?",
+    "author": null
+  },
+  {
+    "id": "636ef07b-4c07-4e5a-858b-963ef03c503f",
+    "category": "Solitude",
+    "title": "The singular focus",
+    "body": "Solitude allows you to give your entire attention to a single task.",
+    "reflection": "What deserves your entire attention today?",
+    "author": null
+  },
+  {
+    "id": "0a6f295c-ba07-4eee-8927-840b807dd592",
+    "category": "Solitude",
+    "title": "The private grief",
+    "body": "Some sorrows can only be processed alone in the dark.",
+    "reflection": "What are you processing in the dark?",
+    "author": null
+  },
+  {
+    "id": "5ba01b81-a7e4-4728-bee3-cbbad4d9b0df",
+    "category": "Solitude",
+    "title": "The solo celebration",
+    "body": "You do not need an audience to celebrate a personal victory.",
+    "reflection": "What quiet victory can you celebrate today?",
+    "author": null
+  },
+  {
+    "id": "69c217d1-6b98-4ce3-a377-97e5b70518cb",
+    "category": "Solitude",
+    "title": "The deep rest",
+    "body": "True rest often requires complete isolation.",
+    "reflection": "When did you last rest completely alone?",
+    "author": null
+  },
+  {
+    "id": "7a68f39d-94e6-4d77-8d2d-d13234e25581",
+    "category": "Solitude",
+    "title": "The unfiltered self",
+    "body": "You are only completely yourself when no one else is in the room.",
+    "reflection": "Who are you when the room is empty?",
+    "author": null
+  },
+  {
+    "id": "ee7fa4f9-df69-45eb-8591-e7d1fbcfb2b5",
+    "category": "Solitude",
+    "title": "The quiet cup",
+    "body": "Drinking your morning coffee in silence is a sacred ritual.",
+    "reflection": "What is your sacred daily ritual?",
+    "author": null
+  },
+  {
+    "id": "a8740a27-108b-46be-81b1-e9c4025bbb1a",
+    "category": "Solitude",
+    "title": "The empty page",
+    "body": "Writing in a journal that no one will ever read is true freedom.",
+    "reflection": "What do you need to write on an empty page?",
+    "author": null
+  },
+  {
+    "id": "65687a4b-886a-4bff-86ba-caa3b11d1006",
+    "category": "Solitude",
+    "title": "The solitary thought",
+    "body": "A thought that is never spoken aloud is still a valid thought.",
+    "reflection": "What is your quietest thought today?",
+    "author": null
+  },
+  {
+    "id": "b609e4c2-e4ba-4782-a6c2-a6130c159c14",
+    "category": "Solitude",
+    "title": "The personal boundary",
+    "body": "Solitude is the ultimate physical boundary.",
+    "reflection": "How are you protecting your physical boundaries?",
+    "author": null
+  },
+  {
+    "id": "0a45fae8-fb27-4ac1-ab18-abacf06c2d46",
+    "category": "Solitude",
+    "title": "The quiet confidence",
+    "body": "Confidence built in solitude cannot be shaken by a crowd.",
+    "reflection": "Where do you feel unshakeable?",
+    "author": null
+  },
+  {
+    "id": "0f43bb3a-e855-478a-98e6-92e9d0cb1ef4",
+    "category": "Solitude",
+    "title": "The singular choice",
+    "body": "Deciding what to do without needing anyone's input is a quiet power.",
+    "reflection": "What decision is entirely yours?",
+    "author": null
+  },
+  {
+    "id": "084657e5-913b-4b6a-bb76-df7d22fb4e71",
+    "category": "Solitude",
+    "title": "The solo project",
+    "body": "Building something with only your own two hands is deeply satisfying.",
+    "reflection": "What are you building alone?",
+    "author": null
+  },
+  {
+    "id": "df1c6a46-72e0-48fe-a89b-25665ed55768",
+    "category": "Solitude",
+    "title": "The private space",
+    "body": "Every person needs a physical space that is entirely their own.",
+    "reflection": "Where is your private space?",
+    "author": null
+  },
+  {
+    "id": "eab1ba79-f687-41f5-8490-5dc4cb5f0fd8",
+    "category": "Solitude",
+    "title": "The silent retreat",
+    "body": "A day without speaking is a day of profound listening.",
+    "reflection": "What would you hear if you stopped speaking?",
+    "author": null
+  },
+  {
+    "id": "ab3e5feb-05e0-46cf-911c-9de45cd06226",
+    "category": "Solitude",
+    "title": "The lone tree",
+    "body": "A tree standing alone in a field often grows the strongest branches.",
+    "reflection": "How has standing alone made you stronger?",
+    "author": null
+  },
+  {
+    "id": "22b664ad-7b20-4e87-bf75-9d1e3491d3e3",
+    "category": "Solitude",
+    "title": "The quiet mind",
+    "body": "Solitude is not just physical isolation; it is a quiet mind.",
+    "reflection": "How do you quiet your mind?",
+    "author": null
+  },
+  {
+    "id": "fec73773-7102-46fe-9a01-7272179fc0bf",
+    "category": "Solitude",
+    "title": "The personal pace",
+    "body": "When you are alone, you can move exactly as fast or as slow as you want.",
+    "reflection": "What is your natural pace?",
+    "author": null
+  },
+  {
+    "id": "480a5412-a578-44c7-92b0-bfeb863738f0",
+    "category": "Solitude",
+    "title": "The solo rest",
+    "body": "Laying on the floor staring at the ceiling is a perfectly valid activity.",
+    "reflection": "When can you just stare at the ceiling?",
+    "author": null
+  },
+  {
+    "id": "15650e75-2920-419d-b6c9-9fc747cd6ab2",
+    "category": "Solitude",
+    "title": "The private tears",
+    "body": "Crying alone allows you to feel the full weight of your sadness without managing someone else's comfort.",
+    "reflection": "What weight are you carrying?",
+    "author": null
+  },
+  {
+    "id": "a3064d84-47ef-4224-9bed-99eb22907a35",
+    "category": "Solitude",
+    "title": "The quiet decision",
+    "body": "The most important decisions of your life are usually made in complete solitude.",
+    "reflection": "What quiet decision are you pondering?",
+    "author": null
+  },
+  {
+    "id": "a041bfa9-7c4e-4544-b588-932e36657893",
+    "category": "Solitude",
+    "title": "The single path",
+    "body": "Some paths are too narrow to walk side-by-side.",
+    "reflection": "What narrow path are you walking?",
+    "author": null
+  },
+  {
+    "id": "a94b0b33-f523-46c8-aaf2-e53b7a4e0aa8",
+    "category": "Solitude",
+    "title": "The solo sunset",
+    "body": "Watching the sun go down alone is a reminder of your place in the universe.",
+    "reflection": "What reminds you of your place in the world?",
+    "author": null
+  },
+  {
+    "id": "cc11869d-977f-4674-b89e-5782b32b712a",
+    "category": "Solitude",
+    "title": "The private reading",
+    "body": "Reading a book in a quiet room is a conversation with the author across time.",
+    "reflection": "Who are you conversing with today?",
+    "author": null
+  },
+  {
+    "id": "e7dbc6df-0aa6-416c-a41d-ecde52f115ee",
+    "category": "Solitude",
+    "title": "The quiet strength",
+    "body": "There is a specific kind of strength that only develops when you have no one else to lean on.",
+    "reflection": "When did you discover your quiet strength?",
+    "author": null
+  },
+  {
+    "id": "8aec8988-bf35-48af-a2c5-8939e6d94c51",
+    "category": "Solitude",
+    "title": "The solitary walk",
+    "body": "A walk in the woods alone is a return to your original nature.",
+    "reflection": "When did you last return to nature?",
+    "author": null
+  },
+  {
+    "id": "a986b503-1677-404a-b502-10f3c3e0bee3",
+    "category": "Solitude",
+    "title": "The solo endeavor",
+    "body": "Not everything needs to be a team effort.",
+    "reflection": "What is better done alone?",
+    "author": null
+  },
+  {
+    "id": "0d0c5644-8bea-4e15-8808-34da6ae11dcc",
+    "category": "Solitude",
+    "title": "The quiet reflection",
+    "body": "Looking back on your life requires a quiet room.",
+    "reflection": "What are you reflecting on today?",
+    "author": null
+  },
+  {
+    "id": "3fe518c9-6b0c-476f-8238-8dae837f9b36",
+    "category": "Solitude",
+    "title": "The personal sanctuary",
+    "body": "Your mind should be a sanctuary you can retreat to at any time.",
+    "reflection": "Is your mind a sanctuary?",
+    "author": null
+  },
+  {
+    "id": "caa86de8-1023-4b14-b59f-cb67df05692a",
+    "category": "Solitude",
+    "title": "The single breath",
+    "body": "Breathing in the cold air of a quiet morning reminds you that you are alive.",
+    "reflection": "Are you noticing your breath?",
+    "author": null
+  },
+  {
+    "id": "4a1c57c8-4be4-491d-8c41-d2e03bdee1e9",
+    "category": "Solitude",
+    "title": "The solitary peace",
+    "body": "Peace is usually found in the quiet spaces between people.",
+    "reflection": "Where are your quiet spaces?",
+    "author": null
+  },
+  {
+    "id": "e26daf4e-1e0f-49ab-90ae-a4cf7bfdfc96",
+    "category": "Life",
+    "title": "The speed of life",
+    "body": "There is more to life than simply increasing its speed.",
+    "reflection": "Where are you trying to unnecessarily increase the speed?",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "580086a1-e93b-43fe-9703-88232512ef37",
+    "category": "Life",
+    "title": "The darkness",
+    "body": "Only in the darkness can you see the stars.",
+    "reflection": "What stars are visible to you in this current dark moment?",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "id": "8fe3cf80-c320-4f95-ac6c-60102e196db4",
+    "category": "Solitude",
+    "title": "The inner retreat",
+    "body": "Nowhere can man find a quieter or more untroubled retreat than in his own soul.",
+    "reflection": "When did you last visit your inner retreat?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "ea0e4e27-55dd-4f33-802b-fd4d541c3344",
+    "category": "Time",
+    "title": "True happiness",
+    "body": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+    "reflection": "Are you anxiously depending on tomorrow?",
+    "author": "Seneca"
+  },
+  {
+    "id": "ccc07c3e-ea19-4dc5-bda7-b1939794dceb",
+    "category": "Simplicity",
+    "title": "Imagined suffering",
+    "body": "We suffer more often in imagination than in reality.",
+    "reflection": "What are you suffering over that hasn't actually happened?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "93ae5ff9-defd-4540-9be6-3b46796b243d",
+    "category": "Nature & Seasons",
+    "title": "The pace of nature",
+    "body": "Nature does not hurry, yet everything is accomplished.",
+    "reflection": "What are you rushing that will eventually finish itself?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "c7383e02-c4ac-4185-ab9b-7dc164bdc9ed",
+    "category": "Work",
+    "title": "A busy life",
+    "body": "Beware the barrenness of a busy life.",
+    "reflection": "What is your busyness actually producing?",
+    "author": "Socrates"
+  },
+  {
+    "id": "9cb5a2f6-afc3-415d-89d8-047b3a68433d",
+    "category": "Work",
+    "title": "The right busyness",
+    "body": "It is not enough to be busy. So are the ants. The question is: What are we busy about?",
+    "reflection": "What are you truly busy about?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "8cea03d9-c281-401b-a54f-de91fee74c53",
+    "category": "Solitude",
+    "title": "Sitting quietly",
+    "body": "All of humanity's problems stem from man's inability to sit quietly in a room alone.",
+    "reflection": "Can you sit quietly in a room alone today?",
+    "author": "Blaise Pascal"
+  },
+  {
+    "id": "311d9210-2503-485c-a414-55100f1987c9",
+    "category": "Simplicity",
+    "title": "Going slowly",
+    "body": "Smile, breathe and go slowly.",
+    "reflection": "When can you pause to simply breathe and go slowly today?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "7e1dc0a8-7e27-4f25-b2a6-085660923035",
+    "category": "Life",
+    "title": "The space between",
+    "body": "Between stimulus and response there is a space. In that space is our power to choose our response.",
+    "reflection": "Are you using the space before you respond?",
+    "author": "Viktor E. Frankl"
+  },
+  {
+    "id": "4b02ae6d-956a-4a7d-b8f1-331d45e1511f",
+    "category": "Life",
+    "title": "Inner power",
+    "body": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "reflection": "What outside event are you trying to control?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "7721ec4c-d4f0-4666-bfcf-48f339489311",
+    "category": "Simplicity",
+    "title": "Craving more",
+    "body": "It is not the man who has too little, but the man who craves more, that is poor.",
+    "reflection": "What are you currently craving that you don't actually need?",
+    "author": "Seneca"
+  },
+  {
+    "id": "247abd17-94ff-4941-9802-57599a5ac5aa",
+    "category": "Nature & Seasons",
+    "title": "The invincible summer",
+    "body": "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+    "reflection": "What invincible strength lies within you?",
+    "author": "Albert Camus"
+  },
+  {
+    "id": "2efea804-3a3b-4f0c-869a-5d24d4d41b5b",
+    "category": "Solitude",
+    "title": "The settled waters",
+    "body": "Let the waters settle and you will see the moon and the stars mirrored in your own being.",
+    "reflection": "Are you allowing the waters to settle?",
+    "author": "Rumi"
+  },
+  {
+    "id": "eddb616a-21cb-45f7-9b02-60c850d72550",
+    "category": "Life",
+    "title": "The unexamined life",
+    "body": "The unexamined life is not worth living.",
+    "reflection": "What part of your life are you avoiding examining?",
+    "author": "Socrates"
+  },
+  {
+    "id": "2eb1e164-57e7-426b-9979-25815d55a319",
+    "category": "Work",
+    "title": "The obstacle",
+    "body": "The impediment to action advances action. What stands in the way becomes the way.",
+    "reflection": "What obstacle is actually your path forward?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "f4095f63-607a-47af-ad46-7d17a69883bf",
+    "category": "Time",
+    "title": "The cost of things",
+    "body": "The price of anything is the amount of life you exchange for it.",
+    "reflection": "Are you paying too high a price for something?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "ad3c240c-27e7-4a31-9bca-f15b1b582d16",
+    "category": "Life",
+    "title": "The art of living",
+    "body": "The art of living is more like wrestling than dancing.",
+    "reflection": "Where are you wrestling right now?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "62b27f53-37fd-4d8b-a31d-e124f18dbc9f",
+    "category": "Time",
+    "title": "The present moment",
+    "body": "Do not let your reflection on the whole sweep of life crush you.",
+    "reflection": "Can you just focus on the step directly in front of you?",
+    "author": "Marcus Aurelius"
   }
 ]
