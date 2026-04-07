@@ -49,14 +49,25 @@ final class WisdomViewModel: ObservableObject {
             let cardsDict = Dictionary(uniqueKeysWithValues: allCards.map { ($0.id.uuidString, $0) })
             let restoredDeck = savedIDs.compactMap { cardsDict[$0] }
             
-            // If the restored deck is missing some new cards, we should append them
+            // If the restored deck is missing some new cards, shuffle them into the unviewed portion
             let newCards = allCards.filter { !savedIDs.contains($0.id.uuidString) }
-            self.deck = restoredDeck + newCards.shuffled()
             
-            // Save back if we added new cards
             if !newCards.isEmpty {
+                // Ensure currentIndex is within bounds of restoredDeck
+                let splitIndex = min(max(self.currentIndex + 1, 0), restoredDeck.count)
+                
+                let viewedCards = Array(restoredDeck.prefix(upTo: splitIndex))
+                var unviewedCards = Array(restoredDeck.suffix(from: splitIndex))
+                
+                unviewedCards.append(contentsOf: newCards)
+                unviewedCards.shuffle()
+                
+                self.deck = viewedCards + unviewedCards
+                
                 let updatedIDs = self.deck.map { $0.id.uuidString }
                 defaults.set(updatedIDs, forKey: "shuffledDeckIDs")
+            } else {
+                self.deck = restoredDeck
             }
         } else {
             // First launch or missing data: shuffle all cards and save

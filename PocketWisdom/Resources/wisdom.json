@@ -4748,5 +4748,933 @@
     "body": "You must empty your cup to receive more.",
     "reflection": "What do you need to empty from your cup?",
     "author": "Unknown"
+  },
+  {
+    "id": "02a48c5a-dab4-471e-882c-5b235e87f17c",
+    "category": "Work",
+    "title": "Getting started",
+    "body": "The secret of getting ahead is getting started.",
+    "reflection": "What task are you putting off starting?",
+    "author": "Mark Twain"
+  },
+  {
+    "id": "cf1f7329-6866-419f-8bde-c51c015ed93e",
+    "category": "Simplicity",
+    "title": "Imagined troubles",
+    "body": "I have been through some terrible things in my life, some of which actually happened.",
+    "reflection": "How much of your worry is based on imagination rather than reality?",
+    "author": "Mark Twain"
+  },
+  {
+    "id": "0e2dba62-4487-46e1-a176-7b4562fb9201",
+    "category": "Life",
+    "title": "Important days",
+    "body": "The two most important days in your life are the day you are born and the day you find out why.",
+    "reflection": "Are you actively searching for your 'why'?",
+    "author": "Mark Twain"
+  },
+  {
+    "id": "e8f7d7dd-639e-4263-8e18-80d75e147f0b",
+    "category": "Life",
+    "title": "Courage and fear",
+    "body": "Courage is resistance to fear, mastery of fear, not absence of fear.",
+    "reflection": "Where do you need to show courage despite feeling afraid?",
+    "author": "Mark Twain"
+  },
+  {
+    "id": "4468a338-c5c0-48f5-823e-39301ab4404c",
+    "category": "Nature & Seasons",
+    "title": "Facing the sun",
+    "body": "Keep your face always toward the sunshine - and shadows will fall behind you.",
+    "reflection": "Are you looking towards the light or focusing on the shadows?",
+    "author": "Walt Whitman"
+  },
+  {
+    "id": "1e199be2-1e8e-4d74-8005-fc2f50a69312",
+    "category": "Relationships",
+    "title": "Curiosity",
+    "body": "Be curious, not judgmental.",
+    "reflection": "How can you replace a judgment with curiosity today?",
+    "author": "Walt Whitman"
+  },
+  {
+    "id": "a85405cf-47eb-47c6-8e68-8d2bb58e3653",
+    "category": "Life",
+    "title": "Containing multitudes",
+    "body": "Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes).",
+    "reflection": "Can you accept the contradictions within yourself?",
+    "author": "Walt Whitman"
+  },
+  {
+    "id": "e2b1469f-9e92-491b-ab11-d0bef7bbb056",
+    "category": "Nature & Seasons",
+    "title": "Growing in open air",
+    "body": "Now I see the secret of making the best person: it is to grow in the open air and to eat and sleep with the earth.",
+    "reflection": "When did you last spend meaningful time outside?",
+    "author": "Walt Whitman"
+  },
+  {
+    "id": "9fdebddb-fc82-4481-97ab-5a4cb5275b70",
+    "category": "Solitude",
+    "title": "Living deliberately",
+    "body": "I went to the woods because I wished to live deliberately, to front only the essential facts of life.",
+    "reflection": "What is one non-essential thing you can strip away today?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "e3c1abc4-74c1-47b5-bd30-8f8519b613f3",
+    "category": "Simplicity",
+    "title": "Simplifying",
+    "body": "Our life is frittered away by detail. Simplify, simplify.",
+    "reflection": "Where can you simplify your daily routine?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "fda59ec7-f4ae-4e46-afdb-946fb53d650b",
+    "category": "Life",
+    "title": "The direction of dreams",
+    "body": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "reflection": "What small step can you take toward your imagined life?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "cf8bb91c-7f80-425b-866c-8618130dd632",
+    "category": "Life",
+    "title": "Inner pathways",
+    "body": "As a single footstep will not make a path on the earth, so a single thought will not make a pathway in the mind.",
+    "reflection": "What thoughts are you consistently practicing?",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "93a2ecf9-a03d-44ee-80f0-daea4f9e71c3",
+    "category": "Nature & Seasons",
+    "title": "Running with stars",
+    "body": "Dwell on the beauty of life. Watch the stars, and see yourself running with them.",
+    "reflection": "Can you pause tonight to appreciate the vastness above you?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "dc6bb8df-924a-4f3a-8911-deb02e2cef77",
+    "category": "Simplicity",
+    "title": "A happy life",
+    "body": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+    "reflection": "Are you searching for happiness outside of your own mind?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "9ce51082-190a-4ce8-ae5d-8c88a3f7efa9",
+    "category": "Life",
+    "title": "The act of courage",
+    "body": "Sometimes even to live is an act of courage.",
+    "reflection": "Can you give yourself credit simply for continuing on?",
+    "author": "Seneca"
+  },
+  {
+    "id": "2affec6e-c7e0-4a08-83b9-4ae92f008600",
+    "category": "Work",
+    "title": "Preparation and opportunity",
+    "body": "Luck is what happens when preparation meets opportunity.",
+    "reflection": "Are you preparing yourself for the opportunities you seek?",
+    "author": "Seneca"
+  },
+  {
+    "id": "c617bee0-584f-4158-8f7b-d393b4a13792",
+    "category": "Simplicity",
+    "title": "Few wants",
+    "body": "Wealth consists not in having great possessions, but in having few wants.",
+    "reflection": "What want can you let go of to feel wealthier today?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "d5fc83aa-2c05-4002-af9d-8836da4ae813",
+    "category": "Work",
+    "title": "Becoming what you want",
+    "body": "First say to yourself what you would be; and then do what you have to do.",
+    "reflection": "Who are you telling yourself you want to be?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "a4d5cc5f-75a4-4098-b404-01014c6d0bd5",
+    "category": "Life",
+    "title": "The wound",
+    "body": "The wound is the place where the Light enters you.",
+    "reflection": "Where are you hurting, and what might it be teaching you?",
+    "author": "Rumi"
+  },
+  {
+    "id": "1d2f7d04-5ef5-43fb-a453-4c33607569c3",
+    "category": "Life",
+    "title": "Seeking",
+    "body": "What you seek is seeking you.",
+    "reflection": "What are you truly seeking in your life?",
+    "author": "Rumi"
+  },
+  {
+    "id": "6a3d9531-827f-4748-8357-71457492c66e",
+    "category": "Nature & Seasons",
+    "title": "The breeze at dawn",
+    "body": "The breeze at dawn has secrets to tell you. Don't go back to sleep.",
+    "reflection": "What quiet messages are you missing in the rush of the morning?",
+    "author": "Rumi"
+  },
+  {
+    "id": "7875923f-2867-4deb-81c9-8d2dec1e96f1",
+    "category": "Simplicity",
+    "title": "Letting go",
+    "body": "Be empty of worrying. Think of who created thought.",
+    "reflection": "Can you let go of one worry today?",
+    "author": "Rumi"
+  },
+  {
+    "id": "1f150398-3ebd-449a-b44d-fae68329deb8",
+    "category": "Life",
+    "title": "The mind",
+    "body": "The mind is everything. What you think you become.",
+    "reflection": "What are your most frequent thoughts?",
+    "author": "Buddha"
+  },
+  {
+    "id": "40ff32d3-025a-4210-967d-a82de4f3adf9",
+    "category": "Solitude",
+    "title": "Peace",
+    "body": "Peace comes from within. Do not seek it without.",
+    "reflection": "Where have you been seeking peace externally?",
+    "author": "Buddha"
+  },
+  {
+    "id": "dbc37003-307d-4a22-9e81-3418110cca64",
+    "category": "Simplicity",
+    "title": "Holding on",
+    "body": "You can only lose what you cling to.",
+    "reflection": "What are you currently clinging to?",
+    "author": "Buddha"
+  },
+  {
+    "id": "aef192a3-af17-468d-acfe-4ed6249deb52",
+    "category": "Time",
+    "title": "The present",
+    "body": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "reflection": "Where is your mind right now?",
+    "author": "Buddha"
+  },
+  {
+    "id": "a78736dc-2c73-4900-b6b2-75b790eb4775",
+    "category": "Work",
+    "title": "Moving forward",
+    "body": "It does not matter how slowly you go as long as you do not stop.",
+    "reflection": "Where do you feel stalled, but can just take one small step?",
+    "author": "Confucius"
+  },
+  {
+    "id": "5575f982-a76e-4715-b4c5-c3b8cc452449",
+    "category": "Simplicity",
+    "title": "Simplicity",
+    "body": "Life is really simple, but we insist on making it complicated.",
+    "reflection": "How are you complicating your life right now?",
+    "author": "Confucius"
+  },
+  {
+    "id": "c120d5ef-80e7-4907-8cef-e6dada1afcaf",
+    "category": "Life",
+    "title": "The journey",
+    "body": "Wherever you go, go with all your heart.",
+    "reflection": "Are you fully present in your current endeavors?",
+    "author": "Confucius"
+  },
+  {
+    "id": "125a7afe-08b9-4736-b75a-478c14ba3b8f",
+    "category": "Work",
+    "title": "The journey of a thousand miles",
+    "body": "A journey of a thousand miles begins with a single step.",
+    "reflection": "What is the single step you need to take today?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "457a0853-c584-4c71-9fbf-c63bb21ceffd",
+    "category": "Life",
+    "title": "Letting go",
+    "body": "When I let go of what I am, I become what I might be.",
+    "reflection": "What old identity is holding you back?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "5dd80115-dedc-444f-9d5d-06740eb3a8b7",
+    "category": "Nature & Seasons",
+    "title": "Water",
+    "body": "Nothing in the world is more flexible and yielding than water. Yet when it attacks the firm and the strong, none can withstand it.",
+    "reflection": "Where could you be more yielding?",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "62c8b886-6168-40ad-b011-350288396e26",
+    "category": "Solitude",
+    "title": "To be yourself",
+    "body": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "reflection": "Where are you conforming when you should be yourself?",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "8600d8af-1322-4351-9362-0917fdeaa789",
+    "category": "Nature & Seasons",
+    "title": "Pacing",
+    "body": "Adopt the pace of nature: her secret is patience.",
+    "reflection": "Where in your life do you need more patience?",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "200500bb-a05b-47ca-a7d6-997d721ba438",
+    "category": "Work",
+    "title": "Action",
+    "body": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "reflection": "Where can you carve your own path?",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "60d08943-f975-4a61-83cc-619df3579d00",
+    "category": "Nature & Seasons",
+    "title": "The mountains",
+    "body": "The mountains are calling and I must go.",
+    "reflection": "What quiet place in nature is calling to you?",
+    "author": "John Muir"
+  },
+  {
+    "id": "ead046ef-9ab3-4507-bb1a-4cc6bc7e11a4",
+    "category": "Nature & Seasons",
+    "title": "The universe",
+    "body": "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
+    "reflection": "How are your actions connected to the world around you?",
+    "author": "John Muir"
+  },
+  {
+    "id": "b1dd8fff-5d76-4245-8bdb-cde72122507d",
+    "category": "Life",
+    "title": "Hope",
+    "body": "Hope is the thing with feathers that perches in the soul.",
+    "reflection": "What gives you hope in difficult times?",
+    "author": "Emily Dickinson"
+  },
+  {
+    "id": "5ebfbde3-6e41-4973-a849-ffdf4b1ca6b0",
+    "category": "Time",
+    "title": "Forever",
+    "body": "Forever is composed of nows.",
+    "reflection": "Are you making the most of this 'now'?",
+    "author": "Emily Dickinson"
+  },
+  {
+    "id": "78903f41-89af-4753-84b7-39d39fa83ae7",
+    "category": "Life",
+    "title": "Being normal",
+    "body": "If you are always trying to be normal, you will never know how amazing you can be.",
+    "reflection": "What unique trait of yours are you hiding?",
+    "author": "Maya Angelou"
+  },
+  {
+    "id": "d266f4f0-51b3-40f2-9ebf-f60a33473666",
+    "category": "Work",
+    "title": "Making a living",
+    "body": "You can only become truly accomplished at something you love.",
+    "reflection": "Do you love what you are devoting your time to?",
+    "author": "Maya Angelou"
+  },
+  {
+    "id": "04b5d04a-d8b4-4340-a363-067e87f53221",
+    "category": "Life",
+    "title": "Meaning in suffering",
+    "body": "In some ways suffering ceases to be suffering at the moment it finds a meaning.",
+    "reflection": "Can you find meaning in your current struggles?",
+    "author": "Viktor E. Frankl"
+  },
+  {
+    "id": "85fdbe4d-d12f-4738-8328-f88e9308eb5f",
+    "category": "Solitude",
+    "title": "Choosing attitude",
+    "body": "Everything can be taken from a man but one thing: the last of the human freedoms\u2014to choose one\u2019s attitude in any given set of circumstances.",
+    "reflection": "What attitude are you choosing today?",
+    "author": "Viktor E. Frankl"
+  },
+  {
+    "id": "852b0c71-b5bc-439e-b7ba-2e2a6ea6f47b",
+    "category": "Solitude",
+    "title": "Looking inside",
+    "body": "Who looks outside, dreams; who looks inside, awakes.",
+    "reflection": "When did you last look inside yourself?",
+    "author": "Carl Jung"
+  },
+  {
+    "id": "a1a3e2e7-c5b3-4add-903b-f72c183d7eeb",
+    "category": "Life",
+    "title": "Acceptance",
+    "body": "We cannot change anything until we accept it.",
+    "reflection": "What is something you are struggling to accept?",
+    "author": "Carl Jung"
+  },
+  {
+    "id": "49ceae49-659d-4e72-9204-98f98f2d93f2",
+    "category": "Time",
+    "title": "The future",
+    "body": "No valid plans for the future can be made by those who have no capacity for living now.",
+    "reflection": "Are you sacrificing today for a hypothetical tomorrow?",
+    "author": "Alan Watts"
+  },
+  {
+    "id": "e80f3550-2ef4-4980-91d9-aa3e2a3754a2",
+    "category": "Life",
+    "title": "The universe",
+    "body": "You are an aperture through which the universe is looking at and exploring itself.",
+    "reflection": "How does this perspective change your view of yourself?",
+    "author": "Alan Watts"
+  },
+  {
+    "id": "bb8ec5a7-ff52-4f11-918d-676d73e3068f",
+    "category": "Time",
+    "title": "The present moment",
+    "body": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+    "reflection": "What small joy can you notice in this moment?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "aeb718b7-c02f-4968-8906-003af642f12b",
+    "category": "Nature & Seasons",
+    "title": "Walking",
+    "body": "Walk as if you are kissing the Earth with your feet.",
+    "reflection": "Can you move more mindfully today?",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "id": "c1cc9a52-44ee-446e-9342-8e28b0618457",
+    "category": "Relationships",
+    "title": "Silence",
+    "body": "Sometimes one creates a dynamic impression by saying something, and sometimes one creates as significant an impression by remaining silent.",
+    "reflection": "When might silence be your best response?",
+    "author": "Dalai Lama"
+  },
+  {
+    "id": "3c444b17-a2ed-4d61-9776-442a55a2bb43",
+    "category": "Life",
+    "title": "Happiness",
+    "body": "Happiness is not something ready made. It comes from your own actions.",
+    "reflection": "What actions are you taking to cultivate happiness?",
+    "author": "Dalai Lama"
+  },
+  {
+    "id": "81a6cda0-04a3-4e0e-8db5-2e672c1f71cb",
+    "category": "Work",
+    "title": "Attention",
+    "body": "To pay attention, this is our endless and proper work.",
+    "reflection": "What are you paying attention to right now?",
+    "author": "Mary Oliver"
+  },
+  {
+    "id": "bb4447aa-c31c-4f8e-9b60-5abd1ed7c5da",
+    "category": "Life",
+    "title": "Your wild life",
+    "body": "Tell me, what is it you plan to do with your one wild and precious life?",
+    "reflection": "What is your plan for your precious life?",
+    "author": "Mary Oliver"
+  },
+  {
+    "id": "1d9b3dae-c7de-4af2-bd91-a130f608fa70",
+    "category": "Life",
+    "title": "Joy and sorrow",
+    "body": "Your joy is your sorrow unmasked.",
+    "reflection": "Can you see the connection between your joys and your sorrows?",
+    "author": "Khalil Gibran"
+  },
+  {
+    "id": "07690162-c1e7-49d8-a39a-646b4bd81a30",
+    "category": "Work",
+    "title": "Work is love",
+    "body": "Work is love made visible.",
+    "reflection": "Is your work a reflection of what you love?",
+    "author": "Khalil Gibran"
+  },
+  {
+    "id": "f59a6675-074e-47ec-8724-ab974880e875",
+    "category": "Time",
+    "title": "The butterfly",
+    "body": "The butterfly counts not months but moments, and has time enough.",
+    "reflection": "Are you counting time instead of experiencing moments?",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "7c1cc4b0-a1ef-4c50-9edb-0fb8dbc6cc19",
+    "category": "Nature & Seasons",
+    "title": "Stars",
+    "body": "If you cry because the sun has gone out of your life, your tears will prevent you from seeing the stars.",
+    "reflection": "What stars are you missing by focusing on the dark?",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "cc18dc4e-d7f8-42af-9da4-4fbf38257422",
+    "category": "Life",
+    "title": "Finding",
+    "body": "When someone is seeking, it happens quite easily that he only sees the thing that he is seeking.",
+    "reflection": "Are you blinded by your own search?",
+    "author": "Hermann Hesse"
+  },
+  {
+    "id": "11bacdde-bd35-4e4c-9eb9-7ba17604954d",
+    "category": "Nature & Seasons",
+    "title": "The river",
+    "body": "The river is everywhere at the same time, at the source and at the mouth... in the ocean and in the mountains, everywhere.",
+    "reflection": "Can you appreciate the continuous flow of life?",
+    "author": "Hermann Hesse"
+  },
+  {
+    "id": "ef169cea-529d-4d6f-b1e7-a1150a1e62b7",
+    "category": "Nature & Seasons",
+    "title": "Autumn",
+    "body": "Autumn is a second spring when every leaf is a flower.",
+    "reflection": "What beauty can you find in endings or transitions?",
+    "author": "Albert Camus"
+  },
+  {
+    "id": "4b71822a-227e-412c-b87f-62ed49ef0b2f",
+    "category": "Life",
+    "title": "Inner strength",
+    "body": "In the midst of winter, I found there was, within me, an invincible summer.",
+    "reflection": "What is your invincible summer?",
+    "author": "Albert Camus"
+  },
+  {
+    "id": "8facc65e-9a5f-4709-a513-3b1a9071ca2b",
+    "category": "Simplicity",
+    "title": "Control",
+    "body": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.",
+    "reflection": "What are you worrying about that you cannot control?",
+    "author": "Epictetus"
+  },
+  {
+    "id": "744ffc1f-0de3-4cb7-b2aa-0ed9ba4ee34a",
+    "category": "Time",
+    "title": "Time",
+    "body": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "reflection": "How are you wasting your time today?",
+    "author": "Seneca"
+  },
+  {
+    "id": "6694f892-ae88-4428-ac0b-9479f5a8e9c5",
+    "category": "Life",
+    "title": "Difficulties",
+    "body": "Difficulties strengthen the mind, as labor does the body.",
+    "reflection": "How is your current difficulty making you stronger?",
+    "author": "Seneca"
+  },
+  {
+    "id": "ba3c8021-728b-4077-b4c6-2366f594a0d5",
+    "category": "Time",
+    "title": "Morning thoughts",
+    "body": "When you arise in the morning, think of what a precious privilege it is to be alive.",
+    "reflection": "Did you pause to appreciate waking up today?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "4ca66b24-0b84-47dd-8956-99c46d9f002a",
+    "category": "Solitude",
+    "title": "The soul's color",
+    "body": "The soul becomes dyed with the color of its thoughts.",
+    "reflection": "What color are your thoughts today?",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "5e5c7dde-5750-4764-b4a9-aa323ee0511f",
+    "category": "Work",
+    "title": "Change",
+    "body": "Be the change that you wish to see in the world.",
+    "reflection": "How can you embody the change you want to see?",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "53caf4f9-c993-4fc8-a4dd-0e8825d0db89",
+    "category": "Relationships",
+    "title": "Finding yourself",
+    "body": "The best way to find yourself is to lose yourself in the service of others.",
+    "reflection": "Who can you serve today?",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "0e1a04c3-93cf-4338-bd2c-0c711190d11f",
+    "category": "Work",
+    "title": "Small things",
+    "body": "Not all of us can do great things. But we can do small things with great love.",
+    "reflection": "What small thing can you do with great love today?",
+    "author": "Mother Teresa"
+  },
+  {
+    "id": "d0a08799-ff41-4b2d-93b4-fcfbf8c84d28",
+    "category": "Work",
+    "title": "Excellence",
+    "body": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "reflection": "What habits are you repeating today?",
+    "author": "Aristotle"
+  },
+  {
+    "id": "2b7ac009-2fd5-46d7-a783-45ee2a47075a",
+    "category": "Relationships",
+    "title": "Kindness",
+    "body": "Be kind, for everyone you meet is fighting a harder battle.",
+    "reflection": "How can you extend kindness to someone today?",
+    "author": "Plato"
+  },
+  {
+    "id": "26bf9f0d-f41e-42da-86c4-295eba1a6636",
+    "category": "Life",
+    "title": "Wonder",
+    "body": "Wisdom begins in wonder.",
+    "reflection": "What did you wonder about today?",
+    "author": "Socrates"
+  },
+  {
+    "id": "3598213c-e59e-44fb-81da-c35d02e51feb",
+    "category": "Simplicity",
+    "title": "Simplicity",
+    "body": "Simplicity is the ultimate sophistication.",
+    "reflection": "How can you simplify a complex problem in your life?",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "id": "81dc049f-f156-4207-a419-4827643e654a",
+    "category": "Life",
+    "title": "The invisible",
+    "body": "And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+    "reflection": "What essential thing are you missing by only using your eyes?",
+    "author": "Antoine de Saint-Exup\u00e9ry"
+  },
+  {
+    "id": "ed9e0a22-ab1c-45be-bfd6-40851bbfe8c7",
+    "category": "Solitude",
+    "title": "Wandering",
+    "body": "Not all those who wander are lost.",
+    "reflection": "Are you allowing yourself space to simply wander?",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "id": "fe881d2c-d3c5-474c-bf61-d0d0ac859425",
+    "category": "Nature & Seasons",
+    "title": "Facing the sun",
+    "body": "Keep your face to the sunshine and you cannot see a shadow.",
+    "reflection": "Are you focusing on the bright side of your current situation?",
+    "author": "Helen Keller"
+  },
+  {
+    "id": "b2810452-a853-421b-8288-5faa81a16aec",
+    "category": "Relationships",
+    "title": "Expectation",
+    "body": "Expectation is the root of all heartache.",
+    "reflection": "What expectations can you let go of today?",
+    "author": "William Shakespeare"
+  },
+  {
+    "id": "76533da3-77c2-43b1-a89b-e68caa7d1500",
+    "category": "Simplicity",
+    "title": "Flowing water",
+    "body": "Empty your mind, be formless. Shapeless, like water.",
+    "reflection": "How can you be more adaptable today?",
+    "author": "Bruce Lee"
+  },
+  {
+    "id": "f363436f-9022-462c-ab7e-102e64ec5e18",
+    "category": "Time",
+    "title": "The present moment",
+    "body": "Realize deeply that the present moment is all you have. Make the NOW the primary focus of your life.",
+    "reflection": "Are you treating this moment as a means to an end?",
+    "author": "Eckhart Tolle"
+  },
+  {
+    "id": "095fa085-8ffb-4516-bd99-77558837503b",
+    "category": "Simplicity",
+    "title": "Acceptance",
+    "body": "Whatever the present moment contains, accept it as if you had chosen it.",
+    "reflection": "Can you stop fighting what is already happening?",
+    "author": "Eckhart Tolle"
+  },
+  {
+    "id": "3d28e5d4-e9c9-4840-9d3a-ffe9a8fb33eb",
+    "category": "Life",
+    "title": "Fear",
+    "body": "Fear is a natural reaction to moving closer to the truth.",
+    "reflection": "What truth might your current fear be pointing toward?",
+    "author": "Pema Ch\u00f6dr\u00f6n"
+  },
+  {
+    "id": "8ffa3f2f-49b6-4928-92db-a23a842ab061",
+    "category": "Solitude",
+    "title": "Groundlessness",
+    "body": "The trick is to keep exploring and not bail out, even when we find out that something is not what we thought.",
+    "reflection": "Can you stay with the feeling of uncertainty today?",
+    "author": "Pema Ch\u00f6dr\u00f6n"
+  },
+  {
+    "id": "6862c6db-e482-4293-b7b1-c913af652b6f",
+    "category": "Simplicity",
+    "title": "Mindfulness",
+    "body": "You can't stop the waves, but you can learn to surf.",
+    "reflection": "How are you trying to stop the waves instead of learning to ride them?",
+    "author": "Jon Kabat-Zinn"
+  },
+  {
+    "id": "e8153c21-2324-4aef-9b87-b52ea1ca8a60",
+    "category": "Solitude",
+    "title": "Wherever you go",
+    "body": "Wherever you go, there you are.",
+    "reflection": "Are you trying to run away from something that is inside you?",
+    "author": "Jon Kabat-Zinn"
+  },
+  {
+    "id": "e2083914-a499-419a-9385-83a0e03401a8",
+    "category": "Relationships",
+    "title": "Vulnerability",
+    "body": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
+    "reflection": "Where do you need to show up today?",
+    "author": "Bren\u00e9 Brown"
+  },
+  {
+    "id": "13d943fe-8408-4217-b8cf-e30ab48e554b",
+    "category": "Solitude",
+    "title": "Belonging",
+    "body": "True belonging doesn't require us to change who we are; it requires us to be who we are.",
+    "reflection": "Are you changing yourself to fit in?",
+    "author": "Bren\u00e9 Brown"
+  },
+  {
+    "id": "22a8b3ac-6e2d-496e-9dd8-d543604f41f1",
+    "category": "Relationships",
+    "title": "Walking each other home",
+    "body": "We're all just walking each other home.",
+    "reflection": "How can you be a better companion to someone today?",
+    "author": "Ram Dass"
+  },
+  {
+    "id": "e1615239-871f-485a-83f3-fe91e7e1320a",
+    "category": "Solitude",
+    "title": "Quiet mind",
+    "body": "The quieter you become, the more you can hear.",
+    "reflection": "What might you hear if you quieted your mind right now?",
+    "author": "Ram Dass"
+  },
+  {
+    "id": "6e09e3b2-a7d4-4310-ba28-8865afab170b",
+    "category": "Life",
+    "title": "Radical Acceptance",
+    "body": "Radical Acceptance is the willingness to experience ourselves and our life as it is.",
+    "reflection": "What part of yourself are you refusing to accept?",
+    "author": "Tara Brach"
+  },
+  {
+    "id": "f677e995-caf2-484f-9741-a9dc2c5cd204",
+    "category": "Simplicity",
+    "title": "The pause",
+    "body": "A pause is a suspension of activity, a time of temporary disengagement when the gears of the mind and body can shift.",
+    "reflection": "Can you take a mindful pause right now?",
+    "author": "Tara Brach"
+  },
+  {
+    "id": "93b68d73-7fd9-40b9-b28e-2d0dad6b0fa6",
+    "category": "Time",
+    "title": "Forgiveness",
+    "body": "Forgiveness is giving up all hope of a better past.",
+    "reflection": "What past event do you need to stop hoping will change?",
+    "author": "Jack Kornfield"
+  },
+  {
+    "id": "7410838e-1962-4879-a95e-e640ec01014d",
+    "category": "Relationships",
+    "title": "The heart",
+    "body": "If your compassion does not include yourself, it is incomplete.",
+    "reflection": "Are you treating yourself as kindly as you treat others?",
+    "author": "Jack Kornfield"
+  },
+  {
+    "id": "6611801b-1ba2-4415-bbae-4c1d8dcd8c92",
+    "category": "Simplicity",
+    "title": "Beginning again",
+    "body": "Mindfulness isn't about never being distracted; it's about remembering to begin again.",
+    "reflection": "Can you simply begin again right now?",
+    "author": "Sharon Salzberg"
+  },
+  {
+    "id": "2968c619-1ed2-49a4-a7b4-0a7f9e7ba834",
+    "category": "Solitude",
+    "title": "The questions",
+    "body": "Be patient toward all that is unsolved in your heart and try to love the questions themselves.",
+    "reflection": "Can you live with the question instead of forcing an answer?",
+    "author": "Rainer Maria Rilke"
+  },
+  {
+    "id": "8237925c-8068-4483-bfe8-d5ded10eea8d",
+    "category": "Life",
+    "title": "Letting go",
+    "body": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
+    "reflection": "Can you allow yourself to feel this fully without panicking?",
+    "author": "Rainer Maria Rilke"
+  },
+  {
+    "id": "a55e07c2-705b-4fd4-9188-89d21e46bb24",
+    "category": "Life",
+    "title": "Hardships",
+    "body": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "reflection": "How might your current hardship be preparing you?",
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": "5f188b2b-e4cb-447a-8231-a2d31d6dddc4",
+    "category": "Time",
+    "title": "Getting older",
+    "body": "You are never too old to set another goal or to dream a new dream.",
+    "reflection": "What new dream is waiting for you?",
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": "b8d3a45d-262c-4e3c-b872-0dfc9d62f5a9",
+    "category": "Life",
+    "title": "The journey",
+    "body": "It's the possibility of having a dream come true that makes life interesting.",
+    "reflection": "What possibility is making your life interesting today?",
+    "author": "Paulo Coelho"
+  },
+  {
+    "id": "c5c9f682-5118-40af-ab77-972b926fd5ca",
+    "category": "Solitude",
+    "title": "Tears",
+    "body": "Tears are words that need to be written.",
+    "reflection": "What are your tears trying to say?",
+    "author": "Paulo Coelho"
+  },
+  {
+    "id": "856176bf-fa46-4ab4-8278-85ecceaba8b9",
+    "category": "Work",
+    "title": "Curiosity",
+    "body": "The universe buries strange jewels deep within us all, and then stands back to see if we can find them.",
+    "reflection": "What hidden jewel are you searching for within yourself?",
+    "author": "Elizabeth Gilbert"
+  },
+  {
+    "id": "095afec4-8e33-4f4f-b9ff-aa0648546517",
+    "category": "Nature & Seasons",
+    "title": "Self",
+    "body": "I am rooted, but I flow.",
+    "reflection": "How can you maintain your roots while remaining flexible?",
+    "author": "Virginia Woolf"
+  },
+  {
+    "id": "cd67a789-cd6c-4bb6-b753-12222a0eff88",
+    "category": "Relationships",
+    "title": "Self-knowledge",
+    "body": "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves.",
+    "reflection": "Are you loving with your whole heart?",
+    "author": "Jane Austen"
+  },
+  {
+    "id": "ac9e9b81-6b28-4ce4-8e7e-494544988481",
+    "category": "Work",
+    "title": "Freedom",
+    "body": "The function of freedom is to free someone else.",
+    "reflection": "Who can you help free today?",
+    "author": "Toni Morrison"
+  },
+  {
+    "id": "c4013da5-6033-4349-8009-ac1ee7d45d3c",
+    "category": "Life",
+    "title": "Facing things",
+    "body": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "reflection": "What are you refusing to face?",
+    "author": "James Baldwin"
+  },
+  {
+    "id": "af6a9e46-9762-43c8-ac1f-bf1cce8c6fed",
+    "category": "Life",
+    "title": "Reason and passion",
+    "body": "Your reason and your passion are the rudder and the sails of your seafaring soul.",
+    "reflection": "Are your rudder and sails working together?",
+    "author": "Khalil Gibran"
+  },
+  {
+    "id": "d39a4185-f4b6-4b06-ae2e-b1aff61ac5cb",
+    "category": "Work",
+    "title": "Goodness",
+    "body": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+    "reflection": "What small improvement can you make right now?",
+    "author": "Anne Frank"
+  },
+  {
+    "id": "8c6a229d-82e1-4330-9163-ace6f0692d3f",
+    "category": "Life",
+    "title": "Courage",
+    "body": "I learned that courage was not the absence of fear, but the triumph over it.",
+    "reflection": "Where can you triumph over a small fear today?",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": "cf5b5a91-b11a-4c0d-a638-bbb4f0e5949d",
+    "category": "Work",
+    "title": "Success",
+    "body": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "reflection": "Can you find the courage to simply continue?",
+    "author": "Winston Churchill"
+  },
+  {
+    "id": "e1901c10-c2cc-4247-9269-b73e93328283",
+    "category": "Life",
+    "title": "Understanding",
+    "body": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "reflection": "What do you need to understand better to reduce your fear?",
+    "author": "Marie Curie"
+  },
+  {
+    "id": "5784234f-6020-44e2-ba48-0cb6aab14497",
+    "category": "Nature & Seasons",
+    "title": "Miracles",
+    "body": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+    "reflection": "Which way are you living today?",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "4a907390-3f3f-4d2f-8d43-d7b367bdc10a",
+    "category": "Work",
+    "title": "Doing what must be done",
+    "body": "I have learned over the years that when one's mind is made up, this diminishes fear; knowing what must be done does away with fear.",
+    "reflection": "What is something you know you must do?",
+    "author": "Rosa Parks"
+  },
+  {
+    "id": "dd90dc89-3eac-4b16-a6de-3754828a071b",
+    "category": "Life",
+    "title": "Faith",
+    "body": "Faith is taking the first step even when you don't see the whole staircase.",
+    "reflection": "Can you take just one step today?",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "id": "6ee366f4-e4c2-44dc-9c29-78e5674a39d6",
+    "category": "Work",
+    "title": "No excuses",
+    "body": "I attribute my success to this - I never gave or took any excuse.",
+    "reflection": "What excuse can you drop today?",
+    "author": "Florence Nightingale"
+  },
+  {
+    "id": "c8831067-939d-429d-b1e8-41d28c3f6176",
+    "category": "Solitude",
+    "title": "Acceptance and change",
+    "body": "The curious paradox is that when I accept myself just as I am, then I can change.",
+    "reflection": "Can you fully accept yourself exactly as you are right now?",
+    "author": "Carl Rogers"
+  },
+  {
+    "id": "4bb285e1-3177-41bb-bdcc-25490ee42d6a",
+    "category": "Life",
+    "title": "Freedom and responsibility",
+    "body": "Freedom is man's capacity to take a hand in his own development. It is our capacity to mold ourselves.",
+    "reflection": "How are you molding yourself today?",
+    "author": "Rollo May"
+  },
+  {
+    "id": "e496de43-df30-4707-9427-fb8f14f4bc4b",
+    "category": "Work",
+    "title": "Growth",
+    "body": "In any given moment we have two options: to step forward into growth or step back into safety.",
+    "reflection": "Which way are you stepping right now?",
+    "author": "Abraham Maslow"
   }
 ]
