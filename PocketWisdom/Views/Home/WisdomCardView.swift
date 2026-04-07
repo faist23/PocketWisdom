@@ -1,43 +1,68 @@
-//
-//  WisdomCardView.swift
-//  PocketWisdom
-//
-//  Created by Craig Faist on 4/6/26.
-//
-
-
 import SwiftUI
 
 struct WisdomCardView: View {
     
     let card: WisdomCard
+    let isSaved: Bool
+    let onSaveToggled: () -> Void
+    
     @State private var showReflection = false
     
     var body: some View {
-        VStack(spacing: 24) {
+        ZStack {
+            Color(.systemGroupedBackground).ignoresSafeArea()
             
-            Text(card.title)
-                .font(.system(.title2, design: .serif))
-                .foregroundColor(.secondary)
+            VStack(spacing: 24) {
+                Text(card.title)
+                    .font(.system(.title2, design: .serif))
+                    .foregroundColor(.secondary)
+                
+                Text(card.body)
+                    .font(.system(.title3, design: .serif))
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.primary)
+                
+                if let author = card.author {
+                    Text("— \(author)")
+                        .font(.system(.body, design: .serif))
+                        .italic()
+                        .foregroundColor(.secondary)
+                }
+                
+                if showReflection, let reflection = card.reflection {
+                    Text(reflection)
+                        .font(.body)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
+                        .transition(.opacity.animation(.easeInOut(duration: 0.5)))
+                }
+            }
+            .padding(32)
             
-            Text(card.body)
-                .font(.system(.title3, design: .serif))
-                .multilineTextAlignment(.center)
-            
-            if showReflection, let reflection = card.reflection {
-                Text(reflection)
-                    .font(.body)
-                    .foregroundColor(.gray)
-                    .transition(.opacity)
+            // Subtle "Saved" indicator
+            if isSaved {
+                VStack {
+                    HStack {
+                        Spacer()
+                        Image(systemName: "bookmark.fill")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                            .padding(24)
+                    }
+                    Spacer()
+                }
             }
         }
-        .padding(32)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(.systemGroupedBackground))
+        .contentShape(Rectangle()) // Makes entire background tappable
         .onTapGesture {
             withAnimation {
                 showReflection.toggle()
             }
+        }
+        .onLongPressGesture(minimumDuration: 0.5) {
+            let generator = UINotificationFeedbackGenerator()
+            generator.notificationOccurred(.success)
+            onSaveToggled()
         }
     }
 }

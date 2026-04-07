@@ -14,4 +14,5 @@ struct WisdomCard: Identifiable, Codable {
     let title: String
     let body: String
     let reflection: String?
+    let author: String?
 }

@@ -10,9 +10,15 @@ import SwiftUI
 @main
 struct PocketWisdomApp: App {
     
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    
     var body: some Scene {
         WindowGroup {
-            WisdomDeckView()
+            if hasSeenOnboarding {
+                WisdomDeckView()
+            } else {
+                OnboardingView()
+            }
         }
     }
 }

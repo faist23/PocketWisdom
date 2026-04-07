@@ -1,25 +1,50 @@
-//
-//  WisdomDeckView.swift
-//  PocketWisdom
-//
-//  Created by Craig Faist on 4/6/26.
-//
-
-
 import SwiftUI
 
 struct WisdomDeckView: View {
     
     @StateObject private var vm = WisdomViewModel()
+    @State private var showLibrary = false
     
     var body: some View {
-        TabView(selection: $vm.currentIndex) {
-            ForEach(vm.cards.indices, id: \.self) { index in
-                WisdomCardView(card: vm.cards[index])
+        ZStack {
+            Color(.systemGroupedBackground).ignoresSafeArea()
+            
+            TabView(selection: $vm.currentIndex) {
+                ForEach(vm.deck.indices, id: \.self) { index in
+                    WisdomCardView(
+                        card: vm.deck[index],
+                        isSaved: vm.isSaved(vm.deck[index]),
+                        onSaveToggled: {
+                            vm.toggleSave(for: vm.deck[index])
+                        }
+                    )
                     .tag(index)
-                    .padding()
+                }
+            }
+            .tabViewStyle(.page(indexDisplayMode: .never))
+            .ignoresSafeArea()
+            
+            // Invisible Corner Tap
+            VStack {
+                HStack {
+                    Rectangle()
+                        .fill(Color.black.opacity(0.001))
+                        .frame(width: 60, height: 60)
+                        .overlay(
+                            Circle()
+                                .fill(Color.secondary.opacity(0.3))
+                                .frame(width: 6, height: 6)
+                        )
+                        .onTapGesture {
+                            showLibrary = true
+                        }
+                    Spacer()
+                }
+                Spacer()
             }
         }
-        .tabViewStyle(.page(indexDisplayMode: .never))
+        .fullScreenCover(isPresented: $showLibrary) {
+            LibraryView(vm: vm)
+        }
     }
 }

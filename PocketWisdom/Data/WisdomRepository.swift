@@ -26,6 +26,6 @@ final class WisdomRepository {
             return
         }
         
-        self.cards = decoded.shuffled()
+        self.cards = decoded
     }
 }
