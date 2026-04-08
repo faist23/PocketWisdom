@@ -64,5 +64,13 @@ struct WisdomCardView: View {
             generator.notificationOccurred(.success)
             onSaveToggled()
         }
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityHint(isSaved ? "Saved. Double tap to toggle reflection. Swipe up or down to select the Unsave action, then double tap to activate." : "Double tap to toggle reflection. Swipe up or down to select the Save action, then double tap to activate.")
+        .accessibilityAction(named: isSaved ? "Unsave" : "Save") {
+            let generator = UINotificationFeedbackGenerator()
+            generator.notificationOccurred(.success)
+            onSaveToggled()
+        }
     }
 }
