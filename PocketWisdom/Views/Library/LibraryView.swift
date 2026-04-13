@@ -18,17 +18,28 @@ struct LibraryView: View {
                 } else {
                     List {
                         ForEach(vm.savedCards) { card in
-                            VStack(alignment: .leading, spacing: 8) {
-                                Text(card.title)
-                                    .font(.system(.headline, design: .serif))
-                                    .foregroundColor(.primary)
-                                
-                                Text(card.body)
-                                    .font(.system(.subheadline, design: .default))
-                                    .foregroundColor(.secondary)
-                                    .lineLimit(2)
+                            NavigationLink {
+                                WisdomCardView(
+                                    card: card,
+                                    isSaved: vm.isSaved(card),
+                                    onSaveToggled: {
+                                        vm.toggleSave(for: card)
+                                    }
+                                )
+                                .navigationBarTitleDisplayMode(.inline)
+                            } label: {
+                                VStack(alignment: .leading, spacing: 8) {
+                                    Text(card.title)
+                                        .font(.system(.headline, design: .serif))
+                                        .foregroundColor(.primary)
+                                    
+                                    Text(card.body)
+                                        .font(.system(.subheadline, design: .default))
+                                        .foregroundColor(.secondary)
+                                        .lineLimit(2)
+                                }
+                                .padding(.vertical, 4)
                             }
-                            .padding(.vertical, 4)
                             .swipeActions {
                                 Button(role: .destructive) {
                                     withAnimation {
