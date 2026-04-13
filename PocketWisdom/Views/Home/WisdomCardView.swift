@@ -6,7 +6,7 @@ struct WisdomCardView: View {
     let isSaved: Bool
     let onSaveToggled: () -> Void
     
-    @State private var showReflection = false
+    @Binding var showReflection: Bool
     
     var body: some View {
         ZStack {
