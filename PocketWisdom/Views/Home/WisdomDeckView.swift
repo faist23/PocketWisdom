@@ -2,7 +2,7 @@ import SwiftUI
 
 struct WisdomDeckView: View {
 
-    @StateObject private var vm = WisdomViewModel()
+    @ObservedObject var vm: WisdomViewModel
     @State private var showLibrary = false
     @State private var showHelp = false
     @State private var helpTask: Task<Void, Never>? = nil
