@@ -209,30 +209,34 @@ struct MediumWidgetView: View {
     let entry: WisdomEntry
 
     var body: some View {
-        HStack(alignment: .top, spacing: 12) {
-            VStack(alignment: .leading, spacing: 6) {
+        ZStack(alignment: .topTrailing) {
+            VStack(spacing: 4) {
                 Text(entry.card?.body ?? "Open PocketWisdom for your daily card.")
                     .font(.subheadline)
                     .fontDesign(.serif)
-                    .lineLimit(3)
-
-                if let reflection = entry.card?.reflection {
-                    Text(reflection)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                        .lineLimit(2)
-                }
-
-                Spacer()
+                    .multilineTextAlignment(.center)
+                    .lineLimit(6)
 
                 if let author = entry.card?.author {
                     Text("— \(author)")
                         .font(.caption2)
                         .foregroundStyle(.tertiary)
+                        .multilineTextAlignment(.center)
+                        .padding(.top, 2)
+                }
+
+                // Reflection is last — naturally clipped by widget frame when body is long
+                if let reflection = entry.card?.reflection {
+                    Text(reflection)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .multilineTextAlignment(.center)
+                        .padding(.top, 4)
                 }
             }
-
-            Spacer(minLength: 0)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 12)
 
             if let card = entry.card {
                 Button(intent: saveIntent(cardID: card.id.uuidString)) {
@@ -241,10 +245,10 @@ struct MediumWidgetView: View {
                         .foregroundStyle(.secondary)
                 }
                 .buttonStyle(.plain)
+                .padding(8)
                 .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
             }
         }
-        .padding()
         .containerBackground(.fill.tertiary, for: .widget)
         .widgetURL(deepLinkURL(for: entry.card))
     }

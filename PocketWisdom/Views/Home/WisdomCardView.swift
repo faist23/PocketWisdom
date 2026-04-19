@@ -1,25 +1,31 @@
 import SwiftUI
+import UIKit
+
+// UIFont matching .system(.title3, design: .serif) — used by BalancedText for measurement.
+private let bodyUIFont: UIFont = {
+    let base = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .title3)
+    let descriptor = base.withDesign(.serif) ?? base
+    return UIFont(descriptor: descriptor, size: 0)
+}()
 
 struct WisdomCardView: View {
-    
+
     let card: WisdomCard
     let isSaved: Bool
     let onSaveToggled: () -> Void
-    
+
     @Binding var showReflection: Bool
-    
+
     var body: some View {
         ZStack {
             Color(.systemGroupedBackground).ignoresSafeArea()
-            
+
             VStack(spacing: 24) {
                 Text(card.title)
                     .font(.system(.title2, design: .serif))
                     .foregroundColor(.secondary)
-                
-                Text(card.body)
-                    .font(.system(.title3, design: .serif))
-                    .multilineTextAlignment(.center)
+
+                BalancedText(text: card.body, uiFont: bodyUIFont)
                     .foregroundColor(.primary)
                 
                 if let author = card.author {
