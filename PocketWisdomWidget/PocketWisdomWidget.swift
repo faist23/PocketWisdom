@@ -2,180 +2,155 @@
 //  PocketWisdomWidget.swift
 //  PocketWisdomWidget
 //
-//  Timeline provider + view for .systemSmall, .systemMedium, .accessoryRectangular.
-//
-//  Two-pointer deck system:
-//
-//  deck (shuffled, N cards):
-//  [0 .... appCurrentIndex | unseen pool | widgetIndex .... N-1]
-//   (app, →)                              (widget, ←)
-//
-//  widgetIndex starts at deck.count-1 and decrements by 2 per timeline generation.
-//  lastKnownDeckCount sentinel: if deck grows (new cards added), reset widgetIndex = deckCount-1.
-//
 
 import WidgetKit
 import SwiftUI
 import AppIntents
 
-// MARK: - Timeline Entry
+// MARK: - Safe subscript
+
+private extension Array {
+    subscript(safe index: Int) -> Element? {
+        indices.contains(index) ? self[index] : nil
+    }
+}
+
+// MARK: - Card loading
+
+private func loadAllCards() -> [WisdomCard] {
+    guard let url = Bundle.main.url(forResource: "wisdom", withExtension: "json"),
+          let data = try? Data(contentsOf: url) else { return [] }
+    return (try? JSONDecoder().decode([WisdomCard].self, from: data)) ?? []
+}
+
+// MARK: - Timeline entry
 
 struct WisdomEntry: TimelineEntry {
     let date: Date
     let card: WisdomCard?
     let isSaved: Bool
-
-    // Empty / placeholder
-    static var placeholder: WisdomEntry {
-        WisdomEntry(date: .now, card: nil, isSaved: false)
-    }
 }
 
-// MARK: - Timeline Provider
+// MARK: - Timeline provider
 
 struct WisdomTimelineProvider: TimelineProvider {
 
     func placeholder(in context: Context) -> WisdomEntry {
-        .placeholder
+        WisdomEntry(date: .now, card: nil, isSaved: false)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (WisdomEntry) -> Void) {
-        completion(makeEntry(for: .now))
+        let defaults = UserDefaults(suiteName: AppGroupKeys.suiteName)
+        let savedIDs = Set(defaults?.stringArray(forKey: AppGroupKeys.savedCardIDs) ?? [])
+        let card = loadAllCards().first
+        let isSaved = card.map { savedIDs.contains($0.id.uuidString) } ?? false
+        completion(WisdomEntry(date: .now, card: card, isSaved: isSaved))
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<WisdomEntry>) -> Void) {
         let defaults = UserDefaults(suiteName: AppGroupKeys.suiteName)
+        let deckIDs = defaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs) ?? []
+        let savedIDs = Set(defaults?.stringArray(forKey: AppGroupKeys.savedCardIDs) ?? [])
 
-        // Resolve shuffled deck IDs
-        guard let deckIDs = defaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs),
-              !deckIDs.isEmpty else {
-            // App hasn't launched yet — show placeholder, try again in 1 hour
-            let entry = WisdomEntry.placeholder
-            let next = Calendar.current.date(byAdding: .hour, value: 1, to: .now) ?? .now
-            completion(Timeline(entries: [entry], policy: .after(next)))
-            return
-        }
+        let allCards = loadAllCards()
+        let cardsByID = Dictionary(uniqueKeysWithValues: allCards.map { ($0.id.uuidString, $0) })
 
         let deckCount = deckIDs.count
 
-        // Deck growth sentinel: reset widgetIndex if deck has grown
-        var widgetIndex = defaults?.integer(forKey: AppGroupKeys.widgetIndex) ?? 0
-        let lastKnownCount = defaults?.integer(forKey: AppGroupKeys.lastKnownDeckCount) ?? 0
-
-        if widgetIndex == 0 || deckCount != lastKnownCount {
+        // Reset index when deck size changes (new cards added via app update)
+        let lastKnown = defaults?.integer(forKey: AppGroupKeys.lastKnownDeckCount) ?? 0
+        var widgetIndex: Int
+        if deckCount == 0 {
+            widgetIndex = 0
+        } else if deckCount != lastKnown {
             widgetIndex = deckCount - 1
             defaults?.set(deckCount, forKey: AppGroupKeys.lastKnownDeckCount)
+        } else {
+            widgetIndex = defaults?.integer(forKey: AppGroupKeys.widgetIndex) ?? (deckCount - 1)
+            // Clamp in case deck shrank
+            widgetIndex = min(widgetIndex, max(0, deckCount - 1))
         }
 
-        // Collision guard: keep widgetIndex at least 20 cards ahead of appCurrentIndex
-        let appCurrentIndex = defaults?.integer(forKey: AppGroupKeys.appCurrentIndex) ?? 0
-        if widgetIndex <= appCurrentIndex + 20 {
-            // Fallback: pick randomly from unseen pool
-            let unseenRange = (appCurrentIndex + 1)..<deckCount
-            if !unseenRange.isEmpty {
-                widgetIndex = unseenRange.randomElement() ?? deckCount - 1
-            }
-        }
-
-        // Load the full card library for lookup
-        let allCards = loadAllCards()
-        let cardDict = Dictionary(uniqueKeysWithValues: allCards.map { ($0.id.uuidString, $0) })
-        let savedIDs = Set(defaults?.stringArray(forKey: AppGroupKeys.savedCardIDs) ?? [])
-
-        // Morning entry: deck[widgetIndex], Evening entry: deck[widgetIndex - 1]
-        let morningCardID = deckIDs[safe: widgetIndex]
-        let eveningCardID = deckIDs[safe: widgetIndex - 1]
-
-        let morningCard = morningCardID.flatMap { cardDict[$0] }
-        let eveningCard = eveningCardID.flatMap { cardDict[$0] }
-
-        // Write current widget card ID for deep-link use
-        if let id = morningCardID {
-            defaults?.set(id, forKey: AppGroupKeys.currentWidgetCardID)
-        }
-
-        // Decrement widget pointer by 2
-        let newWidgetIndex = max(0, widgetIndex - 2)
-        defaults?.set(newWidgetIndex, forKey: AppGroupKeys.widgetIndex)
-
-        // Build timeline: morning 8am, evening 8pm, using Calendar for DST safety
-        let calendar = Calendar.current
-        let now = Date()
-
-        func nextOccurrence(hour: Int) -> Date {
-            var components = calendar.dateComponents([.year, .month, .day], from: now)
-            components.hour = hour
-            components.minute = 0
-            components.second = 0
-            let candidate = calendar.date(from: components) ?? now
-            return candidate > now ? candidate : calendar.date(byAdding: .day, value: 1, to: candidate) ?? candidate
-        }
-
-        let morningDate = nextOccurrence(hour: 8)
-        let eveningDate = nextOccurrence(hour: 20)
-
+        let scheduledDates = nextScheduledDates(count: 4, from: Date())
         var entries: [WisdomEntry] = []
 
-        if morningDate < eveningDate {
-            entries.append(WisdomEntry(
-                date: morningDate,
-                card: morningCard,
-                isSaved: morningCardID.map { savedIDs.contains($0) } ?? false
-            ))
-            entries.append(WisdomEntry(
-                date: eveningDate,
-                card: eveningCard,
-                isSaved: eveningCardID.map { savedIDs.contains($0) } ?? false
-            ))
+        if deckCount == 0 {
+            // App Groups not yet populated (app hasn't run, or App Group provisioning issue).
+            // Fall back to time-based selection directly from the bundle so the widget
+            // always shows a real card instead of the placeholder.
+            let dayOrdinal = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
+            for (i, date) in scheduledDates.enumerated() {
+                let card = allCards.isEmpty ? nil : allCards[(dayOrdinal * 2 + i) % allCards.count]
+                entries.append(WisdomEntry(date: date, card: card, isSaved: false))
+            }
         } else {
-            entries.append(WisdomEntry(
-                date: eveningDate,
-                card: eveningCard,
-                isSaved: eveningCardID.map { savedIDs.contains($0) } ?? false
-            ))
-            entries.append(WisdomEntry(
-                date: morningDate,
-                card: morningCard,
-                isSaved: morningCardID.map { savedIDs.contains($0) } ?? false
-            ))
+            var idx = widgetIndex
+
+            for (i, date) in scheduledDates.enumerated() {
+                let cardID = deckIDs[safe: idx]
+                let card = cardID.flatMap { cardsByID[$0] }
+                let isSaved = cardID.map { savedIDs.contains($0) } ?? false
+                entries.append(WisdomEntry(date: date, card: card, isSaved: isSaved))
+
+                if i == 0 {
+                    // Persist which card the widget is currently showing
+                    defaults?.set(cardID, forKey: AppGroupKeys.currentWidgetCardID)
+                }
+
+                // Walk backward through deck by 2 (widget reads from back, app from front)
+                idx = ((idx - 2) + deckCount) % deckCount
+            }
+
+            // Write the index that will be live after this timeline expires
+            defaults?.set(idx, forKey: AppGroupKeys.widgetIndex)
         }
 
-        // .atEnd: iOS schedules the next timeline after the last entry
         completion(Timeline(entries: entries, policy: .atEnd))
     }
 
-    // MARK: - Helpers
+    // Returns the next `count` scheduled refresh times (8 am and 8 pm, DST-safe).
+    private func nextScheduledDates(count: Int, from now: Date) -> [Date] {
+        let cal = Calendar.current
+        var dates: [Date] = []
+        var pivot = now
 
-    private func makeEntry(for date: Date) -> WisdomEntry {
-        let defaults = UserDefaults(suiteName: AppGroupKeys.suiteName)
-        guard let deckIDs = defaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs),
-              !deckIDs.isEmpty else {
-            return .placeholder
+        while dates.count < count {
+            var earliest: Date?
+            for hour in [8, 20] {
+                if let d = cal.nextDate(
+                    after: pivot,
+                    matching: DateComponents(hour: hour, minute: 0, second: 0),
+                    matchingPolicy: .nextTime
+                ) {
+                    if earliest == nil || d < earliest! { earliest = d }
+                }
+            }
+            let next = earliest ?? pivot.addingTimeInterval(43200)
+            dates.append(next)
+            pivot = next
         }
-        let widgetIndex = defaults?.integer(forKey: AppGroupKeys.widgetIndex) ?? 0
-        let allCards = loadAllCards()
-        let cardDict = Dictionary(uniqueKeysWithValues: allCards.map { ($0.id.uuidString, $0) })
-        let savedIDs = Set(defaults?.stringArray(forKey: AppGroupKeys.savedCardIDs) ?? [])
-        let cardID = deckIDs[safe: widgetIndex]
-        let card = cardID.flatMap { cardDict[$0] }
-        return WisdomEntry(date: date, card: card, isSaved: cardID.map { savedIDs.contains($0) } ?? false)
-    }
-
-    private func loadAllCards() -> [WisdomCard] {
-        guard let url = Bundle.main.url(forResource: "wisdom", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let cards = try? JSONDecoder().decode([WisdomCard].self, from: data) else {
-            return []
-        }
-        return cards
+        return dates
     }
 }
 
-// MARK: - Root Widget View (family branch)
+// MARK: - Intent helpers
+
+private func saveIntent(cardID: String) -> SaveWisdomCardIntent {
+    var intent = SaveWisdomCardIntent()
+    intent.cardID = cardID
+    return intent
+}
+
+private func deepLinkURL(for card: WisdomCard?) -> URL? {
+    guard let card else { return nil }
+    return URL(string: "pocketwisdom://card/\(card.id.uuidString)")
+}
+
+// MARK: - Widget view router
 
 struct PocketWisdomWidgetView: View {
-    @Environment(\.widgetFamily) var family
     var entry: WisdomEntry
+    @Environment(\.widgetFamily) private var family
 
     var body: some View {
         switch family {
@@ -191,169 +166,142 @@ struct PocketWisdomWidgetView: View {
     }
 }
 
-// MARK: - .systemSmall
+// MARK: - Small widget
 
 struct SmallWidgetView: View {
-    var entry: WisdomEntry
+    let entry: WisdomEntry
 
     var body: some View {
-        if let card = entry.card {
-            ZStack(alignment: .bottomTrailing) {
-                VStack(spacing: 6) {
-                    Spacer(minLength: 0)
+        ZStack(alignment: .bottomTrailing) {
+            VStack {
+                Spacer()
+                Text(entry.card?.body ?? "Open PocketWisdom for your daily card.")
+                    .font(.caption)
+                    .fontDesign(.serif)
+                    .multilineTextAlignment(.center)
+                    .lineLimit(5)
+                    .padding(.horizontal, 4)
+                Spacer()
+            }
+            .frame(maxWidth: .infinity)
 
-                    Text(card.body)
-                        .font(.system(.caption, design: .serif))
-                        .multilineTextAlignment(.center)
-                        .lineLimit(3)
-                        .foregroundStyle(.primary)
-
-                    if let author = card.author {
-                        Text(author)
-                            .font(.system(.caption2, design: .serif))
-                            .italic()
-                            .multilineTextAlignment(.center)
-                            .foregroundStyle(.secondary)
-                    }
-
-                    Spacer(minLength: 0)
-                }
-                .padding(12)
-
-                // Bookmark button — bottom-trailing
-                Button(intent: SaveWisdomCardIntent(cardID: card.id.uuidString)) {
+            if let card = entry.card {
+                Button(intent: saveIntent(cardID: card.id.uuidString)) {
                     Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
-                        .font(.system(size: 10))
-                        .foregroundStyle(.secondary.opacity(entry.isSaved ? 1 : 0.4))
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
                 .buttonStyle(.plain)
-                .padding(10)
-                .accessibilityLabel(entry.isSaved ? "Saved" : "Save")
+                .padding(8)
+                .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
             }
-            .containerBackground(.fill, for: .widget)
-            .widgetURL(URL(string: "pocketwisdom://card/\(card.id.uuidString)"))
-            .accessibilityElement(children: .contain)
-            .accessibilityLabel("\(card.body)\(card.author.map { ", \($0)" } ?? "")")
-            .accessibilityHint("Opens PocketWisdom to this card")
-        } else {
-            // Empty state (App Groups not yet populated)
-            Text("Open PocketWisdom to begin")
-                .font(.system(.caption, design: .serif))
-                .multilineTextAlignment(.center)
-                .foregroundStyle(.secondary)
-                .padding(12)
-                .containerBackground(.fill, for: .widget)
         }
+        .containerBackground(.fill.tertiary, for: .widget)
+        .widgetURL(deepLinkURL(for: entry.card))
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(entry.card?.body ?? "No card")
     }
 }
 
-// MARK: - .systemMedium
+// MARK: - Medium widget
 
 struct MediumWidgetView: View {
-    var entry: WisdomEntry
+    let entry: WisdomEntry
 
     var body: some View {
-        if let card = entry.card {
-            ZStack(alignment: .bottomTrailing) {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(card.body)
-                        .font(.system(.subheadline, design: .serif))
-                        .multilineTextAlignment(.leading)
-                        .foregroundStyle(.primary)
+        HStack(alignment: .top, spacing: 12) {
+            VStack(alignment: .leading, spacing: 6) {
+                Text(entry.card?.body ?? "Open PocketWisdom for your daily card.")
+                    .font(.subheadline)
+                    .fontDesign(.serif)
+                    .lineLimit(3)
 
-                    if let reflection = card.reflection {
-                        Divider()
-                        Text(reflection)
-                            .font(.system(.caption, design: .serif))
-                            .italic()
-                            .lineLimit(2)
-                            .foregroundStyle(.secondary)
-                    }
-
-                    Spacer(minLength: 0)
-
-                    if let author = card.author {
-                        Text(author)
-                            .font(.system(.caption, design: .serif))
-                            .italic()
-                            .foregroundStyle(.secondary)
-                    }
+                if let reflection = entry.card?.reflection {
+                    Text(reflection)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(2)
                 }
-                .padding(16)
 
-                // Bookmark button — bottom-trailing
-                Button(intent: SaveWisdomCardIntent(cardID: card.id.uuidString)) {
+                Spacer()
+
+                if let author = entry.card?.author {
+                    Text("— \(author)")
+                        .font(.caption2)
+                        .foregroundStyle(.tertiary)
+                }
+            }
+
+            Spacer(minLength: 0)
+
+            if let card = entry.card {
+                Button(intent: saveIntent(cardID: card.id.uuidString)) {
                     Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
-                        .font(.system(size: 12))
-                        .foregroundStyle(.secondary.opacity(entry.isSaved ? 1 : 0.4))
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
                 }
                 .buttonStyle(.plain)
-                .padding(12)
-                .accessibilityLabel(entry.isSaved ? "Saved" : "Save")
+                .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
             }
-            .containerBackground(.fill, for: .widget)
-            .widgetURL(URL(string: "pocketwisdom://card/\(card.id.uuidString)"))
-            .accessibilityElement(children: .contain)
-            .accessibilityLabel("\(card.body)\(card.author.map { ", \($0)" } ?? "")")
-            .accessibilityHint("Opens PocketWisdom to this card")
-        } else {
-            Text("Open PocketWisdom to begin")
-                .font(.system(.caption, design: .serif))
-                .multilineTextAlignment(.center)
-                .foregroundStyle(.secondary)
-                .padding(16)
-                .containerBackground(.fill, for: .widget)
         }
+        .padding()
+        .containerBackground(.fill.tertiary, for: .widget)
+        .widgetURL(deepLinkURL(for: entry.card))
     }
 }
 
-// MARK: - .accessoryRectangular (Lock Screen)
+// MARK: - Lock screen widget
 
 struct LockScreenWidgetView: View {
-    var entry: WisdomEntry
+    let entry: WisdomEntry
 
     var body: some View {
-        if let card = entry.card {
-            VStack(alignment: .leading, spacing: 2) {
-                Text(card.body)
-                    .font(.system(.caption, weight: .medium))
-                    .lineLimit(2)
-                    .foregroundStyle(.primary)
+        HStack(alignment: .center, spacing: 6) {
+            Text(entry.card?.body ?? "Open PocketWisdom")
+                .font(.caption)
+                .fontWeight(.medium)
+                .lineLimit(2)
 
-                HStack {
-                    if let author = card.author {
-                        Text(author)
-                            .font(.caption2)
-                            .foregroundStyle(.secondary)
-                    }
-                    Spacer()
-                    // Bookmark button — lock screen (test on device: fires after unlock)
-                    Button(intent: SaveWisdomCardIntent(cardID: card.id.uuidString)) {
-                        Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
-                            .font(.system(size: 10))
-                    }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel(entry.isSaved ? "Saved" : "Save")
+            Spacer(minLength: 0)
+
+            if let card = entry.card {
+                Button(intent: saveIntent(cardID: card.id.uuidString)) {
+                    Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
+                        .font(.caption2)
                 }
+                .buttonStyle(.plain)
+                .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
             }
-            .containerBackground(.fill, for: .widget)
-            .widgetURL(URL(string: "pocketwisdom://card/\(card.id.uuidString)"))
-            .accessibilityElement(children: .contain)
-            .accessibilityLabel("\(card.body)\(card.author.map { ", \($0)" } ?? "")")
-            .accessibilityHint("Opens PocketWisdom to this card")
-        } else {
-            Text("Open PocketWisdom to begin")
-                .font(.caption2)
-                .foregroundStyle(.secondary)
-                .containerBackground(.fill, for: .widget)
         }
+        .containerBackground(.fill.tertiary, for: .widget)
+        .widgetURL(deepLinkURL(for: entry.card))
     }
 }
 
-// MARK: - Safe array subscript
+// MARK: - Widget declarations
 
-private extension Array {
-    subscript(safe index: Int) -> Element? {
-        indices.contains(index) ? self[index] : nil
+struct PocketWisdomHomeWidget: Widget {
+    let kind = "PocketWisdomHomeWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: WisdomTimelineProvider()) { entry in
+            PocketWisdomWidgetView(entry: entry)
+        }
+        .configurationDisplayName("PocketWisdom")
+        .description("A new card of wisdom, twice a day.")
+        .supportedFamilies([.systemSmall, .systemMedium])
+    }
+}
+
+struct PocketWisdomLockScreenWidget: Widget {
+    let kind = "PocketWisdomLockScreenWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: WisdomTimelineProvider()) { entry in
+            PocketWisdomWidgetView(entry: entry)
+        }
+        .configurationDisplayName("PocketWisdom")
+        .description("Wisdom on your lock screen.")
+        .supportedFamilies([.accessoryRectangular])
     }
 }

@@ -124,6 +124,10 @@ final class WisdomViewModel: ObservableObject {
         // Always write the current deck order to App Groups
         let deckIDs = self.deck.map { $0.id.uuidString }
         appGroupDefaults?.set(deckIDs, forKey: AppGroupKeys.shuffledDeckIDs)
+
+        // Reload widget timeline now that App Groups has fresh deck data.
+        // Done unconditionally (no throttle) because this only runs during init.
+        WidgetCenter.shared.reloadAllTimelines()
     }
 
     // MARK: - Deep link: move a card to currentIndex + 1

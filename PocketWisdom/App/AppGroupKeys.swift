@@ -10,7 +10,7 @@
 import Foundation
 
 enum AppGroupKeys {
-    static let suiteName           = "group.com.faist23.PocketWisdom"
+    static let suiteName           = "group.com.ridepro.PocketWisdom"
     static let appCurrentIndex     = "appCurrentIndex"
     static let widgetIndex         = "widgetIndex"
     static let shuffledDeckIDs     = "shuffledDeckIDs"
