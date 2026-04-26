@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — The Pocket Wisdom App</title>
+  <style>
+    :root {
+      --bg: #f5f2ee;
+      --card: #ffffff;
+      --text-primary: #1c1c1e;
+      --text-secondary: #6c6c6e;
+      --text-tertiary: #a0a0a2;
+      --border: #e5e0d8;
+      --accent: #6b5c45;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1c1e;
+        --card: #2c2c2e;
+        --text-primary: #f5f2ee;
+        --text-secondary: #aeaeb2;
+        --text-tertiary: #636366;
+        --border: #38383a;
+        --accent: #c8a97e;
+      }
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-primary);
+      font-family: Georgia, 'Times New Roman', serif;
+      min-height: 100vh;
+      padding: 48px 24px 80px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .bookmark-icon {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: var(--accent);
+    }
+
+    .bookmark-icon svg {
+      width: 28px;
+      height: 28px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      letter-spacing: 0.01em;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    .contact-card {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 28px 28px;
+      margin-bottom: 40px;
+      border: 1px solid var(--border);
+    }
+
+    .contact-card p {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .contact-card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-style: italic;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-card .response-note {
+      font-size: 0.85rem;
+      color: var(--text-tertiary);
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 20px;
+    }
+
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .faq-item {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 22px 24px;
+      border: 1px solid var(--border);
+    }
+
+    .faq-item .question {
+      font-size: 1rem;
+      color: var(--text-primary);
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+
+    .faq-item .answer {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 56px;
+      color: var(--text-tertiary);
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+
+    footer a {
+      color: var(--text-tertiary);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="bookmark-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        </svg>
+      </div>
+      <h1>The Pocket Wisdom App</h1>
+      <p class="subtitle">Support</p>
+    </header>
+
+    <div class="contact-card">
+      <p>Have a question, found a bug, or just want to say hello? We'd love to hear from you.</p>
+      <p>Reach us at <a href="mailto:support@ridepro.app">support@ridepro.app</a></p>
+      <p class="response-note">We typically respond within one to two business days.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <p class="question">How do cards work?</p>
+        <p class="answer">Swipe through cards at your own pace. The app remembers where you left off, so you'll never see the same card twice in a row.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="question">How do I save a card?</p>
+        <p class="answer">Tap the bookmark icon on any card to save it. Saved cards are collected in your Library, which you can open at any time from the main screen.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="question">How do I access my saved cards?</p>
+        <p class="answer">Tap the bookmark icon at the top of the main screen to open your Library. From there you can read, share, or remove any saved card.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="question">How do I use the widget?</p>
+        <p class="answer">Long-press your home screen, tap the + button in the top corner, and search for PocketWisdom. Choose a small or medium widget. The widget refreshes twice a day with a new card, and you can save directly from it by tapping the bookmark.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="question">My widget looks blank or isn't showing cards.</p>
+        <p class="answer">Open the app once after installing — the widget needs the app to run first to set up its card library. If the widget still appears blank after opening the app, try removing and re-adding it from your home screen.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="question">How do I share a card?</p>
+        <p class="answer">Open a saved card from your Library and tap the share icon in the bottom corner. This creates a clean image of the card you can send to anyone.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="question">How often does the widget update?</p>
+        <p class="answer">The widget shows a new card twice a day, around 8 am and 8 pm. Tapping the widget opens the app and brings that card to the front of your deck.</p>
+      </div>
+
+    </div>
+
+    <hr class="divider" />
+
+    <footer>
+      <p>&copy; 2026 The Pocket Wisdom App &nbsp;&middot;&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>

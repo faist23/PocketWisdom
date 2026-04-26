@@ -12,6 +12,7 @@ import WidgetKit
 
 struct SaveWisdomCardIntent: AppIntent {
     static var title: LocalizedStringResource = "Save Wisdom Card"
+    static var openAppWhenRun: Bool = false
 
     @Parameter(title: "Card ID")
     var cardID: String

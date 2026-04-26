@@ -34,8 +34,15 @@ final class WisdomViewModel: ObservableObject {
     // MARK: - Widget reload throttle (leading, max once per 5 seconds)
 
     private var lastWidgetReload: Date = .distantPast
+    // Suppresses notifyWidgetIfNeeded() during init(). currentIndex.didSet fires
+    // when currentIndex is first assigned in init (via @Published wrapper),
+    // which would trigger a premature reloadAllTimelines() before savedCardIDs
+    // is written. On iOS 26, WidgetKit coalesces that early reload with the one
+    // from saveCard(), leaving the widget with isSaved:false permanently.
+    private var isInitializing = true
 
     private func notifyWidgetIfNeeded() {
+        guard !isInitializing else { return }
         let now = Date()
         guard now.timeIntervalSince(lastWidgetReload) >= 5 else { return }
         lastWidgetReload = now
@@ -58,6 +65,7 @@ final class WisdomViewModel: ObservableObject {
             migrateToAppGroups()
         }
         loadSavedCards()
+        isInitializing = false
     }
 
     // MARK: - One-time migration from standard UserDefaults → App Groups
@@ -124,10 +132,12 @@ final class WisdomViewModel: ObservableObject {
         // Always write the current deck order to App Groups
         let deckIDs = self.deck.map { $0.id.uuidString }
         appGroupDefaults?.set(deckIDs, forKey: AppGroupKeys.shuffledDeckIDs)
-
-        // Reload widget timeline now that App Groups has fresh deck data.
-        // Done unconditionally (no throttle) because this only runs during init.
-        WidgetCenter.shared.reloadAllTimelines()
+        // Do NOT call reloadAllTimelines() here. If the app was opened via a
+        // pocketwisdom://save deep link, saveCard() will fire shortly after and
+        // call reloadAllTimelines() once — after writing savedCardIDs to App Groups.
+        // Calling it here first causes getTimeline to run before savedCardIDs is
+        // written; WidgetKit may then throttle the saveCard() reload, leaving the
+        // widget with isSaved:false permanently.
     }
 
     // MARK: - Deep link: move a card to currentIndex + 1
@@ -189,6 +199,20 @@ final class WisdomViewModel: ObservableObject {
         savedCards.contains { $0.id == card.id }
     }
 
+    /// Called from the widget's deep-link save button (pocketwisdom://save/{UUID}).
+    func saveCard(cardID: String) {
+        let cardsDict = Dictionary(uniqueKeysWithValues: repository.cards.map { ($0.id.uuidString, $0) })
+        guard let card = cardsDict[cardID], !isSaved(card) else { return }
+        savedCards.insert(card, at: 0)
+        persistSavedCards()
+        syncSavedCardsToAppGroups()
+        // 100ms gives the synchronize() IPC write time to land in the shared
+        // container before WidgetKit dispatches the extension process.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            WidgetCenter.shared.reloadAllTimelines()
+        }
+    }
+
     func toggleSave(for card: WisdomCard) {
         if isSaved(card) {
             savedCards.removeAll { $0.id == card.id }
@@ -202,6 +226,11 @@ final class WisdomViewModel: ObservableObject {
     private func syncSavedCardsToAppGroups() {
         let ids = savedCards.map { $0.id.uuidString }
         appGroupDefaults?.set(ids, forKey: AppGroupKeys.savedCardIDs)
+        // Force flush to the shared container on disk so the widget extension
+        // process reads the updated value before getTimeline runs. UserDefaults
+        // writes are otherwise asynchronous and may not be visible cross-process
+        // by the time reloadAllTimelines() triggers the extension.
+        appGroupDefaults?.synchronize()
     }
 
     private func loadSavedCards() {

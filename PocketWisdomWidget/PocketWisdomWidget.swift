@@ -66,42 +66,61 @@ struct WisdomTimelineProvider: TimelineProvider {
             widgetIndex = deckCount - 1
             defaults?.set(deckCount, forKey: AppGroupKeys.lastKnownDeckCount)
         } else {
-            widgetIndex = defaults?.integer(forKey: AppGroupKeys.widgetIndex) ?? (deckCount - 1)
+            // Stay on the current card if we're still within the 12-hour window.
+            // If nextScheduledDate is nil (first run with this code), treat as "within
+            // window" so a save-triggered reload still shows the same card filled.
+            let nextScheduled = defaults?.object(forKey: WidgetKeys.nextScheduledDate) as? Date
+            let withinWindow = nextScheduled.map { Date() < $0 } ?? true
+
+            if withinWindow,
+               let currentCardID = defaults?.string(forKey: AppGroupKeys.currentWidgetCardID),
+               let cardPosition = deckIDs.firstIndex(of: currentCardID) {
+                widgetIndex = cardPosition
+            } else {
+                widgetIndex = defaults?.integer(forKey: AppGroupKeys.widgetIndex) ?? (deckCount - 1)
+            }
             // Clamp in case deck shrank
             widgetIndex = min(widgetIndex, max(0, deckCount - 1))
         }
 
-        let scheduledDates = nextScheduledDates(count: 4, from: Date())
+        // Always include a Date() entry first so the widget shows a card immediately
+        // when the timeline is refreshed — without it, WidgetKit keeps the previous
+        // entry until the first future scheduled date arrives.
+        let now = Date()
+        let scheduledDates = nextScheduledDates(count: 3, from: now)
+        let allDates = [now] + scheduledDates
         var entries: [WisdomEntry] = []
 
         if deckCount == 0 {
-            // App Groups not yet populated (app hasn't run, or App Group provisioning issue).
-            // Fall back to time-based selection directly from the bundle so the widget
-            // always shows a real card instead of the placeholder.
-            let dayOrdinal = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
-            for (i, date) in scheduledDates.enumerated() {
+            // App Groups not yet populated — fall back to time-based bundle selection.
+            let dayOrdinal = Calendar.current.ordinality(of: .day, in: .era, for: now) ?? 0
+            for (i, date) in allDates.enumerated() {
                 let card = allCards.isEmpty ? nil : allCards[(dayOrdinal * 2 + i) % allCards.count]
                 entries.append(WisdomEntry(date: date, card: card, isSaved: false))
             }
         } else {
+            // Store the next scheduled date before the loop so intent-triggered reloads
+            // can detect they are within the same 12-hour window.
+            if let nextDate = scheduledDates.first {
+                defaults?.set(nextDate, forKey: WidgetKeys.nextScheduledDate)
+            }
+
             var idx = widgetIndex
 
-            for (i, date) in scheduledDates.enumerated() {
+            for (i, date) in allDates.enumerated() {
                 let cardID = deckIDs[safe: idx]
                 let card = cardID.flatMap { cardsByID[$0] }
                 let isSaved = cardID.map { savedIDs.contains($0) } ?? false
                 entries.append(WisdomEntry(date: date, card: card, isSaved: isSaved))
 
                 if i == 0 {
-                    // Persist which card the widget is currently showing
                     defaults?.set(cardID, forKey: AppGroupKeys.currentWidgetCardID)
                 }
 
-                // Walk backward through deck by 2 (widget reads from back, app from front)
                 idx = ((idx - 2) + deckCount) % deckCount
             }
 
-            // Write the index that will be live after this timeline expires
+            // Store post-loop idx for natural .atEnd advancement.
             defaults?.set(idx, forKey: AppGroupKeys.widgetIndex)
         }
 
@@ -133,17 +152,22 @@ struct WisdomTimelineProvider: TimelineProvider {
     }
 }
 
-// MARK: - Intent helpers
+// MARK: - Widget internal keys (widget-only, not shared with main app)
 
-private func saveIntent(cardID: String) -> SaveWisdomCardIntent {
-    var intent = SaveWisdomCardIntent()
-    intent.cardID = cardID
-    return intent
+private enum WidgetKeys {
+    static let nextScheduledDate = "widgetNextScheduledDate"
 }
+
+// MARK: - URL helpers
 
 private func deepLinkURL(for card: WisdomCard?) -> URL? {
     guard let card else { return nil }
     return URL(string: "pocketwisdom://card/\(card.id.uuidString)")
+}
+
+private func saveURL(for card: WisdomCard?) -> URL? {
+    guard let card else { return nil }
+    return URL(string: "pocketwisdom://save/\(card.id.uuidString)")
 }
 
 // MARK: - Widget view router
@@ -185,21 +209,23 @@ struct SmallWidgetView: View {
             }
             .frame(maxWidth: .infinity)
 
-            if let card = entry.card {
-                Button(intent: saveIntent(cardID: card.id.uuidString)) {
-                    Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
+            if let card = entry.card, !entry.isSaved, let url = saveURL(for: card) {
+                Link(destination: url) {
+                    Image(systemName: "bookmark")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
-                .buttonStyle(.plain)
                 .padding(8)
-                .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
+                .accessibilityLabel("Save wisdom")
+            } else if entry.isSaved {
+                Image(systemName: "bookmark.fill")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .padding(8)
             }
         }
         .containerBackground(.fill.tertiary, for: .widget)
         .widgetURL(deepLinkURL(for: entry.card))
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel(entry.card?.body ?? "No card")
     }
 }
 
@@ -210,47 +236,59 @@ struct MediumWidgetView: View {
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
-            VStack(spacing: 4) {
-                Text(entry.card?.body ?? "Open PocketWisdom for your daily card.")
-                    .font(.subheadline)
-                    .fontDesign(.serif)
-                    .multilineTextAlignment(.center)
-                    .lineLimit(6)
-
-                if let author = entry.card?.author {
-                    Text("— \(author)")
-                        .font(.caption2)
-                        .foregroundStyle(.tertiary)
-                        .multilineTextAlignment(.center)
-                        .padding(.top, 2)
-                }
-
-                // Reflection is last — naturally clipped by widget frame when body is long
-                if let reflection = entry.card?.reflection {
-                    Text(reflection)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                        .multilineTextAlignment(.center)
-                        .padding(.top, 4)
-                }
+            ViewThatFits(in: .vertical) {
+                mediumContent(showReflection: true)
+                mediumContent(showReflection: false)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .padding(.horizontal, 20)
             .padding(.vertical, 12)
 
-            if let card = entry.card {
-                Button(intent: saveIntent(cardID: card.id.uuidString)) {
-                    Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
+            if let card = entry.card, !entry.isSaved, let url = saveURL(for: card) {
+                Link(destination: url) {
+                    Image(systemName: "bookmark")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
-                .buttonStyle(.plain)
                 .padding(8)
-                .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
+                .accessibilityLabel("Save wisdom")
+            } else if entry.isSaved {
+                Image(systemName: "bookmark.fill")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .padding(8)
             }
         }
         .containerBackground(.fill.tertiary, for: .widget)
         .widgetURL(deepLinkURL(for: entry.card))
+    }
+
+    @ViewBuilder
+    private func mediumContent(showReflection: Bool) -> some View {
+        VStack(spacing: 4) {
+            Text(entry.card?.body ?? "Open PocketWisdom for your daily card.")
+                .font(.subheadline)
+                .fontDesign(.serif)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+
+            if let author = entry.card?.author {
+                Text("— \(author)")
+                    .font(.caption2)
+                    .foregroundStyle(.tertiary)
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 2)
+            }
+
+            if showReflection, let reflection = entry.card?.reflection {
+                Text(reflection)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 4)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
     }
 }
 
@@ -268,13 +306,15 @@ struct LockScreenWidgetView: View {
 
             Spacer(minLength: 0)
 
-            if let card = entry.card {
-                Button(intent: saveIntent(cardID: card.id.uuidString)) {
-                    Image(systemName: entry.isSaved ? "bookmark.fill" : "bookmark")
+            if let card = entry.card, !entry.isSaved, let url = saveURL(for: card) {
+                Link(destination: url) {
+                    Image(systemName: "bookmark")
                         .font(.caption2)
                 }
-                .buttonStyle(.plain)
-                .accessibilityLabel(entry.isSaved ? "Saved" : "Save wisdom")
+                .accessibilityLabel("Save wisdom")
+            } else if entry.isSaved {
+                Image(systemName: "bookmark.fill")
+                    .font(.caption2)
             }
         }
         .containerBackground(.fill.tertiary, for: .widget)

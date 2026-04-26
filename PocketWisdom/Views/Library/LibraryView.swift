@@ -21,7 +21,7 @@ struct LibraryView: View {
                             NavigationLink {
                                 SavedCardDetailView(
                                     card: card,
-                                    isSaved: vm.isSaved(card),
+                                    vm: vm,
                                     onSaveToggled: { vm.toggleSave(for: card) }
                                 )
                                 .navigationBarTitleDisplayMode(.inline)
@@ -83,7 +83,7 @@ struct LibraryView: View {
 
 private struct SavedCardDetailView: View {
     let card: WisdomCard
-    let isSaved: Bool
+    @ObservedObject var vm: WisdomViewModel
     let onSaveToggled: () -> Void
     @State private var showReflection = false
     @Environment(\.colorScheme) private var colorScheme
@@ -92,7 +92,7 @@ private struct SavedCardDetailView: View {
         ZStack {
             WisdomCardView(
                 card: card,
-                isSaved: isSaved,
+                isSaved: vm.isSaved(card),
                 onSaveToggled: onSaveToggled,
                 showReflection: $showReflection
             )

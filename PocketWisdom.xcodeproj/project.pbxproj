@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E8EB3E12F9BD1BE00CD02CD /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EB3E02F9BD1BE00CD02CD /* AppIntents.framework */; };
 		7EAF2D5D2F944B1E00A60F50 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAF2D5C2F944B1D00A60F50 /* WidgetKit.framework */; };
 		7EAF2D5F2F944B1E00A60F50 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAF2D5E2F944B1E00A60F50 /* SwiftUI.framework */; };
 		7EAF2D6C2F944B1E00A60F50 /* PocketWisdomWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7EAF2D5A2F944B1D00A60F50 /* PocketWisdomWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E8EB3E02F9BD1BE00CD02CD /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
 		7E9C91B22F847D5C00D9EE7C /* PocketWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9C91BF2F847D5D00D9EE7C /* PocketWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9C91C92F847D5D00D9EE7C /* PocketWisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8EB3E12F9BD1BE00CD02CD /* AppIntents.framework in Frameworks */,
 				7EAF2D5F2F944B1E00A60F50 /* SwiftUI.framework in Frameworks */,
 				7EAF2D5D2F944B1E00A60F50 /* WidgetKit.framework in Frameworks */,
 			);
@@ -173,6 +176,7 @@
 		7EAF2D5B2F944B1D00A60F50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E8EB3E02F9BD1BE00CD02CD /* AppIntents.framework */,
 				7EAF2D5C2F944B1D00A60F50 /* WidgetKit.framework */,
 				7EAF2D5E2F944B1E00A60F50 /* SwiftUI.framework */,
 			);
@@ -696,6 +700,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				CODE_SIGN_ENTITLEMENTS = PocketWisdomWidget/PocketWisdomWidget.entitlements;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ridepro.PocketWisdom.PocketWisdomWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -727,6 +732,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				CODE_SIGN_ENTITLEMENTS = PocketWisdomWidget/PocketWisdomWidget.entitlements;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ridepro.PocketWisdom.PocketWisdomWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";

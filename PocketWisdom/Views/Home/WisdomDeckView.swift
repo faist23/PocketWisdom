@@ -93,21 +93,28 @@ struct WisdomDeckView: View {
                     Spacer()
 
                     // Share Button
-                    Image(systemName: "square.and.arrow.up")
-                        .font(.system(size: 18, weight: .light))
-                        .foregroundColor(.secondary.opacity(0.5))
-                        .frame(width: 60, height: 60)
-                        .contentShape(Rectangle())
-                        .onTapGesture {
-                            if let image = renderShareImage() {
-                                presentShareSheet(image: image)
-                            }
+                    VStack(spacing: 4) {
+                        Text("Share")
+                            .font(.caption2)
+                            .foregroundColor(.secondary)
+                            .opacity(showHelp ? 1 : 0)
+
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.system(size: 18, weight: .light))
+                            .foregroundColor(.secondary.opacity(0.5))
+                    }
+                    .frame(width: 60, height: 60)
+                    .contentShape(Rectangle())
+                    .onTapGesture {
+                        if let image = renderShareImage() {
+                            presentShareSheet(image: image)
                         }
-                        .accessibilityElement(children: .ignore)
-                        .accessibilityLabel("Share")
-                        .accessibilityAddTraits(.isButton)
-                        .padding(.bottom, 16)
-                        .padding(.trailing, 16)
+                    }
+                    .accessibilityElement(children: .ignore)
+                    .accessibilityLabel("Share")
+                    .accessibilityAddTraits(.isButton)
+                    .padding(.bottom, 16)
+                    .padding(.trailing, 16)
                 }
             }
             
