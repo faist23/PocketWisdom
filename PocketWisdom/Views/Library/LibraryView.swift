@@ -151,10 +151,16 @@ private struct SavedCardDetailView: View {
         guard (try? data.write(to: url)) != nil else { return }
         let vc = UIActivityViewController(activityItems: [url], applicationActivities: nil)
         guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-              let rootVC = scene.windows.first?.rootViewController else { return }
+              let window = scene.windows.first,
+              let rootVC = window.rootViewController else { return }
         var topVC = rootVC
         while let presented = topVC.presentedViewController {
             topVC = presented
+        }
+        if let pop = vc.popoverPresentationController {
+            pop.sourceView = window
+            pop.sourceRect = CGRect(x: window.bounds.midX, y: window.bounds.midY, width: 0, height: 0)
+            pop.permittedArrowDirections = []
         }
         topVC.present(vc, animated: true)
     }

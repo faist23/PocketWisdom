@@ -325,7 +325,7 @@
     "id": "22222222-bbbb-2222-3333-222222222223",
     "category": "Life",
     "title": "Balance",
-    "body": "Balance isn’t perfect \u2014 it shifts constantly.",
+    "body": "Balance isn’t perfect — it shifts constantly.",
     "reflection": "What feels out of balance?"
   },
   {
@@ -2873,7 +2873,7 @@
     "id": "4b02ae6d-956a-4a7d-b8f1-331d45e1511f",
     "category": "Life",
     "title": "Inner power",
-    "body": "You have power over your mind \u2013 not outside events. Realize this, and you will find strength.",
+    "body": "You have power over your mind – not outside events. Realize this, and you will find strength.",
     "reflection": "What outside event are you trying to control?",
     "author": "Marcus Aurelius"
   },
@@ -3233,7 +3233,7 @@
     "id": "b7839d39-6bff-458e-95bf-bede8c2fe9ba",
     "category": "Life",
     "title": "The unseen",
-    "body": "The most beautiful things in the world cannot be seen or even touched \u2013 they must be felt with the heart.",
+    "body": "The most beautiful things in the world cannot be seen or even touched – they must be felt with the heart.",
     "reflection": "What beautiful thing are you feeling today?",
     "author": "Helen Keller"
   },
@@ -5161,7 +5161,7 @@
     "id": "6ee366f4-e4c2-44dc-9c29-78e5674a39d6",
     "category": "Work",
     "title": "No excuses",
-    "body": "I attribute my success to this \u2014 I never gave or took any excuse.",
+    "body": "I attribute my success to this — I never gave or took any excuse.",
     "reflection": "What excuse can you drop today?",
     "author": "Florence Nightingale"
   },
@@ -10352,5 +10352,797 @@
     "body": "The only true wisdom is in knowing you know nothing.",
     "reflection": "Where might you need to admit that you do not know the answer?",
     "author": "Socrates"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+    "category": "Work",
+    "title": "Apply what you know",
+    "body": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+    "reflection": "What do you already know but haven't yet acted on?",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8b9c-0d1e-f2a3b4c5d6e7",
+    "category": "Work",
+    "title": "Begin it now",
+    "body": "Whatever you can do, or dream you can, begin it. Boldness has genius, power, and magic in it.",
+    "reflection": "What have you been postponing that boldness might unlock today?",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-a3b4c5d6e7f8",
+    "category": "Life",
+    "title": "The enemy of good",
+    "body": "The perfect is the enemy of the good.",
+    "reflection": "Where is perfectionism stopping you from moving forward?",
+    "author": "Voltaire"
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0d1e-2f3a-b4c5d6e7f8a9",
+    "category": "Life",
+    "title": "Better questions",
+    "body": "Judge a man by his questions rather than his answers.",
+    "reflection": "What is the question you most need to sit with right now?",
+    "author": "Voltaire"
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1e2f-3a4b-c5d6e7f8a9b0",
+    "category": "Simplicity",
+    "title": "Beauty as salvation",
+    "body": "Beauty will save the world.",
+    "reflection": "Where did you encounter something beautiful today, and did you stop to let it in?",
+    "author": "Fyodor Dostoevsky"
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2f3a-4b5c-d6e7f8a9b0c1",
+    "category": "Relationships",
+    "title": "Seeing others truly",
+    "body": "To love someone means to see them as God intended them.",
+    "reflection": "Do you see the people closest to you as they truly are, or as you want them to be?",
+    "author": "Fyodor Dostoevsky"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3a4b-5c6d-e7f8a9b0c1d2",
+    "category": "Life",
+    "title": "Inner change first",
+    "body": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "reflection": "What change in yourself would have the biggest impact on your world?",
+    "author": "Leo Tolstoy"
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4b5c-6d7e-f8a9b0c1d2e3",
+    "category": "Time",
+    "title": "Now is all we have",
+    "body": "There is only one time that is important—now. It is the most important time because it is the only time when we have any power.",
+    "reflection": "What is calling for your full attention right now?",
+    "author": "Leo Tolstoy"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5c6d-7e8f-a9b0c1d2e3f4",
+    "category": "Life",
+    "title": "Day-to-day living",
+    "body": "Any idiot can face a crisis—it's the day-to-day living that wears you out.",
+    "reflection": "What ordinary, everyday burden have you been underestimating?",
+    "author": "Anton Chekhov"
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6d7e-8f9a-b0c1d2e3f4a5",
+    "category": "Solitude",
+    "title": "The frozen sea within",
+    "body": "A book must be the axe for the frozen sea within us.",
+    "reflection": "What book, idea, or conversation has cracked something open inside you recently?",
+    "author": "Franz Kafka"
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7e8f-9a0b-c1d2e3f4a5b6",
+    "category": "Life",
+    "title": "World in a grain of sand",
+    "body": "To see a world in a grain of sand, and heaven in a wild flower, hold infinity in the palm of your hand, and eternity in an hour.",
+    "reflection": "What small thing today held more meaning than its size suggests?",
+    "author": "William Blake"
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8f9a-0b1c-d2e3f4a5b6c7",
+    "category": "Work",
+    "title": "Energy is delight",
+    "body": "Energy is eternal delight.",
+    "reflection": "When did you last feel fully alive in what you were doing?",
+    "author": "William Blake"
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9a0b-1c2d-e3f4a5b6c7d8",
+    "category": "Life",
+    "title": "Beauty and truth",
+    "body": "Beauty is truth, truth beauty—that is all ye know on earth, and all ye need to know.",
+    "reflection": "Where in your life do beauty and truth feel inseparable?",
+    "author": "John Keats"
+  },
+  {
+    "id": "b4c5d6e7-f8a9-0b1c-2d3e-f4a5b6c7d8e9",
+    "category": "Solitude",
+    "title": "Nothing becomes real",
+    "body": "Nothing ever becomes real till it is experienced.",
+    "reflection": "What understanding have you gained only by living through it, not just thinking about it?",
+    "author": "John Keats"
+  },
+  {
+    "id": "c5d6e7f8-a9b0-1c2d-3e4f-a5b6c7d8e9f0",
+    "category": "Life",
+    "title": "To strive and not to yield",
+    "body": "To strive, to seek, to find, and not to yield.",
+    "reflection": "What are you still striving toward that truly matters to you?",
+    "author": "Alfred Lord Tennyson"
+  },
+  {
+    "id": "d6e7f8a9-b0c1-2d3e-4f5a-b6c7d8e9f0a1",
+    "category": "Relationships",
+    "title": "Better to have loved",
+    "body": "'Tis better to have loved and lost than never to have loved at all.",
+    "reflection": "What experience, even a painful one, are you ultimately grateful for?",
+    "author": "Alfred Lord Tennyson"
+  },
+  {
+    "id": "e7f8a9b0-c1d2-3e4f-5a6b-c7d8e9f0a1b2",
+    "category": "Time",
+    "title": "Ends and beginnings",
+    "body": "What we call the beginning is often the end. And to make an end is to make a beginning. The end is where we start from.",
+    "reflection": "What ending in your life might actually be a beginning in disguise?",
+    "author": "T.S. Eliot"
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4f5a-6b7c-d8e9f0a1b2c3",
+    "category": "Solitude",
+    "title": "Arriving where we started",
+    "body": "We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time.",
+    "reflection": "What familiar place or idea have you recently seen with completely new eyes?",
+    "author": "T.S. Eliot"
+  },
+  {
+    "id": "a9b0c1d2-e3f4-5a6b-7c8d-e9f0a1b2c3d4",
+    "category": "Relationships",
+    "title": "Love one another",
+    "body": "We must love one another or die.",
+    "reflection": "Who in your life most needs to feel your love today?",
+    "author": "W.H. Auden"
+  },
+  {
+    "id": "b0c1d2e3-f4a5-6b7c-8d9e-f0a1b2c3d4e5",
+    "category": "Life",
+    "title": "Rage against the dying",
+    "body": "Do not go gentle into that good night. Rage, rage against the dying of the light.",
+    "reflection": "Where in your life are you still fighting for what matters most?",
+    "author": "Dylan Thomas"
+  },
+  {
+    "id": "c1d2e3f4-a5b6-7c8d-9e0f-a1b2c3d4e5f6",
+    "category": "Relationships",
+    "title": "Souls of the same kind",
+    "body": "Whatever our souls are made of, his and mine are the same.",
+    "reflection": "Who in your life feels like they are cut from the same cloth as you?",
+    "author": "Emily Brontë"
+  },
+  {
+    "id": "d2e3f4a5-b6c7-8d9e-0f1a-b2c3d4e5f6a7",
+    "category": "Life",
+    "title": "No net ensnares me",
+    "body": "I am no bird; and no net ensnares me: I am a free human being with an independent will.",
+    "reflection": "What net—expectation, habit, or fear—might you need to break free from?",
+    "author": "Charlotte Brontë"
+  },
+  {
+    "id": "e3f4a5b6-c7d8-9e0f-1a2b-c3d4e5f6a7b8",
+    "category": "Relationships",
+    "title": "Tenderness of heart",
+    "body": "There is no charm equal to tenderness of heart.",
+    "reflection": "When did someone's tenderness recently catch you off guard?",
+    "author": "Jane Austen"
+  },
+  {
+    "id": "f4a5b6c7-d8e9-0f1a-2b3c-d4e5f6a7b8c9",
+    "category": "Life",
+    "title": "Keeping hold of yourself",
+    "body": "I may have lost my heart, but not my self-control.",
+    "reflection": "What keeps you grounded when your feelings pull you in every direction?",
+    "author": "Jane Austen"
+  },
+  {
+    "id": "a5b6c7d8-e9f0-1a2b-3c4d-e5f6a7b8c9d0",
+    "category": "Relationships",
+    "title": "Lightening the burden",
+    "body": "No one is useless in this world who lightens the burden of it to anyone else.",
+    "reflection": "Whose burden did you help lighten today, even in a small way?",
+    "author": "Charles Dickens"
+  },
+  {
+    "id": "b6c7d8e9-f0a1-2b3c-4d5e-f6a7b8c9d0e1",
+    "category": "Work",
+    "title": "The habits that carry you",
+    "body": "I never could have done what I have done without the habits of punctuality, order, and diligence.",
+    "reflection": "Which of your habits is quietly carrying you forward—and which ones aren't?",
+    "author": "Charles Dickens"
+  },
+  {
+    "id": "c7d8e9f0-a1b2-3c4d-5e6f-a7b8c9d0e1f2",
+    "category": "Life",
+    "title": "The darkest night ends",
+    "body": "Even the darkest night will end and the sun will rise.",
+    "reflection": "What difficult season in your life eventually gave way to something better?",
+    "author": "Victor Hugo"
+  },
+  {
+    "id": "d8e9f0a1-b2c3-4d5e-6f7a-b8c9d0e1f2a3",
+    "category": "Relationships",
+    "title": "Loved in spite of ourselves",
+    "body": "The greatest happiness of life is the conviction that we are loved; loved for ourselves, or rather, loved in spite of ourselves.",
+    "reflection": "Do you fully accept being loved—not because of what you do, but for who you are?",
+    "author": "Victor Hugo"
+  },
+  {
+    "id": "e9f0a1b2-c3d4-5e6f-7a8b-c9d0e1f2a3b4",
+    "category": "Life",
+    "title": "A dark wood",
+    "body": "In the middle of the journey of our life, I came to myself in a dark wood where the straight road was lost.",
+    "reflection": "Have you ever found yourself truly lost—and what did you discover in that darkness?",
+    "author": "Dante Alighieri"
+  },
+  {
+    "id": "f0a1b2c3-d4e5-6f7a-8b9c-d0e1f2a3b4c5",
+    "category": "Solitude",
+    "title": "Restless heart",
+    "body": "You have made us for yourself, O Lord, and our hearts are restless until they rest in you.",
+    "reflection": "What is your heart most restless for right now?",
+    "author": "Augustine of Hippo"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d7",
+    "category": "Life",
+    "title": "Love and do",
+    "body": "Love, and do what you will.",
+    "reflection": "If love were your only compass, what would you do differently today?",
+    "author": "Augustine of Hippo"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8b9c-0d1e-f2a3b4c5d6e8",
+    "category": "Simplicity",
+    "title": "Necessary to impossible",
+    "body": "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
+    "reflection": "What necessary first step have you been skipping in favor of dreaming bigger?",
+    "author": "Francis of Assisi"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-a3b4c5d6e7f9",
+    "category": "Relationships",
+    "title": "An instrument of peace",
+    "body": "Lord, make me an instrument of your peace: where there is hatred, let me sow love.",
+    "reflection": "Where in your relationships can you choose to sow peace instead of conflict today?",
+    "author": "Francis of Assisi"
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0d1e-2f3a-b4c5d6e7f8aa",
+    "category": "Life",
+    "title": "Faith and explanation",
+    "body": "To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.",
+    "reflection": "What do you hold as true that cannot be fully explained—and how does that feel?",
+    "author": "Thomas Aquinas"
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1e2f-3a4b-c5d6e7f8a9bb",
+    "category": "Life",
+    "title": "The road over the inn",
+    "body": "The road is always better than the inn.",
+    "reflection": "Are you genuinely enjoying the journey, or only looking forward to arriving?",
+    "author": "Miguel de Cervantes"
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2f3a-4b5c-d6e7f8a9b0cc",
+    "category": "Life",
+    "title": "Human and divine",
+    "body": "To err is human; to forgive, divine.",
+    "reflection": "Who are you withholding forgiveness from—perhaps even yourself?",
+    "author": "Alexander Pope"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3a4b-5c6d-e7f8a9b0c1dd",
+    "category": "Work",
+    "title": "Strength in perseverance",
+    "body": "Great works are performed not by strength but by perseverance.",
+    "reflection": "What are you building slowly, one steady day at a time?",
+    "author": "Samuel Johnson"
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4b5c-6d7e-f8a9b0c1d2ee",
+    "category": "Life",
+    "title": "The vigorous mind",
+    "body": "Curiosity is one of the permanent and certain characteristics of a vigorous intellect.",
+    "reflection": "What subject or question has genuinely lit up your curiosity lately?",
+    "author": "Samuel Johnson"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5c6d-7e8f-a9b0c1d2e3ff",
+    "category": "Nature & Seasons",
+    "title": "Nature never betrays",
+    "body": "Nature never did betray the heart that loved her.",
+    "reflection": "When did time in nature most recently restore something in you?",
+    "author": "William Wordsworth"
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6d7e-8f9a-b0c1d2e3f400",
+    "category": "Life",
+    "title": "Breathings of the heart",
+    "body": "Fill your paper with the breathings of your heart.",
+    "reflection": "What are you holding inside that wants to be expressed?",
+    "author": "William Wordsworth"
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7e8f-9a0b-c1d2e3f4a511",
+    "category": "Life",
+    "title": "Inspiring hope",
+    "body": "He is the best physician who is the most ingenious inspirer of hope.",
+    "reflection": "Who in your life most needs to hear a word of genuine hope from you?",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8f9a-0b1c-d2e3f4a5b622",
+    "category": "Solitude",
+    "title": "The mind's own place",
+    "body": "The mind is its own place, and in itself can make a heaven of hell, a hell of heaven.",
+    "reflection": "What shift in perspective could change the quality of your day right now?",
+    "author": "John Milton"
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9a0b-1c2d-e3f4a5b6c733",
+    "category": "Life",
+    "title": "Truth in dark times",
+    "body": "In a time of deceit, telling the truth is a revolutionary act.",
+    "reflection": "Where in your life does honesty take the most courage?",
+    "author": "George Orwell"
+  },
+  {
+    "id": "b4c5d6e7-f8a9-0b1c-2d3e-f4a5b6c7d844",
+    "category": "Life",
+    "title": "Happiness in acceptance",
+    "body": "Happiness can exist only in acceptance.",
+    "reflection": "What are you resisting that acceptance might make lighter?",
+    "author": "George Orwell"
+  },
+  {
+    "id": "c5d6e7f8-a9b0-1c2d-3e4f-a5b6c7d8e955",
+    "category": "Life",
+    "title": "Starving for wonder",
+    "body": "The world will never starve for want of wonders; but only for want of wonder.",
+    "reflection": "When did you last let yourself be genuinely amazed by something ordinary?",
+    "author": "G.K. Chesterton"
+  },
+  {
+    "id": "d6e7f8a9-b0c1-2d3e-4f5a-b6c7d8e9f066",
+    "category": "Life",
+    "title": "Dragons can be slain",
+    "body": "Fairy tales do not tell children that dragons exist. Children already know that dragons exist. Fairy tales tell children that dragons can be killed.",
+    "reflection": "What dragon in your own story are you finally ready to face?",
+    "author": "G.K. Chesterton"
+  },
+  {
+    "id": "e7f8a9b0-c1d2-3e4f-5a6b-c7d8e9f0a177",
+    "category": "Life",
+    "title": "Act as if it matters",
+    "body": "Act as if what you do makes a difference. It does.",
+    "reflection": "What action have you been holding back because you doubted it would matter?",
+    "author": "William James"
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4f5a-6b7c-d8e9f0a1b288",
+    "category": "Life",
+    "title": "Choose your thought",
+    "body": "The greatest weapon against stress is our ability to choose one thought over another.",
+    "reflection": "What thought could you choose right now that would serve you better?",
+    "author": "William James"
+  },
+  {
+    "id": "a9b0c1d2-e3f4-5a6b-7c8d-e9f0a1b2c399",
+    "category": "Relationships",
+    "title": "The will to help",
+    "body": "The purpose of human life is to serve, and to show compassion and the will to help others.",
+    "reflection": "In what way could you be of service today?",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "id": "b0c1d2e3-f4a5-6b7c-8d9e-f0a1b2c3d4aa",
+    "category": "Work",
+    "title": "Sharpen the axe",
+    "body": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe.",
+    "reflection": "What preparation have you been skipping that would make your work more effective?",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": "c1d2e3f4-a5b6-7c8d-9e0f-a1b2c3d4e5bb",
+    "category": "Life",
+    "title": "Be a good one",
+    "body": "Whatever you are, be a good one.",
+    "reflection": "In your current role—parent, friend, worker, neighbor—what does being a good one look like today?",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": "d2e3f4a5-b6c7-8d9e-0f1a-b2c3d4e5f6cc",
+    "category": "Work",
+    "title": "Work with what you have",
+    "body": "Do what you can, with what you have, where you are.",
+    "reflection": "What can you accomplish today with the resources already in front of you?",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "id": "e3f4a5b6-c7d8-9e0f-1a2b-c3d4e5f6a7dd",
+    "category": "Work",
+    "title": "Luck and hard work",
+    "body": "I find that the harder I work, the more luck I seem to have.",
+    "reflection": "Where might more effort create what looks like good fortune?",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": "f4a5b6c7-d8e9-0f1a-2b3c-d4e5f6a7b8ee",
+    "category": "Life",
+    "title": "Clear-eyed courage",
+    "body": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding go out to meet it.",
+    "reflection": "What are you facing clearly right now, even though it's difficult to look at?",
+    "author": "Thucydides"
+  },
+  {
+    "id": "a5b6c7d8-e9f0-1a2b-3c4d-e5f6a7b8c9ff",
+    "category": "Simplicity",
+    "title": "He has the most",
+    "body": "He has the most who is most content with the least.",
+    "reflection": "What do you already have that, if you truly appreciated it, would feel like plenty?",
+    "author": "Diogenes"
+  },
+  {
+    "id": "b6c7d8e9-f0a1-2b3c-4d5e-f6a7b8c9d011",
+    "category": "Life",
+    "title": "Flow with what happens",
+    "body": "Flow with whatever may happen and let your mind be free: stay centered by accepting whatever you are doing.",
+    "reflection": "Where in your life are you fighting the current instead of flowing with it?",
+    "author": "Zhuangzi"
+  },
+  {
+    "id": "c7d8e9f0-a1b2-3c4d-5e6f-a7b8c9d0e122",
+    "category": "Life",
+    "title": "The child's heart",
+    "body": "The great man is he who does not lose his child's heart.",
+    "reflection": "What quality of childhood have you most held onto—or most wish you had?",
+    "author": "Mencius"
+  },
+  {
+    "id": "d8e9f0a1-b2c3-4d5e-6f7a-b8c9d0e1f233",
+    "category": "Life",
+    "title": "Observe without judging",
+    "body": "The ability to observe without evaluating is the highest form of intelligence.",
+    "reflection": "Can you notice something in your life today without immediately judging it?",
+    "author": "Jiddu Krishnamurti"
+  },
+  {
+    "id": "e9f0a1b2-c3d4-5e6f-7a8b-c9d0e1f2a344",
+    "category": "Life",
+    "title": "Good over perfect",
+    "body": "And now that you don't have to be perfect, you can be good.",
+    "reflection": "Where might releasing perfectionism allow you to simply be good?",
+    "author": "John Steinbeck"
+  },
+  {
+    "id": "f0a1b2c3-d4e5-6f7a-8b9c-d0e1f2a3b455",
+    "category": "Life",
+    "title": "Strong at broken places",
+    "body": "The world breaks everyone, and afterward, many are strong at the broken places.",
+    "reflection": "Where have you been broken in a way that made you stronger?",
+    "author": "Ernest Hemingway"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c566",
+    "category": "Time",
+    "title": "Boats against the current",
+    "body": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+    "reflection": "What from your past keeps pulling you back—and what would it mean to finally let it go?",
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8b9c-0d1e-f2a3b4c5d677",
+    "category": "Life",
+    "title": "Never too late",
+    "body": "For what it's worth: it's never too late to be whoever you want to be. I hope you live a life you're proud of, and if you're not, I hope you have the courage to start over.",
+    "reflection": "Is there something you've told yourself it's too late for—that might not actually be too late?",
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9c0d-1e2f-a3b4c5d6e788",
+    "category": "Time",
+    "title": "The past is never past",
+    "body": "The past is never dead. It's not even past.",
+    "reflection": "What from your past is still alive in how you live today?",
+    "author": "William Faulkner"
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0d1e-2f3a-b4c5d6e7f899",
+    "category": "Time",
+    "title": "Years that ask",
+    "body": "There are years that ask questions and years that answer.",
+    "reflection": "Is this a year of questions or answers for you—or both?",
+    "author": "Zora Neale Hurston"
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1e2f-3a4b-c5d6e7f8a900",
+    "category": "Life",
+    "title": "Two ways to spread light",
+    "body": "There are two ways of spreading light: to be the candle or the mirror that reflects it.",
+    "reflection": "Are you more often the source of light in your community, or the one who helps others shine?",
+    "author": "Edith Wharton"
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2f3a-4b5c-d6e7f8a9b011",
+    "category": "Relationships",
+    "title": "Great love and miracles",
+    "body": "Where there is great love, there are always miracles.",
+    "reflection": "What small miracle in your relationships have you been taking for granted?",
+    "author": "Willa Cather"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3a4b-5c6d-e7f8a9b0c122",
+    "category": "Time",
+    "title": "Sixty seconds of distance run",
+    "body": "If you can fill the unforgiving minute with sixty seconds' worth of distance run, yours is the Earth and everything that's in it.",
+    "reflection": "What would change if you gave full effort to even one hour of your day?",
+    "author": "Rudyard Kipling"
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4b5c-6d7e-f8a9b0c1d233",
+    "category": "Life",
+    "title": "Face it to change it",
+    "body": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "reflection": "What truth about your life are you still not fully facing?",
+    "author": "James Baldwin"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5c6d-7e8f-a9b0c1d2e344",
+    "category": "Work",
+    "title": "Fail better",
+    "body": "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
+    "reflection": "What failure taught you more than any success?",
+    "author": "Samuel Beckett"
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6d7e-8f9a-b0c1d2e3f455",
+    "category": "Life",
+    "title": "The right regrets",
+    "body": "Maybe all one can do is hope to end up with the right regrets.",
+    "reflection": "Looking back, which choices do you most wish you had made differently—and which do you not regret at all?",
+    "author": "Arthur Miller"
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7e8f-9a0b-c1d2e3f4a566",
+    "category": "Nature & Seasons",
+    "title": "What spring does",
+    "body": "I want to do with you what spring does with the cherry trees.",
+    "reflection": "What relationship in your life draws out your fullest bloom?",
+    "author": "Pablo Neruda"
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8f9a-0b1c-d2e3f4a5b677",
+    "category": "Solitude",
+    "title": "The profoundest fact",
+    "body": "Solitude is the profoundest fact of the human condition. Man is the only being who knows he is alone.",
+    "reflection": "How do you make peace with your own solitude?",
+    "author": "Octavio Paz"
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9a0b-1c2d-e3f4a5b6c788",
+    "category": "Time",
+    "title": "Forking futures",
+    "body": "Time forks perpetually toward innumerable futures.",
+    "reflection": "Standing at today's crossroads, which future are you choosing?",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "id": "b4c5d6e7-f8a9-0b1c-2d3e-f4a5b6c7d899",
+    "category": "Solitude",
+    "title": "Paradise as library",
+    "body": "I have always imagined that paradise will be a kind of library.",
+    "reflection": "What kind of place feels like paradise to you—and when did you last spend time there?",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "id": "c5d6e7f8-a9b0-1c2d-3e4f-a5b6c7d8e900",
+    "category": "Relationships",
+    "title": "Generosity of attention",
+    "body": "Attention is the rarest and purest form of generosity.",
+    "reflection": "Who in your life most deserves your full, undivided attention?",
+    "author": "Simone Weil"
+  },
+  {
+    "id": "d6e7f8a9-b0c1-2d3e-4f5a-b6c7d8e9f011",
+    "category": "Work",
+    "title": "Seeds in small acts",
+    "body": "The smallest act in the most limited circumstances bears the seed of the same boundlessness, because one deed—and sometimes one word—suffices to change every constellation.",
+    "reflection": "What small act could you take today that might ripple outward in ways you can't predict?",
+    "author": "Hannah Arendt"
+  },
+  {
+    "id": "e7f8a9b0-c1d2-3e4f-5a6b-c7d8e9f0a122",
+    "category": "Life",
+    "title": "We are our choices",
+    "body": "We are our choices.",
+    "reflection": "What choice you made recently most clearly reflects who you are?",
+    "author": "Jean-Paul Sartre"
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4f5a-6b7c-d8e9f0a1b233",
+    "category": "Life",
+    "title": "Organized wisdom",
+    "body": "Science is organized knowledge. Wisdom is organized life.",
+    "reflection": "How organized is your inner life—and what would more structure there look like?",
+    "author": "Immanuel Kant"
+  },
+  {
+    "id": "a9b0c1d2-e3f4-5a6b-7c8d-e9f0a1b2c344",
+    "category": "Life",
+    "title": "Using it well",
+    "body": "It is not enough to have a good mind; the main thing is to use it well.",
+    "reflection": "Where could you apply your mind more fully today?",
+    "author": "René Descartes"
+  },
+  {
+    "id": "b0c1d2e3-f4a5-6b7c-8d9e-f0a1b2c3d455",
+    "category": "Life",
+    "title": "Beauty in the mind",
+    "body": "Beauty in things exists in the mind which contemplates them.",
+    "reflection": "What might appear more beautiful to you if you simply looked at it differently?",
+    "author": "David Hume"
+  },
+  {
+    "id": "c1d2e3f4-a5b6-7c8d-9e0f-a1b2c3d4e566",
+    "category": "Life",
+    "title": "Dreams of youth",
+    "body": "Keep true to the dreams of thy youth.",
+    "reflection": "What dream from your younger self have you drifted furthest from—and does it still call to you?",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "id": "d2e3f4a5-b6c7-8d9e-0f1a-b2c3d4e5f677",
+    "category": "Life",
+    "title": "A full look at the worst",
+    "body": "If a way to the better there be, it exacts a full look at the worst.",
+    "reflection": "What difficult truth about your situation do you need to look at squarely?",
+    "author": "Thomas Hardy"
+  },
+  {
+    "id": "e3f4a5b6-c7d8-9e0f-1a2b-c3d4e5f6a788",
+    "category": "Time",
+    "title": "A dream within a dream",
+    "body": "All that we see or seem is but a dream within a dream.",
+    "reflection": "What in your life lately has felt more surreal than solid?",
+    "author": "Edgar Allan Poe"
+  },
+  {
+    "id": "f4a5b6c7-d8e9-0f1a-2b3c-d4e5f6a7b899",
+    "category": "Work",
+    "title": "Wait for readiness, never start",
+    "body": "If we wait for the moment when everything, absolutely everything, is ready, we shall never begin.",
+    "reflection": "What project or change have you delayed waiting for the perfect moment?",
+    "author": "Ivan Turgenev"
+  },
+  {
+    "id": "a5b6c7d8-e9f0-1a2b-3c4d-e5f6a7b8c900",
+    "category": "Life",
+    "title": "Born to live",
+    "body": "Man is born to live, not to prepare for life.",
+    "reflection": "In what ways are you preparing to live rather than actually living?",
+    "author": "Boris Pasternak"
+  },
+  {
+    "id": "4BDF77F8-A6AD-4FD1-9147-5438DD26EEBC",
+    "category": "Work",
+    "title": "Found your work",
+    "body": "Blessed is he who has found his work; let him ask no other blessedness.",
+    "reflection": "Does your work feel like a blessing—and if not, what would need to change?",
+    "author": "Thomas Carlyle"
+  },
+  {
+    "id": "45AD7ACA-4C7A-432C-810F-A091877A5672",
+    "category": "Life",
+    "title": "Freedom in your own way",
+    "body": "The only freedom which deserves the name is that of pursuing our own good in our own way, so long as we do not attempt to deprive others of theirs.",
+    "reflection": "Are you living according to your own sense of the good—or someone else's?",
+    "author": "John Stuart Mill"
+  },
+  {
+    "id": "EE85962B-3C2B-4223-AD94-09E024638103",
+    "category": "Life",
+    "title": "Comedy and sadness",
+    "body": "The longer and more carefully we look at a funny story, the sadder it becomes.",
+    "reflection": "What in your life looks lighter on the surface than it feels underneath?",
+    "author": "Nikolai Gogol"
+  },
+  {
+    "id": "DAF2CA21-6088-4544-BF18-792A6E68EAF3",
+    "category": "Life",
+    "title": "Fear the inadequate life",
+    "body": "Don't be afraid of death so much as an inadequate life.",
+    "reflection": "What would make your life feel more fully lived?",
+    "author": "Bertolt Brecht"
+  },
+  {
+    "id": "B6B0DF3A-E278-49C6-9A8F-F825CFF71909",
+    "category": "Life",
+    "title": "Flashes of happiness",
+    "body": "There is no happiness in life, only flashes of it—cherish them.",
+    "reflection": "What flash of happiness from today, or this week, do you want to hold onto?",
+    "author": "Alexander Pushkin"
+  },
+  {
+    "id": "BD75EB5D-3352-40F5-9289-F4FEAC32D42B",
+    "category": "Life",
+    "title": "Born broken",
+    "body": "We are born broken. We live by mending. The grace of God is glue.",
+    "reflection": "What has helped you hold yourself together during your most broken times?",
+    "author": "Eugene O'Neill"
+  },
+  {
+    "id": "FFD345F1-28BB-45E9-A625-AE39FF6FCC94",
+    "category": "Life",
+    "title": "May you live every day",
+    "body": "May you live every day of your life.",
+    "reflection": "What would it mean to truly live—not just pass through—today?",
+    "author": "Jonathan Swift"
+  },
+  {
+    "id": "DE9BF6E5-1DCA-4E81-8522-C574B7F6D0A8",
+    "category": "Life",
+    "title": "He that is down",
+    "body": "He that is down needs fear no fall; he that is low, no pride.",
+    "reflection": "Is there a kind of freedom in having nothing left to lose right now?",
+    "author": "John Bunyan"
+  },
+  {
+    "id": "2A7FD5AD-429B-4B2A-A731-922D3C0DCF63",
+    "category": "Life",
+    "title": "If honor were profitable",
+    "body": "If honor were profitable, everybody would be honorable.",
+    "reflection": "What honorable thing are you doing even when no one is watching and there's nothing to gain?",
+    "author": "Thomas More"
+  },
+  {
+    "id": "F244A955-F0E8-4902-B79F-9106B7A0ADB3",
+    "category": "Life",
+    "title": "A man and his dream",
+    "body": "A man that is born falls into a dream like a man who falls into the sea. If he tries to climb out into the air he drowns. The way is to submit to the destructive element and let it do its work.",
+    "reflection": "What dream or calling have you been resisting rather than diving into?",
+    "author": "Joseph Conrad"
+  },
+  {
+    "id": "D745B8D2-9477-486F-882C-220B97509BD2",
+    "category": "Relationships",
+    "title": "Three times kind",
+    "body": "Three things in human life are important: the first is to be kind; the second is to be kind; and the third is to be kind.",
+    "reflection": "In what three situations today could kindness be your first response instead of your last?",
+    "author": "Henry James"
+  },
+  {
+    "id": "96D88B78-6DF7-4ADE-80C7-745A6CBD3AB2",
+    "category": "Life",
+    "title": "I want magic",
+    "body": "I don't want realism. I want magic! Yes, yes, magic. I try to give that to people. I misrepresent things to them. I don't tell the truth. I tell what ought to be truth.",
+    "reflection": "Where do you still allow yourself to believe in something more than what's merely practical?",
+    "author": "Tennessee Williams"
+  },
+  {
+    "id": "ED8EC00A-1F84-42DD-81BE-F6A777415473",
+    "category": "Life",
+    "title": "No excuse over bad",
+    "body": "It is better to offer no excuse than a bad one.",
+    "reflection": "Where have you been offering excuses instead of simply owning what happened?",
+    "author": "George Washington"
+  },
+  {
+    "id": "F8BE98BA-5006-484A-8EFA-34AE6838AC5B",
+    "category": "Life",
+    "title": "Born free",
+    "body": "Man is born free, and everywhere he is in chains.",
+    "reflection": "What chains—habits, expectations, fears—are you still carrying that aren't truly yours?",
+    "author": "Jean-Jacques Rousseau"
   }
 ]

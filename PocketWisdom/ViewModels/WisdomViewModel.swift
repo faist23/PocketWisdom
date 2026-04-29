@@ -109,7 +109,7 @@ final class WisdomViewModel: ObservableObject {
             ?? UserDefaults.standard.stringArray(forKey: "shuffledDeckIDs")
 
         if let savedIDs = savedDeckIDs, !savedIDs.isEmpty {
-            let cardsDict = Dictionary(uniqueKeysWithValues: allCards.map { ($0.id.uuidString, $0) })
+            let cardsDict = Dictionary(allCards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
             let restoredDeck = savedIDs.compactMap { cardsDict[$0] }
 
             let newCards = allCards.filter { !savedIDs.contains($0.id.uuidString) }
@@ -161,7 +161,7 @@ final class WisdomViewModel: ObservableObject {
         appGroupDefaults?.set(deckIDs, forKey: AppGroupKeys.shuffledDeckIDs)
 
         // Rebuild deck array from updated order
-        let cardsDict = Dictionary(uniqueKeysWithValues: repository.cards.map { ($0.id.uuidString, $0) })
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
         self.deck = deckIDs.compactMap { cardsDict[$0] }
     }
 
@@ -175,7 +175,7 @@ final class WisdomViewModel: ObservableObject {
         let localSavedIDs = Set(savedCards.map { $0.id.uuidString })
         let merged = widgetSavedIDs.union(localSavedIDs)
 
-        let cardsDict = Dictionary(uniqueKeysWithValues: repository.cards.map { ($0.id.uuidString, $0) })
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
 
         // Preserve insertion order: local cards first (prepend), then new widget-saved cards appended
         var mergedCards = savedCards
@@ -201,7 +201,7 @@ final class WisdomViewModel: ObservableObject {
 
     /// Called from the widget's deep-link save button (pocketwisdom://save/{UUID}).
     func saveCard(cardID: String) {
-        let cardsDict = Dictionary(uniqueKeysWithValues: repository.cards.map { ($0.id.uuidString, $0) })
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
         guard let card = cardsDict[cardID], !isSaved(card) else { return }
         savedCards.insert(card, at: 0)
         persistSavedCards()
@@ -238,7 +238,7 @@ final class WisdomViewModel: ObservableObject {
               let savedIDs = try? JSONDecoder().decode([String].self, from: data) else {
             return
         }
-        let cardsDict = Dictionary(uniqueKeysWithValues: repository.cards.map { ($0.id.uuidString, $0) })
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
         self.savedCards = savedIDs.compactMap { cardsDict[$0] }
     }
 
