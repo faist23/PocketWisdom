@@ -11144,5 +11144,365 @@
     "body": "Man is born free, and everywhere he is in chains.",
     "reflection": "What chains—habits, expectations, fears—are you still carrying that aren't truly yours?",
     "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "id": "5B69DC63-520E-4CAE-94F5-36B592719E1C",
+    "category": "Work",
+    "title": "On small leaks",
+    "body": "Beware of little expenses; a small leak will sink a great ship.",
+    "reflection": "Where are the small drains in your life quietly adding up to something larger?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "33ECDE13-8997-40C5-B738-84774071F12D",
+    "category": "Work",
+    "title": "On doing",
+    "body": "Well done is better than well said.",
+    "reflection": "Where have words been standing in for action?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "E9CA526E-97CA-4A49-A536-FA4C3F2BE48B",
+    "category": "Work",
+    "title": "On excuses",
+    "body": "He that is good for making excuses is seldom good for anything else.",
+    "reflection": "What excuse have you been refining instead of solving?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "510A0DDF-656D-412B-867D-CEE2B13B8524",
+    "category": "Work",
+    "title": "On staying the course",
+    "body": "Energy and persistence conquer all things.",
+    "reflection": "What have you almost abandoned that persistence might still reach?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "B962DD88-8FAB-4CF1-832D-2ED51B9AEB32",
+    "category": "Work",
+    "title": "On intention",
+    "body": "Drive thy business or it will drive thee.",
+    "reflection": "Where in your work are you being driven rather than directing?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "966F62DD-ACCF-49FB-94B1-406CAE3E422E",
+    "category": "Life",
+    "title": "On learning",
+    "body": "An investment in knowledge pays the best interest.",
+    "reflection": "What are you learning right now that your future self will be grateful for?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "CA19C61E-BAA5-46FD-B336-0EA5E63813BC",
+    "category": "Life",
+    "title": "On a life worth living",
+    "body": "Either write something worth reading or do something worth writing.",
+    "reflection": "What would you want said about how you've spent your time?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "32F85D71-3D4E-46A0-8800-6B2CD81594AD",
+    "category": "Life",
+    "title": "On what's certain",
+    "body": "In this world nothing can be said to be certain, except death and taxes.",
+    "reflection": "How do you hold what you can't control?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "4221F5FC-73CD-48F7-95D7-B28AF1CE1516",
+    "category": "Life",
+    "title": "On counsel",
+    "body": "Wise men don't need advice. Fools won't take it.",
+    "reflection": "When did you last genuinely change your mind because of what someone said?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "0E764AB7-D1CD-4DE1-B93E-EFCBC53007EA",
+    "category": "Relationships",
+    "title": "On secrets",
+    "body": "Three may keep a secret, if two of them are dead.",
+    "reflection": "What does this say about who you share your most guarded things with?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "216CC94F-2893-4088-9104-F17E314C7DC0",
+    "category": "Life",
+    "title": "On what you remember",
+    "body": "Write your injuries in dust, your benefits in marble.",
+    "reflection": "What are you still holding onto that might be better let go?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "28044D8B-584C-4C22-8769-DAFF1EE0AD9A",
+    "category": "Simplicity",
+    "title": "On contentment",
+    "body": "Content makes poor men rich; discontent makes rich men poor.",
+    "reflection": "What do you have right now that you once would have called enough?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "AEDD3238-5024-449E-879F-DF973A798C21",
+    "category": "Simplicity",
+    "title": "On patience",
+    "body": "Necessity never made a good bargain.",
+    "reflection": "When have you rushed a decision out of need and paid for it later?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "6BB32D46-CBC9-47CC-A3BF-BA7F01F75436",
+    "category": "Relationships",
+    "title": "On being loved",
+    "body": "If you would be loved, love, and be loveable.",
+    "reflection": "What would it look like to be a little more loveable this week?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "98BBFA97-79DC-43C4-9058-F9CFA37D16B7",
+    "category": "Life",
+    "title": "On worry",
+    "body": "Do not anticipate trouble, or worry about what may never happen. Keep in the sunlight.",
+    "reflection": "What worry are you carrying today that may never actually come to pass?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "C407F0BC-CD2F-4370-A9C9-804A88694051",
+    "category": "Relationships",
+    "title": "On selflessness",
+    "body": "A man wrapped up in himself makes a very small bundle.",
+    "reflection": "Where might you be making yourself smaller by making yourself the center?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "2F19AE52-8DB1-40BA-8ACD-CB65C675B9C0",
+    "category": "Time",
+    "title": "On delay",
+    "body": "You may delay, but time will not.",
+    "reflection": "What have you been putting off that time is already deciding for you?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "2D31063E-0F83-4249-95B5-2342A0E0650F",
+    "category": "Time",
+    "title": "On rhythm",
+    "body": "Early to bed and early to rise makes a man healthy, wealthy, and wise.",
+    "reflection": "What small routines have most shaped the person you've become?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "335A83AF-818C-4F9B-B780-807A6ADC106D",
+    "category": "Life",
+    "title": "On conscience",
+    "body": "A good conscience is a continual Christmas.",
+    "reflection": "What would ease your conscience if you simply took care of it today?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "901825A4-09C5-4EBA-9279-35C47EFE42A3",
+    "category": "Solitude",
+    "title": "On useful rest",
+    "body": "Leisure is the time for doing something useful.",
+    "reflection": "How do you spend the time when nothing is required of you?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "A462EB23-A073-42A1-B0AE-33704FB67888",
+    "category": "Life",
+    "title": "On staying open",
+    "body": "The doors of wisdom are never shut.",
+    "reflection": "What belief have you stopped questioning that might be worth revisiting?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "513C292E-EAC0-442B-9477-2A08E96BFE74",
+    "category": "Work",
+    "title": "On luck",
+    "body": "Diligence is the mother of good luck.",
+    "reflection": "What would change if you treated luck as something you could cultivate?",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": "440B9507-5965-483C-BD35-6BB423FB7D7C",
+    "category": "Life",
+    "title": "On honesty",
+    "body": "Honesty is the first chapter in the book of wisdom.",
+    "reflection": "Where does honesty still cost you something?",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": "8183F82C-BB2F-42A6-8BC8-3B750D39EBB2",
+    "category": "Simplicity",
+    "title": "On spending",
+    "body": "Never spend your money before you have earned it.",
+    "reflection": "Where are you borrowing against the future to feel better in the present?",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": "D97D7FA4-F437-4BEC-89C0-2655A15E7B4A",
+    "category": "Work",
+    "title": "On idleness",
+    "body": "Determine never to be idle. No person will have occasion to complain of the want of time who never loses any.",
+    "reflection": "What does a life without wasted time look like to you?",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": "5645BE06-33FC-4139-98B4-A59CFB4CB037",
+    "category": "Life",
+    "title": "On composure",
+    "body": "Nothing gives one person so great advantage over another as to remain always cool and unruffled under all circumstances.",
+    "reflection": "When did staying calm serve you better than reacting?",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": "DE1F3BE0-A73C-4EF2-9C9E-1EEA92ADEE3A",
+    "category": "Life",
+    "title": "On inner life",
+    "body": "Happiness depends more upon the internal frame of a person's own mind than on the externals in the world.",
+    "reflection": "What internal shift might change how you experience things right now?",
+    "author": "George Washington"
+  },
+  {
+    "id": "09CA00D5-3488-42BD-9104-431D6F57B02F",
+    "category": "Relationships",
+    "title": "On closeness",
+    "body": "Be courteous to all, but intimate with few, and let those few be well tried before you give them your confidence.",
+    "reflection": "How do you decide who truly earns your trust?",
+    "author": "George Washington"
+  },
+  {
+    "id": "F1421182-A7BC-4D92-A9E1-44BB38FDE3B4",
+    "category": "Work",
+    "title": "On keeping at it",
+    "body": "Perseverance and spirit have done wonders in all ages.",
+    "reflection": "What are you in the middle of right now that perseverance might still turn around?",
+    "author": "George Washington"
+  },
+  {
+    "id": "752C3AFE-465D-458E-87A1-849E813C2394",
+    "category": "Work",
+    "title": "On difficulty",
+    "body": "The harder the conflict, the more glorious the triumph.",
+    "reflection": "What struggle are you in right now that you'll one day be glad you faced?",
+    "author": "Thomas Paine"
+  },
+  {
+    "id": "A813AC78-C85D-42FE-86E4-ED4082D5F9EE",
+    "category": "Life",
+    "title": "On understanding",
+    "body": "The mind once enlightened cannot again become dark.",
+    "reflection": "What did you learn that changed everything after?",
+    "author": "Thomas Paine"
+  },
+  {
+    "id": "5C571CFC-903E-44A5-A99E-2D9454FC1BF2",
+    "category": "Life",
+    "title": "On hard times",
+    "body": "These are the times that try men's souls.",
+    "reflection": "What are these times revealing about who you are?",
+    "author": "Thomas Paine"
+  },
+  {
+    "id": "7A715BDD-17A7-4D59-BA71-121BEB4177A4",
+    "category": "Life",
+    "title": "On keeping sharp",
+    "body": "Old minds are like old horses; you must exercise them if you wish to keep them in working order.",
+    "reflection": "What are you doing to keep your mind from going still?",
+    "author": "John Adams"
+  },
+  {
+    "id": "9A6BA502-ACA8-42FA-8FA0-840A4BC06A71",
+    "category": "Life",
+    "title": "On truth",
+    "body": "Facts are stubborn things.",
+    "reflection": "What fact have you been reluctant to accept?",
+    "author": "John Adams"
+  },
+  {
+    "id": "134FB4FC-CE7A-4D20-A421-E22E2F11AF44",
+    "category": "Life",
+    "title": "On habits",
+    "body": "The chains of habit are too weak to be felt until they are too strong to be broken.",
+    "reflection": "What habit are you building right now — toward something, or away from it?",
+    "author": "Samuel Johnson"
+  },
+  {
+    "id": "6443A056-C82C-42DA-94DD-989AF786DEC3",
+    "category": "Work",
+    "title": "On hesitation",
+    "body": "Nothing will ever be attempted if all possible objections must be first overcome.",
+    "reflection": "What have you been waiting to be certain about before starting?",
+    "author": "Samuel Johnson"
+  },
+  {
+    "id": "C171DCD3-B358-472C-9744-2471C6A782DD",
+    "category": "Life",
+    "title": "On pretending",
+    "body": "Almost every man wastes part of his life attempting to display qualities which he does not possess.",
+    "reflection": "Where are you spending energy appearing to be something you're not?",
+    "author": "Samuel Johnson"
+  },
+  {
+    "id": "D526C669-FC32-4369-A630-63D77443D558",
+    "category": "Life",
+    "title": "On common sense",
+    "body": "Common sense is not so common.",
+    "reflection": "When did simple, obvious thinking save you from something overly complicated?",
+    "author": "Voltaire"
+  },
+  {
+    "id": "300B9E4B-2582-4C60-97F4-F3287294CF40",
+    "category": "Life",
+    "title": "On humility",
+    "body": "The more I read, the more I acquire, the more certain I am that I know nothing.",
+    "reflection": "What does knowing more have to say about how much you still don't understand?",
+    "author": "Voltaire"
+  },
+  {
+    "id": "EC437D33-DA2E-49B2-A3CB-3A51C49DF077",
+    "category": "Life",
+    "title": "On missed goodness",
+    "body": "Every man is guilty of all the good he did not do.",
+    "reflection": "What good have you been meaning to do?",
+    "author": "Voltaire"
+  },
+  {
+    "id": "57CEC390-CA41-490E-AA8A-B2E886B406AE",
+    "category": "Life",
+    "title": "On seeking",
+    "body": "Learning is not attained by chance. It must be sought with ardor and attended with diligence.",
+    "reflection": "What are you actively trying to understand right now?",
+    "author": "Abigail Adams"
+  },
+  {
+    "id": "3E15E96B-EFDA-498D-ADD3-FAF924281959",
+    "category": "Work",
+    "title": "On character",
+    "body": "It is not in the still calm of life, or the repose of a pacific station, that great characters are formed.",
+    "reflection": "What difficulty are you in right now that might be forming something in you?",
+    "author": "Abigail Adams"
+  },
+  {
+    "id": "222CD94A-263F-406E-89A9-87733E55FBAB",
+    "category": "Work",
+    "title": "On small steps",
+    "body": "Nobody made a greater mistake than he who did nothing because he could do only a little.",
+    "reflection": "What small thing could you do today that you've been dismissing as not enough?",
+    "author": "Edmund Burke"
+  },
+  {
+    "id": "BB6C5929-16BC-4C2F-87C4-A0A48A08DD5B",
+    "category": "Work",
+    "title": "On depth",
+    "body": "All the genius I have lies in this: when I have a subject in hand, I study it profoundly.",
+    "reflection": "When did going deep on something change your understanding of it?",
+    "author": "Alexander Hamilton"
+  },
+  {
+    "id": "709CBDBA-579A-4478-89D0-9ED997BF7F0C",
+    "category": "Life",
+    "title": "On imagination",
+    "body": "The world of reality has its limits; the world of imagination is boundless.",
+    "reflection": "Where does your imagination take you when the world feels too small?",
+    "author": "Jean-Jacques Rousseau"
   }
 ]
