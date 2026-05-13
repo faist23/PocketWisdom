@@ -30,6 +30,10 @@ struct PocketWisdomApp: App {
         .onChange(of: scenePhase) { _, newPhase in
             if newPhase == .active {
                 vm.mergeWidgetSaves()
+                if hasSeenOnboarding {
+                    NotificationScheduler.shared.promptExistingUserIfNeeded()
+                }
+                Task { await NotificationScheduler.shared.rescheduleIfNeeded() }
             } else if newPhase == .background {
                 // Reload widget on background for normal use (swipe through cards, etc).
                 // Skip if saveCard() already fired a reload via deep link — that reload

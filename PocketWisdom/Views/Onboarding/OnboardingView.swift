@@ -1,18 +1,13 @@
-//
-//  OnboardingView.swift
-//  PocketWisdom
-//
-
 import SwiftUI
 
 struct OnboardingView: View {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     @State private var currentStep = 0
-    
+
     var body: some View {
         ZStack {
             Color(.systemGroupedBackground).ignoresSafeArea()
-            
+
             TabView(selection: $currentStep) {
                 // Screen 1
                 VStack(spacing: 32) {
@@ -23,7 +18,7 @@ struct OnboardingView: View {
                 }
                 .padding(40)
                 .tag(0)
-                
+
                 // Screen 2
                 VStack(spacing: 32) {
                     Text("No accounts.\nNo tracking.")
@@ -33,14 +28,14 @@ struct OnboardingView: View {
                 }
                 .padding(40)
                 .tag(1)
-                
+
                 // Screen 3
                 VStack(spacing: 64) {
                     Text("Just a quiet moment,\nwhen you need one.")
                         .font(.system(.title, design: .serif))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.primary)
-                    
+
                     VStack(spacing: 16) {
                         HStack(spacing: 16) {
                             Image(systemName: "arrow.left.and.right")
@@ -49,7 +44,7 @@ struct OnboardingView: View {
                                 .font(.system(.body, design: .serif))
                                 .foregroundColor(.secondary)
                         }
-                        
+
                         HStack(spacing: 16) {
                             Image(systemName: "hand.tap")
                                 .foregroundColor(.secondary)
@@ -57,7 +52,7 @@ struct OnboardingView: View {
                                 .font(.system(.body, design: .serif))
                                 .foregroundColor(.secondary)
                         }
-                        
+
                         HStack(spacing: 16) {
                             Image(systemName: "bookmark")
                                 .foregroundColor(.secondary)
@@ -66,10 +61,10 @@ struct OnboardingView: View {
                                 .foregroundColor(.secondary)
                         }
                     }
-                    
+
                     Button(action: {
                         withAnimation {
-                            hasSeenOnboarding = true
+                            currentStep = 3
                         }
                     }) {
                         Text("Begin")
@@ -83,6 +78,45 @@ struct OnboardingView: View {
                 }
                 .padding(40)
                 .tag(2)
+
+                // Screen 4 — notification ask
+                VStack(spacing: 48) {
+                    Text("One card.\nEvery morning.")
+                        .font(.system(.title, design: .serif))
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.primary)
+
+                    VStack(spacing: 20) {
+                        Button(action: {
+                            UserDefaults.standard.set(true, forKey: "hasPromptedForNotifications")
+                            Task {
+                                await NotificationScheduler.shared.requestAndSchedule()
+                                await MainActor.run {
+                                    withAnimation { hasSeenOnboarding = true }
+                                }
+                            }
+                        }) {
+                            Text("Enable notifications")
+                                .font(.system(.headline, design: .serif))
+                                .foregroundColor(Color(.systemGroupedBackground))
+                                .padding(.horizontal, 48)
+                                .padding(.vertical, 16)
+                                .background(Color.primary)
+                                .clipShape(Capsule())
+                        }
+
+                        Button(action: {
+                            UserDefaults.standard.set(true, forKey: "hasPromptedForNotifications")
+                            withAnimation { hasSeenOnboarding = true }
+                        }) {
+                            Text("Not now")
+                                .font(.system(.body, design: .serif))
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+                .padding(40)
+                .tag(3)
             }
             .tabViewStyle(.page(indexDisplayMode: .always))
             .indexViewStyle(.page(backgroundDisplayMode: .always))

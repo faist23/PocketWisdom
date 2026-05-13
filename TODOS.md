@@ -44,3 +44,17 @@ design system worth writing down.
 - Category filter for widget pool
 - iCloud deck sync across devices
 - Siri shortcut ("show me a quote")
+
+---
+
+## Completed
+
+### Daily notification (2026-05-11)
+**What:** Opt-in daily 9am notification with a random unseen quote.
+**How:** `NotificationScheduler` (in `App/`) reads `shuffledDeckIDs` + `appCurrentIndex`
+from App Groups and pre-schedules 60 `UNCalendarNotificationTrigger` notifications.
+Refills when pending count drops below 7 on each app foreground.
+New users: prompted via onboarding screen 4 ("One card. Every morning.").
+Existing users: one-time system permission dialog on first open after the update,
+gated by `hasPromptedForNotifications` in standard `UserDefaults` and
+`hasSeenOnboarding` (so the dialog never fires during a new user's first launch).
