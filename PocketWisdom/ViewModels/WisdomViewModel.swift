@@ -165,6 +165,24 @@ final class WisdomViewModel: ObservableObject {
         self.deck = deckIDs.compactMap { cardsDict[$0] }
     }
 
+    /// Moves the card with the given UUID to the currentIndex in the deck,
+    /// so the app immediately shows the tapped notification/widget card.
+    func jumpToCard(cardID: String) {
+        guard var deckIDs = appGroupDefaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs),
+              let fromIndex = deckIDs.firstIndex(of: cardID) else { return }
+
+        guard fromIndex != currentIndex else { return }
+
+        deckIDs.remove(at: fromIndex)
+        deckIDs.insert(cardID, at: currentIndex)
+
+        appGroupDefaults?.set(deckIDs, forKey: AppGroupKeys.shuffledDeckIDs)
+
+        // Rebuild deck array from updated order
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
+        self.deck = deckIDs.compactMap { cardsDict[$0] }
+    }
+
     // MARK: - Scene foreground: merge widget-saved cards
 
     /// Call this on scenePhase == .active.

@@ -5,6 +5,7 @@
 
 import SwiftUI
 import WidgetKit
+import UserNotifications
 
 @main
 struct PocketWisdomApp: App {
@@ -13,6 +14,11 @@ struct PocketWisdomApp: App {
     @StateObject private var vm = WisdomViewModel()
     @Environment(\.scenePhase) private var scenePhase
     @State private var didSaveViaDeepLink = false
+    @State private var notificationDelegate = NotificationDelegate()
+
+    init() {
+        UNUserNotificationCenter.current().delegate = notificationDelegate
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -25,6 +31,11 @@ struct PocketWisdomApp: App {
             }
             .onOpenURL { url in
                 handleDeepLink(url)
+            }
+            .onReceive(NotificationCenter.default.publisher(for: .notificationTapped)) { notification in
+                if let cardID = notification.userInfo?["cardID"] as? String {
+                    vm.jumpToCard(cardID: cardID)
+                }
             }
         }
         .onChange(of: scenePhase) { _, newPhase in
@@ -58,12 +69,32 @@ struct PocketWisdomApp: App {
 
         switch host {
         case "card":
-            vm.moveCardToNext(cardID: cardID)
+            vm.jumpToCard(cardID: cardID)
         case "save":
             didSaveViaDeepLink = true
             vm.saveCard(cardID: cardID)
         default:
             break
         }
+    }
+}
+
+// MARK: - Notification Delegate
+
+extension Notification.Name {
+    static let notificationTapped = Notification.Name("notificationTapped")
+}
+
+class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                didReceive response: UNNotificationResponse,
+                                withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        let userInfo = response.notification.request.content.userInfo
+        if let cardID = userInfo["cardID"] as? String {
+            NotificationCenter.default.post(name: .notificationTapped, object: nil, userInfo: ["cardID": cardID])
+        }
+        
+        completionHandler()
     }
 }

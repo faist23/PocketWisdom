@@ -67,6 +67,7 @@ final class NotificationScheduler {
                 content.subtitle = "— \(author)"
             }
             content.sound = .default
+            content.userInfo = ["cardID": card.id.uuidString]
 
             let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
             let request = UNNotificationRequest(
