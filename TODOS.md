@@ -49,6 +49,15 @@ design system worth writing down.
 
 ## Completed
 
+### Content & Notification Polish (2026-05-17)
+**What:** Added 100 new mixed quotes (ancient, modern, literary, contemporary), fixed notification deep-linking, generated App Store assets, and fixed extension versioning.
+**How:**
+- Generated `wisdom.json` updates and performed deduplication prioritizing new quotes.
+- Fixed a cold-start race condition by rewriting `NotificationDelegate` as an `ObservableObject` Singleton to cache tapped `cardID`s.
+- Updated `jumpToCard` in `WisdomViewModel` to gracefully pluck the requested card and insert it at `currentIndex` to prevent skipping deck content.
+- Created `MarketingView.swift` to serve as an in-simulator App Store screenshot generator.
+- Synced `MARKETING_VERSION` (1.3.2) across the widget extension and test targets in `project.pbxproj` to resolve build errors.
+
 ### Daily notification (2026-05-11)
 **What:** Opt-in daily 9am notification with a random unseen quote.
 **How:** `NotificationScheduler` (in `App/`) reads `shuffledDeckIDs` + `appCurrentIndex`
