@@ -165,15 +165,16 @@ final class WisdomViewModel: ObservableObject {
         self.deck = deckIDs.compactMap { cardsDict[$0] }
     }
 
-    /// Moves the card with the given UUID to the currentIndex in the deck,
-    /// so the app immediately shows the tapped notification/widget card.
+    /// Moves the app view to show the specific card tapped via notification/widget.
     func jumpToCard(cardID: String) {
         guard var deckIDs = appGroupDefaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs),
               let fromIndex = deckIDs.firstIndex(of: cardID) else { return }
 
         guard fromIndex != currentIndex else { return }
-
+        
+        // Pluck the tapped card from its current position
         deckIDs.remove(at: fromIndex)
+        // Insert it exactly where the user is looking right now
         deckIDs.insert(cardID, at: currentIndex)
 
         appGroupDefaults?.set(deckIDs, forKey: AppGroupKeys.shuffledDeckIDs)

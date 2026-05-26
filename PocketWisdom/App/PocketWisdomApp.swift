@@ -14,10 +14,10 @@ struct PocketWisdomApp: App {
     @StateObject private var vm = WisdomViewModel()
     @Environment(\.scenePhase) private var scenePhase
     @State private var didSaveViaDeepLink = false
-    @State private var notificationDelegate = NotificationDelegate()
+    @StateObject private var notificationDelegate = NotificationDelegate.shared
 
     init() {
-        UNUserNotificationCenter.current().delegate = notificationDelegate
+        UNUserNotificationCenter.current().delegate = NotificationDelegate.shared
     }
 
     var body: some Scene {
@@ -32,9 +32,10 @@ struct PocketWisdomApp: App {
             .onOpenURL { url in
                 handleDeepLink(url)
             }
-            .onReceive(NotificationCenter.default.publisher(for: .notificationTapped)) { notification in
-                if let cardID = notification.userInfo?["cardID"] as? String {
+            .onChange(of: notificationDelegate.pendingCardID) { _, cardID in
+                if let cardID = cardID {
                     vm.jumpToCard(cardID: cardID)
+                    notificationDelegate.pendingCardID = nil
                 }
             }
         }
@@ -81,18 +82,24 @@ struct PocketWisdomApp: App {
 
 // MARK: - Notification Delegate
 
-extension Notification.Name {
-    static let notificationTapped = Notification.Name("notificationTapped")
-}
-
-class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate, ObservableObject {
+    static let shared = NotificationDelegate()
+    
+    @Published var pendingCardID: String?
+    
+    private override init() {
+        super.init()
+    }
+    
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
         
         let userInfo = response.notification.request.content.userInfo
         if let cardID = userInfo["cardID"] as? String {
-            NotificationCenter.default.post(name: .notificationTapped, object: nil, userInfo: ["cardID": cardID])
+            DispatchQueue.main.async {
+                self.pendingCardID = cardID
+            }
         }
         
         completionHandler()
