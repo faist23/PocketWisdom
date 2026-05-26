@@ -6,6 +6,7 @@
 import SwiftUI
 import WidgetKit
 import UserNotifications
+import Combine
 
 @main
 struct PocketWisdomApp: App {
