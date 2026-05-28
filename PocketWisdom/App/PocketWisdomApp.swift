@@ -26,6 +26,8 @@ struct PocketWisdomApp: App {
             Group {
                 if hasSeenOnboarding {
                     WisdomDeckView(vm: vm)
+                    // Temporarily replace the default navigation structure with the marketing generator
+//                    MarketingView()
                 } else {
                     OnboardingView()
                 }
@@ -33,7 +35,7 @@ struct PocketWisdomApp: App {
             .onOpenURL { url in
                 handleDeepLink(url)
             }
-            .onChange(of: notificationDelegate.pendingCardID) { _, cardID in
+            .onChange(of: notificationDelegate.pendingCardID, initial: true) { _, cardID in
                 if let cardID = cardID {
                     vm.jumpToCard(cardID: cardID)
                     notificationDelegate.pendingCardID = nil

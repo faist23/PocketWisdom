@@ -26,6 +26,7 @@ struct WisdomDeckView: View {
                             set: { reflectionStates[index] = $0 }
                         )
                     )
+                    .id(vm.deck[index].id)
                     .tag(index)
                 }
             }
