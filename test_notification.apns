@@ -1,0 +1,12 @@
+{
+    "Simulator Target Bundle": "com.ridepro.PocketWisdom",
+    "aps": {
+        "alert": {
+            "title": "PocketWisdom Test",
+            "subtitle": "— Test Author",
+            "body": "Not everything needs to be rushed. Some things grow better in stillness."
+        },
+        "sound": "default"
+    },
+    "cardID": "11111111-1111-1111-1111-111111111111"
+}
