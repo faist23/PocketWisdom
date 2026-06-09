@@ -292,173 +292,236 @@ struct MockHomeView: View {
 
     var body: some View {
         ZStack {
-            Color.black.ignoresSafeArea()
+            Color(.systemGroupedBackground).ignoresSafeArea()
+
+            // Quote content matching WisdomCardView layout
+            VStack(spacing: 24) {
+                Text("The Unexamined Life")
+                    .font(.system(.title2, design: .serif))
+                    .foregroundColor(.secondary)
+
+                Text("The unexamined life\nis not worth living.")
+                    .font(.system(.title3, design: .serif))
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.primary)
+                    .padding(.horizontal, device == .pad ? 48 : 32)
+
+                Text("— Socrates")
+                    .font(.system(.body, design: .serif))
+                    .italic()
+                    .foregroundColor(.secondary)
+            }
+            .padding(32)
+
+            // Saved bookmark indicator (top-right) — matches WisdomCardView
             VStack {
-                Spacer()
-                ZStack {
-                    RoundedRectangle(cornerRadius: device == .pad ? 32 : 24)
-                        .fill(Color(hex: "262626"))
-                        .padding(device == .pad ? 30 : 20)
-                    
-                    VStack(spacing: device == .pad ? 30 : 20) {
-                        Text("“")
-                            .font(.system(size: device == .pad ? 80 : 60, design: .serif))
-                            .foregroundColor(.accentColor)
-                        
-                        Text("The unexamined life is not worth living.")
-                            .font(.system(size: device == .pad ? 36 : 28, weight: .bold, design: .serif))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal, device == .pad ? 50 : 40)
-                        
-                        Text("— Socrates")
-                            .font(device == .pad ? .title2 : .headline)
-                            .foregroundColor(.gray)
-                    }
-                    .padding(device == .pad ? 24 : 0)
+                HStack {
+                    Spacer()
+                    Image(systemName: "bookmark.fill")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                        .padding(24)
                 }
                 Spacer()
             }
+
+            // Corner overlays matching WisdomDeckView
+            VStack {
+                HStack {
+                    Image(systemName: "building.columns")
+                        .font(.system(size: 18, weight: .light))
+                        .foregroundColor(.secondary.opacity(0.5))
+                        .frame(width: 60, height: 60)
+                        .padding(.top, 16)
+                        .padding(.leading, 16)
+                    Spacer()
+                }
+                Spacer()
+                HStack {
+                    Image(systemName: "questionmark")
+                        .font(.system(size: 18, weight: .light))
+                        .foregroundColor(.secondary.opacity(0.5))
+                        .frame(width: 60, height: 60)
+                        .padding(.bottom, 16)
+                        .padding(.leading, 16)
+                    Spacer()
+                    Image(systemName: "square.and.arrow.up")
+                        .font(.system(size: 18, weight: .light))
+                        .foregroundColor(.secondary.opacity(0.5))
+                        .frame(width: 60, height: 60)
+                        .padding(.bottom, 16)
+                        .padding(.trailing, 16)
+                }
+            }
         }
+        .environment(\.colorScheme, .dark)
     }
 }
 
 struct MockLibraryView: View {
     var body: some View {
         ZStack {
-            Color.black.ignoresSafeArea()
-            VStack(alignment: .leading) {
-                Text("Library")
-                    .font(.largeTitle.bold())
-                    .padding()
-                    .foregroundColor(.white)
-                
-                ForEach(0..<4) { i in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(["Marcus Aurelius", "Seneca", "Rumi", "Epictetus"][i])
-                                .font(.caption.bold())
-                                .foregroundColor(.accentColor)
-                            Text(["Be one.", "Suffer in imagination.", "The moon and stars.", "The beginning of wisdom."][i])
-                                .font(.body)
-                                .foregroundColor(.white)
-                                .lineLimit(1)
-                        }
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .foregroundColor(.gray)
-                    }
-                    .padding()
-                    .background(Color.white.opacity(0.05))
-                    .cornerRadius(12)
-                    .padding(.horizontal)
+            Color(.systemGroupedBackground).ignoresSafeArea()
+
+            VStack(alignment: .leading, spacing: 0) {
+                // Simulated inline nav bar matching real LibraryView
+                HStack {
+                    Text("Library")
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                    Spacer()
+                    Image(systemName: "xmark")
+                        .font(.system(size: 15, weight: .medium))
+                        .foregroundColor(.secondary)
                 }
-                Spacer()
+                .padding(.horizontal, 16)
+                .padding(.vertical, 14)
+
+                Divider()
+
+                List {
+                    Section {
+                        HStack {
+                            Label("Saved Quotes", systemImage: "bookmark.fill")
+                            Spacer()
+                            Text("12")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 2)
+                                .background(Color(.systemGray5))
+                                .clipShape(Capsule())
+                        }
+                        HStack {
+                            Label("Recently Viewed", systemImage: "clock.fill")
+                            Spacer()
+                            Text("4")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 2)
+                                .background(Color(.systemGray5))
+                                .clipShape(Capsule())
+                        }
+                        Label("Categories", systemImage: "folder.fill")
+                    }
+                }
+                .scrollContentBackground(.hidden)
             }
         }
+        .environment(\.colorScheme, .dark)
     }
 }
 
 struct MockiPadLibraryView: View {
+    private let gridQuotes: [(title: String, body: String, author: String)] = [
+        (title: "Nature's Pace",        body: "Nature does not hurry, yet everything is accomplished.",          author: "Laozi"),
+        (title: "Action Over Argument", body: "Waste no more time arguing what a good man should be. Be one.",  author: "Marcus Aurelius"),
+        (title: "Imagined Suffering",   body: "We suffer more often in imagination than in reality.",           author: "Epictetus"),
+        (title: "Inner Power",          body: "You have power over your mind, not outside events.",             author: "Marcus Aurelius")
+    ]
+
     var body: some View {
-        ZStack {
-            Color.black.ignoresSafeArea()
-            
-            HStack(spacing: 0) {
-                // Sidebar / Master Panel
-                VStack(alignment: .leading, spacing: 20) {
-                    Text("Library")
+        HStack(spacing: 0) {
+            // Sidebar — mimicking NavigationSplitView .sidebar style
+            VStack(alignment: .leading, spacing: 0) {
+                Text("Library")
+                    .font(.title2.bold())
+                    .foregroundColor(.primary)
+                    .padding(.horizontal, 20)
+                    .padding(.top, 20)
+                    .padding(.bottom, 8)
+
+                // Selected row
+                Label("Saved Quotes", systemImage: "bookmark.fill")
+                    .font(.system(size: 15, weight: .medium))
+                    .foregroundColor(.white)
+                    .padding(.vertical, 9)
+                    .padding(.horizontal, 14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color.accentColor.opacity(0.9))
+                    .cornerRadius(8)
+                    .padding(.horizontal, 10)
+                    .padding(.bottom, 2)
+
+                // Unselected rows
+                Label("Recently Viewed", systemImage: "clock.fill")
+                    .font(.system(size: 15))
+                    .foregroundColor(.primary)
+                    .padding(.vertical, 9)
+                    .padding(.horizontal, 14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 10)
+
+                Label("Categories", systemImage: "folder.fill")
+                    .font(.system(size: 15))
+                    .foregroundColor(.primary)
+                    .padding(.vertical, 9)
+                    .padding(.horizontal, 14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 10)
+
+                Spacer()
+            }
+            .frame(width: 200)
+            .background(Color(.secondarySystemGroupedBackground))
+
+            Rectangle()
+                .fill(Color.primary.opacity(0.1))
+                .frame(width: 0.5)
+
+            // Detail panel — 2-column grid matching real SavedQuotesGridView
+            ZStack {
+                Color(.systemGroupedBackground).ignoresSafeArea()
+
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Saved Quotes")
                         .font(.title2.bold())
-                        .foregroundColor(.white)
-                        .padding(.top, 24)
-                    
-                    VStack(alignment: .leading, spacing: 14) {
-                        HStack(spacing: 12) {
-                            Image(systemName: "bookmark.fill")
-                                .foregroundColor(.accentColor)
-                                .font(.system(size: 16))
-                            Text("Saved Quotes")
-                                .foregroundColor(.white)
-                                .font(.system(size: 15, weight: .medium))
-                        }
-                        .padding(.vertical, 10)
-                        .padding(.horizontal, 12)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Color.white.opacity(0.1))
-                        .cornerRadius(10)
-                        
-                        HStack(spacing: 12) {
-                            Image(systemName: "folder")
-                                .foregroundColor(.gray)
-                                .font(.system(size: 16))
-                            Text("Categories")
-                                .foregroundColor(.gray)
-                                .font(.system(size: 15))
-                        }
-                        .padding(.vertical, 10)
-                        .padding(.horizontal, 12)
-                        
-                        HStack(spacing: 12) {
-                            Image(systemName: "clock")
-                                .foregroundColor(.gray)
-                                .font(.system(size: 16))
-                            Text("History")
-                                .foregroundColor(.gray)
-                                .font(.system(size: 15))
-                        }
-                        .padding(.vertical, 10)
-                        .padding(.horizontal, 12)
-                    }
-                    Spacer()
-                }
-                .frame(width: 170)
-                .padding(.horizontal, 12)
-                .background(Color(hex: "111827"))
-                
-                // Divider
-                Rectangle()
-                    .fill(Color.white.opacity(0.08))
-                    .frame(width: 1)
-                
-                // Details Grid
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 20) {
-                        Text("Saved")
-                            .font(.largeTitle.bold())
-                            .foregroundColor(.white)
-                            .padding(.horizontal)
-                            .padding(.top, 24)
-                        
-                        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
-                            ForEach(0..<4) { i in
-                                VStack(alignment: .leading, spacing: 10) {
-                                    HStack {
-                                        Text(["Marcus Aurelius", "Seneca", "Rumi", "Epictetus"][i])
-                                            .font(.caption.bold())
-                                            .foregroundColor(.accentColor)
-                                        Spacer()
-                                        Image(systemName: "bookmark.fill")
-                                            .font(.caption)
-                                            .foregroundColor(.secondary)
-                                    }
-                                    
-                                    Text(["Be one.", "Suffer in imagination.", "The moon and stars.", "The beginning of wisdom."][i])
-                                        .font(.system(.body, design: .serif))
-                                        .foregroundColor(.white)
-                                        .lineLimit(2)
-                                    
+                        .foregroundColor(.primary)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 20)
+                        .padding(.bottom, 16)
+
+                    LazyVGrid(
+                        columns: [GridItem(.flexible(), spacing: 16), GridItem(.flexible(), spacing: 16)],
+                        spacing: 16
+                    ) {
+                        ForEach(gridQuotes.indices, id: \.self) { i in
+                            let q = gridQuotes[i]
+                            VStack(alignment: .leading, spacing: 10) {
+                                HStack {
+                                    Text(q.title)
+                                        .font(.system(.headline, design: .serif))
+                                        .foregroundColor(.primary)
                                     Spacer()
+                                    Image(systemName: "bookmark.fill")
+                                        .font(.caption)
+                                        .foregroundColor(.accentColor)
                                 }
-                                .padding()
-                                .frame(height: 120)
-                                .background(Color.white.opacity(0.05))
-                                .cornerRadius(12)
+                                Text(q.body)
+                                    .font(.system(.subheadline, design: .default))
+                                    .foregroundColor(.secondary)
+                                    .lineLimit(3)
+                                    .multilineTextAlignment(.leading)
+                                Spacer(minLength: 0)
+                                Text("— \(q.author)")
+                                    .font(.system(.caption, design: .serif))
+                                    .italic()
+                                    .foregroundColor(.secondary.opacity(0.8))
                             }
+                            .padding(16)
+                            .frame(height: 150, alignment: .topLeading)
+                            .background(Color(.secondarySystemGroupedBackground))
+                            .cornerRadius(14)
                         }
-                        .padding(.horizontal)
                     }
+                    .padding(.horizontal, 20)
+
+                    Spacer()
                 }
             }
         }
+        .environment(\.colorScheme, .dark)
     }
 }
 
