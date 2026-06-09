@@ -12,11 +12,13 @@ final class WisdomViewModel: ObservableObject {
 
     @Published var deck: [WisdomCard] = []
     @Published var savedCards: [WisdomCard] = []
+    @Published var historyCards: [WisdomCard] = []
 
     @Published var currentIndex: Int {
         didSet {
             appGroupDefaults?.set(currentIndex, forKey: AppGroupKeys.appCurrentIndex)
             notifyWidgetIfNeeded()
+            recordActiveCardToHistory()
         }
     }
 
@@ -65,6 +67,8 @@ final class WisdomViewModel: ObservableObject {
             migrateToAppGroups()
         }
         loadSavedCards()
+        loadHistoryCards()
+        recordActiveCardToHistory()
         isInitializing = false
     }
 
@@ -148,8 +152,9 @@ final class WisdomViewModel: ObservableObject {
     /// Off-by-one note: after removing fromIndex, if fromIndex < targetIndex,
     /// the target position shifts left by 1.
     func moveCardToNext(cardID: String) {
+        let normalizedID = cardID.uppercased()
         guard var deckIDs = appGroupDefaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs),
-              let fromIndex = deckIDs.firstIndex(of: cardID) else { return }
+              let fromIndex = deckIDs.firstIndex(of: normalizedID) else { return }
 
         let targetIndex = min(currentIndex + 1, deckIDs.count - 1)
         guard fromIndex != targetIndex else { return }
@@ -165,23 +170,12 @@ final class WisdomViewModel: ObservableObject {
         self.deck = deckIDs.compactMap { cardsDict[$0] }
     }
 
-    /// Moves the app view to show the specific card tapped via notification/widget.
+    /// Jumps the TabView selection directly to the card tapped via notification.
     func jumpToCard(cardID: String) {
-        guard var deckIDs = appGroupDefaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs),
-              let fromIndex = deckIDs.firstIndex(of: cardID) else { return }
-
-        guard fromIndex != currentIndex else { return }
-        
-        // Pluck the tapped card from its current position
-        deckIDs.remove(at: fromIndex)
-        // Insert it exactly where the user is looking right now
-        deckIDs.insert(cardID, at: currentIndex)
-
-        appGroupDefaults?.set(deckIDs, forKey: AppGroupKeys.shuffledDeckIDs)
-
-        // Rebuild deck array from updated order
-        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
-        self.deck = deckIDs.compactMap { cardsDict[$0] }
+        let normalizedID = cardID.uppercased()
+        guard let deckIndex = deck.firstIndex(where: { $0.id.uuidString == normalizedID }) else { return }
+        guard deckIndex != currentIndex else { return }
+        currentIndex = deckIndex
     }
 
     // MARK: - Scene foreground: merge widget-saved cards
@@ -220,8 +214,9 @@ final class WisdomViewModel: ObservableObject {
 
     /// Called from the widget's deep-link save button (pocketwisdom://save/{UUID}).
     func saveCard(cardID: String) {
+        let normalizedID = cardID.uppercased()
         let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
-        guard let card = cardsDict[cardID], !isSaved(card) else { return }
+        guard let card = cardsDict[normalizedID], !isSaved(card) else { return }
         savedCards.insert(card, at: 0)
         persistSavedCards()
         syncSavedCardsToAppGroups()
@@ -266,5 +261,38 @@ final class WisdomViewModel: ObservableObject {
         if let data = try? JSONEncoder().encode(savedIDs) {
             try? data.write(to: savedCardsFileURL, options: .atomic)
         }
+    }
+
+    // MARK: - History Tracking
+
+    private func recordActiveCardToHistory() {
+        guard !deck.isEmpty, currentIndex >= 0, currentIndex < deck.count else { return }
+        let currentCardID = deck[currentIndex].id.uuidString
+        addToHistory(cardID: currentCardID)
+    }
+
+    private func loadHistoryCards() {
+        let historyIDs = appGroupDefaults?.stringArray(forKey: "recentlyViewedCardIDs") ?? []
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
+        self.historyCards = historyIDs.compactMap { cardsDict[$0] }
+    }
+
+    func addToHistory(cardID: String) {
+        let normalizedID = cardID.uppercased()
+        var historyIDs = appGroupDefaults?.stringArray(forKey: "recentlyViewedCardIDs") ?? []
+        historyIDs.removeAll { $0 == normalizedID }
+        historyIDs.insert(normalizedID, at: 0)
+        if historyIDs.count > 50 {
+            historyIDs = Array(historyIDs.prefix(50))
+        }
+        appGroupDefaults?.set(historyIDs, forKey: "recentlyViewedCardIDs")
+        
+        let cardsDict = Dictionary(repository.cards.map { ($0.id.uuidString, $0) }, uniquingKeysWith: { first, _ in first })
+        self.historyCards = historyIDs.compactMap { cardsDict[$0] }
+    }
+
+    func clearHistory() {
+        appGroupDefaults?.removeObject(forKey: "recentlyViewedCardIDs")
+        self.historyCards = []
     }
 }

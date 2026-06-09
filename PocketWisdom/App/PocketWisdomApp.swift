@@ -36,10 +36,9 @@ struct PocketWisdomApp: App {
                 handleDeepLink(url)
             }
             .onChange(of: notificationDelegate.pendingCardID, initial: true) { _, cardID in
-                if let cardID = cardID {
-                    vm.jumpToCard(cardID: cardID)
-                    notificationDelegate.pendingCardID = nil
-                }
+                guard let cardID = cardID else { return }
+                vm.jumpToCard(cardID: cardID)
+                notificationDelegate.pendingCardID = nil
             }
         }
         .onChange(of: scenePhase) { _, newPhase in
@@ -71,12 +70,14 @@ struct PocketWisdomApp: App {
               let cardID = url.pathComponents.last,
               !cardID.isEmpty else { return }
 
+        let normalizedCardID = cardID.uppercased()
+
         switch host {
         case "card":
-            vm.jumpToCard(cardID: cardID)
+            vm.jumpToCard(cardID: normalizedCardID)
         case "save":
             didSaveViaDeepLink = true
-            vm.saveCard(cardID: cardID)
+            vm.saveCard(cardID: normalizedCardID)
         default:
             break
         }
@@ -85,26 +86,31 @@ struct PocketWisdomApp: App {
 
 // MARK: - Notification Delegate
 
-class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate, ObservableObject {
+final class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate, ObservableObject {
     static let shared = NotificationDelegate()
-    
+
     @Published var pendingCardID: String?
-    
+
     private override init() {
         super.init()
     }
-    
+
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
-        
-        let userInfo = response.notification.request.content.userInfo
-        if let cardID = userInfo["cardID"] as? String {
+        if let cardID = response.notification.request.content.userInfo["cardID"] as? String {
             DispatchQueue.main.async {
                 self.pendingCardID = cardID
             }
         }
-        
         completionHandler()
+    }
+
+    // Show the banner when the app is foregrounded so the user can still
+    // tap the notification to jump to the card.
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.banner, .sound, .list])
     }
 }
