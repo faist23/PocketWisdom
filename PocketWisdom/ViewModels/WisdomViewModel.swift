@@ -173,7 +173,11 @@ final class WisdomViewModel: ObservableObject {
     /// Jumps the TabView selection directly to the card tapped via notification.
     func jumpToCard(cardID: String) {
         let normalizedID = cardID.uppercased()
-        guard let deckIndex = deck.firstIndex(where: { $0.id.uuidString == normalizedID }) else { return }
+        guard let deckIndex = deck.firstIndex(where: { $0.id.uuidString == normalizedID }) else {
+            print("[PW] jumpToCard: \(normalizedID) NOT FOUND in deck of \(deck.count)")
+            return
+        }
+        print("[PW] jumpToCard: found \(normalizedID) at deckIndex=\(deckIndex), currentIndex=\(currentIndex)")
         guard deckIndex != currentIndex else { return }
         currentIndex = deckIndex
     }

@@ -25,6 +25,50 @@ final class NotificationScheduler {
         Task { await requestAndSchedule() }
     }
 
+    // Debug: fire a notification in `delay` seconds for the card immediately
+    // after `appCurrentIndex` (matches what a real 9am notification would carry).
+    // Long-press the "?" button in WisdomDeckView to trigger.
+    func scheduleTestNotification(after delay: TimeInterval = 5) {
+        Task {
+            let settings = await center.notificationSettings()
+            if settings.authorizationStatus != .authorized {
+                guard let granted = try? await center.requestAuthorization(options: [.alert, .sound]),
+                      granted else {
+                    print("[PW] test notification: authorization denied")
+                    return
+                }
+            }
+
+            let defaults = UserDefaults(suiteName: AppGroupKeys.suiteName)
+            let deckIDs = defaults?.stringArray(forKey: AppGroupKeys.shuffledDeckIDs) ?? []
+            let currentIndex = defaults?.integer(forKey: AppGroupKeys.appCurrentIndex) ?? 0
+            guard !deckIDs.isEmpty,
+                  let url = Bundle.main.url(forResource: "wisdom", withExtension: "json"),
+                  let data = try? Data(contentsOf: url),
+                  let cards = try? JSONDecoder().decode([WisdomCard].self, from: data) else {
+                print("[PW] test notification: could not load deck/cards")
+                return
+            }
+            let cardsDict = Dictionary(uniqueKeysWithValues: cards.map { ($0.id.uuidString, $0) })
+            let nextID = deckIDs[(currentIndex + 1) % deckIDs.count]
+            guard let card = cardsDict[nextID] else {
+                print("[PW] test notification: nextID \(nextID) not in cardsDict")
+                return
+            }
+
+            let content = UNMutableNotificationContent()
+            content.body = card.body
+            if let author = card.author { content.subtitle = "— \(author)" }
+            content.sound = .default
+            content.userInfo = ["cardID": card.id.uuidString]
+
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: delay, repeats: false)
+            let req = UNNotificationRequest(identifier: "pw-test-\(UUID().uuidString)", content: content, trigger: trigger)
+            try? await center.add(req)
+            print("[PW] test notification scheduled for cardID=\(card.id.uuidString) in \(delay)s")
+        }
+    }
+
     func rescheduleIfNeeded() async {
         let settings = await center.notificationSettings()
         guard settings.authorizationStatus == .authorized else { return }

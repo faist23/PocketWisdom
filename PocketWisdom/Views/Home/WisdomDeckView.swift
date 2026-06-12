@@ -85,6 +85,12 @@ struct WisdomDeckView: View {
                         .onTapGesture {
                             toggleHelp()
                         }
+                        // DEBUG: long-press fires a test notification in 5s so we can
+                        // verify the deep-link flow without waiting until 9am.
+                        .onLongPressGesture(minimumDuration: 1.0) {
+                            NotificationScheduler.shared.scheduleTestNotification(after: 5)
+                            UINotificationFeedbackGenerator().notificationOccurred(.success)
+                        }
                         .accessibilityElement(children: .ignore)
                         .accessibilityLabel("Help")
                         .accessibilityAddTraits(.isButton)
