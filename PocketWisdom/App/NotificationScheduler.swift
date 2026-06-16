@@ -10,10 +10,33 @@ final class NotificationScheduler {
     private let batchSize = 60
     private let refillThreshold = 7
 
+    // Bump this whenever the notification payload format changes so existing
+    // installs flush their pre-scheduled queue and re-schedule with the new
+    // format. Version 1 retires the legacy batch (shipped 2026-05-13) whose
+    // notifications carry no "cardID" in userInfo and therefore can't deep-link
+    // to the quoted card when tapped.
+    private let currentScheduleVersion = 1
+    private let scheduleVersionKey = "notificationScheduleVersion"
+
     func requestAndSchedule() async {
         guard let granted = try? await center.requestAuthorization(options: [.alert, .sound]),
               granted else { return }
         scheduleFromAppGroups()
+        UserDefaults.standard.set(currentScheduleVersion, forKey: scheduleVersionKey)
+    }
+
+    // One-time forced reschedule when the payload format version advances.
+    // Unlike rescheduleIfNeeded(), this ignores the pending-count threshold:
+    // legacy queues stay well above refillThreshold for weeks as they drain one
+    // per day, so the normal refill path would never replace them in time.
+    // Only runs (and only bumps the version) when notifications are authorized,
+    // since an unauthorized install has nothing queued to migrate.
+    func migrateScheduleIfNeeded() async {
+        guard UserDefaults.standard.integer(forKey: scheduleVersionKey) < currentScheduleVersion else { return }
+        let settings = await center.notificationSettings()
+        guard settings.authorizationStatus == .authorized else { return }
+        scheduleFromAppGroups()
+        UserDefaults.standard.set(currentScheduleVersion, forKey: scheduleVersionKey)
     }
 
     // One-time prompt for users who completed onboarding before this feature shipped.
