@@ -1,5 +1,38 @@
 # PocketWisdom — TODOs
 
+## Content — Quote additions (focus & bar)
+
+After the June 2026 curation (~1,727 → 1,314 cards; removed manufactured/anonymous
+filler and fixed misattributions — see the `quote-curation` PR), additions should hold
+the bar and rebalance the categories.
+
+**Add to the thin categories; do NOT grow Life** (it is ~2× every other category):
+
+| Category          | total | priority    |
+|-------------------|-------|-------------|
+| Nature & Seasons  | 121   | add first   |
+| Work              | 149   | add         |
+| Simplicity        | 161   | add         |
+| Solitude          | 167   | add         |
+| Time              | 173   | ok          |
+| Relationships     | 175   | ok          |
+| Life              | 368   | do not add  |
+
+**The bar:**
+- Real, attributable wisdom from people throughout history + genuinely good traditional
+  proverbs/scripture. No manufactured/generated aphorisms — that is what got cut.
+- Anonymous quotes use `author: null`, never the string `"Unknown"` (it renders "— Unknown").
+- Verify attributions against known misquotes, especially magnet authors (Einstein, Twain,
+  Buddha, Confucius, Gandhi, Lao Tzu, Emerson, Aristotle).
+- Favor breadth — top authors are already heavy (Franklin 27, Marcus Aurelius 22, Lao Tzu 22).
+- Do NOT reintroduce anything in `quarantine_quotes.json` (~413 deliberately-cut lines).
+  Dedup new quotes against both `wisdom.json` and `quarantine_quotes.json`
+  (normalize: lowercase, strip punctuation/apostrophes).
+- Schema: lowercase uuid4 `id`, one of the 7 categories, `title`, `body`,
+  `reflection` (a short question), `author` (or null). Curly typography (' " ").
+
+---
+
 ## P2 — Widget Feature
 
 ### Lock screen save button
